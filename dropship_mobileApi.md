@@ -18,7 +18,9 @@
     14. View All Cart Items of user
     15. Store Cart User Address
     16. Add Billing and Shiping Details  
-    17. To View Users Billing and Shipping Address 
+    17. To View Users Billing and Shipping Address
+    18. Update Shipping Address
+    19. Delete Shipping Address
 
 
 
@@ -1468,27 +1470,6 @@ _Example_
 ```
 
 {
-    "billingAddress": [
-        {
-            "id": 2,
-            "user_id": 510,
-            "name": "sakshi",
-            "email": "yo@gmail.com",
-            "mobile": "1234567890",
-            "address": "tggggawyhrfgbeyshgfraegegea",
-            "street": "10 , 1bgdddddddddddddb",
-            "colony": "uygsfukrg",
-            "city": "tyjhtfry",
-            "state": "fsuyf",
-            "landmark": "sgfyuesgtes",
-            "pincode": "421848",
-            "country": "India",
-            "type": "BILLING",
-            "status": 1,
-            "created_at": "2018-04-21 06:21:48",
-            "updated_at": "2018-04-21 06:21:48"
-        }
-    ],
     "shippingAddress": [
         {
             "id": 1,
@@ -1540,3 +1521,84 @@ _Example_
 
 ```
 
+<!-- 18 -->
+
+##  To Update Users Shipping Address
+
+
+
+**API** `http://localhost:8000/api/cart/510/address/3`
+
+**Method** : PUT
+
+### Request :
+
+
+_Example_
+```
+{
+    "name" : "sanjay",
+    "email" : "yo@gmail.com",
+    "mobile" : "1234567890",
+    "address" : "tggggawyhrfgbeyshgfraegegea",
+    "street" : "10 , 1bgdddddddddddddb",
+    "colony" : "uygsfukrg",
+    "city" : "vbycgsvafyk",
+    "state" : "fsuyf",
+    "landmark" : "sgfyuesgtes",
+    "pincode" : 421848,
+    "country" : "India",
+    "type" : "shipping"
+}
+```
+
+### Response
+
+```
+{
+    "shippingAddress": 1,
+    "responseStatus": 200,
+    "responseMessage": "Cart Address Updated"
+}
+```
+
+<!-- 19 -->
+
+##  Delete Users Shipping Address
+
+
+
+**API** `http://localhost:8000/api/cart/510/address/3`
+
+**Method** : Delete
+
+### Response :
+
+
+_Example_
+
+```
+{
+    "cart": {
+        "id": 3,
+        "user_id": 510,
+        "name": "sanjay",
+        "email": "yo@gmail.com",
+        "mobile": "1234567890",
+        "address": "tggggawyhrfgbeyshgfraegegea",
+        "street": "10 , 1bgdddddddddddddb",
+        "colony": "uygsfukrg",
+        "city": "vbycgsvafyk",
+        "state": "fsuyf",
+        "landmark": "sgfyuesgtes",
+        "pincode": "421848",
+        "country": "India",
+        "type": "SHIPPING",
+        "status": 1,
+        "created_at": "2018-04-21 10:28:14",
+        "updated_at": "2018-05-05 18:04:47"
+    },
+    "responseCode": 200,
+    "responseMessage": "Address Deleted"
+}
+```
