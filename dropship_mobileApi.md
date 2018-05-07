@@ -1130,7 +1130,7 @@ _Example_
 ## Add to cart API (POST)
 
 
-**API** `http://localhost:8000/api/cart`
+**API** `http://localhost:8000/api/addToCart`
 
 **Method** : POST
 
@@ -1141,10 +1141,13 @@ _Example_
 ```
 {
     "user_id" : 510,
-    "product_id" : 1007,
-    "quantity" : 1,
-    "size": 20,
-    "color": "blue"
+    "product_id" : 1011,
+    "quantity" : 10,
+    "editedAmount" : 50,
+    "paymentMode" : "COD",
+    "size" : 50,
+    "color" : "blue",
+    "type" : "cart"
 }
 
 ```
@@ -1160,12 +1163,14 @@ _Example_
 {
     "cart": {
         "user_id": 510,
-        "product_id": 1007,
-        "quantity": 1,
-        "color": "blue",
-        "size": 20,
-        "updated_at": "2018-04-20 07:20:10",
-        "created_at": "2018-04-20 07:20:10",
+        "product_id": 1011,
+        "quantity": 10,
+        "payment_mode": "COD",
+        "attribute_id": 17,
+        "amount": 50,
+        "type": "cart",
+        "updated_at": "2018-05-07 15:20:47",
+        "created_at": "2018-05-07 15:20:47",
         "id": 3
     },
     "responseMessage": "Product has been successfully Added",
