@@ -21,6 +21,7 @@
     17. To View Users Billing and Shipping Address
     18. Update Shipping Address
     19. Delete Shipping Address
+    20. Create order
 
 
 
@@ -1605,5 +1606,57 @@ _Example_
     },
     "responseCode": 200,
     "responseMessage": "Address Deleted"
+}
+```
+
+<!-- 20 -->
+
+##  Create Order
+
+
+**API** `http://localhost:8000/api/addToOrder/{cart_id}`
+
+**Method** : Post
+
+### Request :
+
+
+_Example_
+
+```
+{
+    "quantity": 10,
+    "payment_id" : "hvfdxkj",
+    "address_id" : 2
+}
+```
+
+### Response :
+
+```
+{
+    "order": {
+        "user_id": 510,
+        "name": "DS_Order_QRSYyjKZGiznuI5H",
+        "price": 210,
+        "amount": "21.00",
+        "status": "placed",
+        "payment_method": "COD",
+        "updated_at": "2018-05-07 16:56:06",
+        "created_at": "2018-05-07 16:56:06",
+        "id": 196
+    },
+    "item": {
+        "order_id": 196,
+        "product_id": 1011,
+        "name": "sZEfgfr",
+        "quantity": 10,
+        "amount": 50,
+        "status": "placed",
+        "attribute_id": 17,
+        "shipping_charge": "2.00",
+        "id": 82
+    },
+    "payment": true
 }
 ```
