@@ -22,6 +22,8 @@
     18. Update Shipping Address
     19. Delete Shipping Address
     20. Create order
+    21. Contact Us
+
 
 
 
@@ -159,6 +161,8 @@ _Example_
 
 **API** `http://localhost:8000/api/products`
 
+`http://localhost:8000/api/products??q=&category=&vendor[]=514&vendor[]=2&price_range=&take=&button=`
+
 **Method** : GET
 
 ### Response :
@@ -169,38 +173,114 @@ _Example_
 ```
 
 {
-  "current_page": 1,
-  "data": [
-    {
-      "id": 1,
-      "name": "cfdsgvd",
-      "amount": "37.00",
-      "brand_name": "",
-      "brand": null,
-      "organization": null,
-      "media": [
-        {
-          "id": 2,
-          "mime": "",
-          "thumb": "http://lorempixel.com/270/220/business/2",
-          "small": null,
-          "medium": "http://lorempixel.com/480/360/business/2",
-          "large": "http://lorempixel.com/1280/720/business/2",
-          "caption": null,
-          "default": 1,
-          "check": "pending"
-        }
-      ]
-    }
-  ],
-  "from": 1,
-  "last_page": 68,
-  "next_page_url": "http://127.0.0.1:8000/api/products?page=2",
-  "path": "http://127.0.0.1:8000/api/products",
-  "per_page": 15,
-  "prev_page_url": null,
-  "to": 15,
-  "total": 1007
+    "products": {
+        "current_page": 1,
+        "data": [
+            {
+                "id": 1008,
+                "name": "deyhrdfyh",
+                "amount": "2.00",
+                "quantity": 0,
+                "max_price": "1212.00",
+                "min_price": "2.00",
+                "brand_name": "",
+                "brand": null,
+                "organization": {
+                    "id": 12,
+                    "name": "bla bla"
+                },
+                "color": [
+                    {
+                        "value": "blue",
+                        "pivot": {
+                            "product_id": 1008,
+                            "attribute_id": 2,
+                            "value": "blue"
+                        }
+                    }
+                ],
+                "size": [],
+                "media": [],
+                "wishlists": null
+            }
+        ],
+        "from": 1,
+        "last_page": 1,
+        "next_page_url": null,
+        "path": "http://localhost:8000/api/products",
+        "per_page": 15,
+        "prev_page_url": null,
+        "to": 1,
+        "total": 1
+    },
+    "categories": {
+        "1": "Torphy-Schimmel",
+        "2": "Rodriguez, Moore and Balistreri",
+        "3": "Kautzer-Goyette",
+        "4": "Marquardt-Gleichner",
+        "5": "Jacobi-Jakubowski",
+        "6": "Maggio Ltd",
+        "7": "Langosh, Jast and Ferry",
+        "8": "Rice PLC",
+        "9": "White, Boyer and Kuhlman",
+        "10": "Ondricka, Sanford and Frami",
+        "11": "Stracke PLC",
+        "12": "Johnston-Kuhn",
+        "13": "Nienow, McClure and Kris",
+        "14": "Koepp and Sons",
+        "15": "Lubowitz, Borer and Harvey",
+        "16": "Macejkovic-Bradtke",
+        "17": "Denesik-Ondricka",
+        "18": "Wiza-Doyle",
+        "19": "Carroll-Swaniawski",
+        "20": "Carroll-Runolfsdottir",
+        "21": "Gerlach, Ward and Grimes",
+        "22": "Thiel Group",
+        "23": "Ledner-Harber",
+        "24": "Dicki-Wilkinson",
+        "25": "Deckow Ltd",
+        "26": "Auer-Doyle",
+        "27": "Emmerich-Schultz",
+        "28": "Lubowitz Group",
+        "29": "Senger and Sons",
+        "30": "Zieme, McClure and Kling",
+        "31": "Hyatt, Maggio and Russel",
+        "32": "Denesik Group",
+        "33": "Glover Group",
+        "34": "Lynch, Jast and Osinski",
+        "35": "Hackett PLC",
+        "36": "Hegmann Ltd",
+        "37": "Fahey Group",
+        "38": "Keebler-Huels",
+        "39": "Gutmann-McCullough",
+        "40": "Stracke, Fadel and Rau",
+        "41": "West Inc",
+        "42": "Spencer Group",
+        "43": "Reichert PLC",
+        "44": "Wunsch Inc",
+        "45": "Wunsch-Waters",
+        "46": "Schowalter, Yost and Fisher",
+        "47": "Ferry-Larkin",
+        "48": "Tremblay-Pollich",
+        "49": "Mills-Kihn",
+        "50": "Simonis PLC",
+        "51": "bag"
+    },
+    "suppliers": {
+        "2": "vendor",
+        "22": "Miss Shaina Casper",
+        "514": "test"
+    },
+    "priceRange": {
+        "2001": "More than 2000",
+        "": "Price Range",
+        "10-500": "10-500",
+        "501-1000": "501-1000",
+        "1001-1500": "1001-1500",
+        "1501-2000": "1501-2000"
+    },
+    "responseCode": 200,
+    "responseMessage": "Succesfull"
 }
 
 
@@ -1660,3 +1740,41 @@ _Example_
     "payment": true
 }
 ```
+
+
+<!-- 21 -->
+
+##  Contact Us
+
+
+**API** `http://localhost:8000/api/contact`
+
+**Method** : Post
+
+### Request :
+
+
+_Example_
+
+```
+{
+    "subject" : "sfgsgras",
+    "message": "ayhdgef"
+}
+```
+
+
+### Response :
+
+```
+{
+    "subject": "sfgsgras",
+    "message": "ayhdgef",
+    "email": "client@seller.com",
+    "status": "open",
+    "updated_at": "2018-05-09 11:50:48",
+    "created_at": "2018-05-09 11:50:48",
+    "id": 113
+}
+```
+
