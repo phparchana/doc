@@ -177,6 +177,74 @@ _Example_
         "current_page": 1,
         "data": [
             {
+                "id": 2,
+                "name": "Wunsch, Kerluke and Kuphal",
+                "amount": "68.00",
+                "quantity": 16,
+                "max_price": "0.00",
+                "min_price": "0.00",
+                "brand_name": "",
+                "brand": null,
+                "organization": null,
+                "color": [],
+                "size": [],
+                "media": [
+                    {
+                        "id": 3,
+                        "mime": "",
+                        "thumb": "http://lorempixel.com/270/220/technics/3",
+                        "small": null,
+                        "medium": "http://lorempixel.com/480/360/technics/3",
+                        "large": "http://lorempixel.com/1280/720/technics/3",
+                        "caption": null,
+                        "default": 1,
+                        "check": "pending"
+                    }
+                ],
+                "wishlists": null
+            },
+            {
+                "id": 1011,
+                "name": "sZEfgfr",
+                "amount": "21.00",
+                "quantity": 521,
+                "max_price": "1200.00",
+                "min_price": "121.00",
+                "brand_name": "",
+                "brand": null,
+                "organization": {
+                    "id": 2,
+                    "name": "Ederno"
+                },
+                "color": [
+                    {
+                        "value": "blue",
+                        "pivot": {
+                            "product_id": 1011,
+                            "attribute_id": 2,
+                            "value": "blue"
+                        }
+                    }
+                ],
+                "size": [
+                    {
+                        "value": "50",
+                        "quantity": 20,
+                        "pivot": {
+                            "product_id": 1011,
+                            "attribute_id": 3,
+                            "value": "50",
+                            "id": 17,
+                            "parent_id": 16,
+                            "quantity": 20,
+                            "price": null
+                        }
+                    }
+                ],
+                "media": [],
+                "wishlists": null
+            },
+            {
                 "id": 1008,
                 "name": "deyhrdfyh",
                 "amount": "2.00",
@@ -210,81 +278,242 @@ _Example_
         "path": "http://localhost:8000/api/products",
         "per_page": 15,
         "prev_page_url": null,
-        "to": 1,
-        "total": 1
+        "to": 3,
+        "total": 3
     },
-    "categories": {
-        "1": "Torphy-Schimmel",
-        "2": "Rodriguez, Moore and Balistreri",
-        "3": "Kautzer-Goyette",
-        "4": "Marquardt-Gleichner",
-        "5": "Jacobi-Jakubowski",
-        "6": "Maggio Ltd",
-        "7": "Langosh, Jast and Ferry",
-        "8": "Rice PLC",
-        "9": "White, Boyer and Kuhlman",
-        "10": "Ondricka, Sanford and Frami",
-        "11": "Stracke PLC",
-        "12": "Johnston-Kuhn",
-        "13": "Nienow, McClure and Kris",
-        "14": "Koepp and Sons",
-        "15": "Lubowitz, Borer and Harvey",
-        "16": "Macejkovic-Bradtke",
-        "17": "Denesik-Ondricka",
-        "18": "Wiza-Doyle",
-        "19": "Carroll-Swaniawski",
-        "20": "Carroll-Runolfsdottir",
-        "21": "Gerlach, Ward and Grimes",
-        "22": "Thiel Group",
-        "23": "Ledner-Harber",
-        "24": "Dicki-Wilkinson",
-        "25": "Deckow Ltd",
-        "26": "Auer-Doyle",
-        "27": "Emmerich-Schultz",
-        "28": "Lubowitz Group",
-        "29": "Senger and Sons",
-        "30": "Zieme, McClure and Kling",
-        "31": "Hyatt, Maggio and Russel",
-        "32": "Denesik Group",
-        "33": "Glover Group",
-        "34": "Lynch, Jast and Osinski",
-        "35": "Hackett PLC",
-        "36": "Hegmann Ltd",
-        "37": "Fahey Group",
-        "38": "Keebler-Huels",
-        "39": "Gutmann-McCullough",
-        "40": "Stracke, Fadel and Rau",
-        "41": "West Inc",
-        "42": "Spencer Group",
-        "43": "Reichert PLC",
-        "44": "Wunsch Inc",
-        "45": "Wunsch-Waters",
-        "46": "Schowalter, Yost and Fisher",
-        "47": "Ferry-Larkin",
-        "48": "Tremblay-Pollich",
-        "49": "Mills-Kihn",
-        "50": "Simonis PLC",
-        "51": "bag"
-    },
-    "suppliers": {
-        "2": "vendor",
-        "22": "Miss Shaina Casper",
-        "514": "test"
-    },
-    "priceRange": {
-        "2001": "More than 2000",
-        "": "Price Range",
-        "10-500": "10-500",
-        "501-1000": "501-1000",
-        "1001-1500": "1001-1500",
-        "1501-2000": "1501-2000"
+    "filter": {
+        "categories": [
+            {
+                "id": 26,
+                "name": "Auer-Doyle"
+            },
+            {
+                "id": 51,
+                "name": "bag"
+            },
+            {
+                "id": 20,
+                "name": "Carroll-Runolfsdottir"
+            },
+            {
+                "id": 19,
+                "name": "Carroll-Swaniawski"
+            },
+            {
+                "id": 25,
+                "name": "Deckow Ltd"
+            },
+            {
+                "id": 32,
+                "name": "Denesik Group"
+            },
+            {
+                "id": 17,
+                "name": "Denesik-Ondricka"
+            },
+            {
+                "id": 24,
+                "name": "Dicki-Wilkinson"
+            },
+            {
+                "id": 27,
+                "name": "Emmerich-Schultz"
+            },
+            {
+                "id": 37,
+                "name": "Fahey Group"
+            },
+            {
+                "id": 47,
+                "name": "Ferry-Larkin"
+            },
+            {
+                "id": 21,
+                "name": "Gerlach, Ward and Grimes"
+            },
+            {
+                "id": 33,
+                "name": "Glover Group"
+            },
+            {
+                "id": 39,
+                "name": "Gutmann-McCullough"
+            },
+            {
+                "id": 35,
+                "name": "Hackett PLC"
+            },
+            {
+                "id": 36,
+                "name": "Hegmann Ltd"
+            },
+            {
+                "id": 31,
+                "name": "Hyatt, Maggio and Russel"
+            },
+            {
+                "id": 5,
+                "name": "Jacobi-Jakubowski"
+            },
+            {
+                "id": 12,
+                "name": "Johnston-Kuhn"
+            },
+            {
+                "id": 3,
+                "name": "Kautzer-Goyette"
+            },
+            {
+                "id": 38,
+                "name": "Keebler-Huels"
+            },
+            {
+                "id": 14,
+                "name": "Koepp and Sons"
+            },
+            {
+                "id": 7,
+                "name": "Langosh, Jast and Ferry"
+            },
+            {
+                "id": 23,
+                "name": "Ledner-Harber"
+            },
+            {
+                "id": 28,
+                "name": "Lubowitz Group"
+            },
+            {
+                "id": 15,
+                "name": "Lubowitz, Borer and Harvey"
+            },
+            {
+                "id": 34,
+                "name": "Lynch, Jast and Osinski"
+            },
+            {
+                "id": 16,
+                "name": "Macejkovic-Bradtke"
+            },
+            {
+                "id": 6,
+                "name": "Maggio Ltd"
+            },
+            {
+                "id": 4,
+                "name": "Marquardt-Gleichner"
+            },
+            {
+                "id": 49,
+                "name": "Mills-Kihn"
+            },
+            {
+                "id": 13,
+                "name": "Nienow, McClure and Kris"
+            },
+            {
+                "id": 10,
+                "name": "Ondricka, Sanford and Frami"
+            },
+            {
+                "id": 43,
+                "name": "Reichert PLC"
+            },
+            {
+                "id": 8,
+                "name": "Rice PLC"
+            },
+            {
+                "id": 2,
+                "name": "Rodriguez, Moore and Balistreri"
+            },
+            {
+                "id": 46,
+                "name": "Schowalter, Yost and Fisher"
+            },
+            {
+                "id": 29,
+                "name": "Senger and Sons"
+            },
+            {
+                "id": 50,
+                "name": "Simonis PLC"
+            },
+            {
+                "id": 42,
+                "name": "Spencer Group"
+            },
+            {
+                "id": 11,
+                "name": "Stracke PLC"
+            },
+            {
+                "id": 40,
+                "name": "Stracke, Fadel and Rau"
+            },
+            {
+                "id": 22,
+                "name": "Thiel Group"
+            },
+            {
+                "id": 1,
+                "name": "Torphy-Schimmel"
+            },
+            {
+                "id": 48,
+                "name": "Tremblay-Pollich"
+            },
+            {
+                "id": 41,
+                "name": "West Inc"
+            },
+            {
+                "id": 9,
+                "name": "White, Boyer and Kuhlman"
+            },
+            {
+                "id": 18,
+                "name": "Wiza-Doyle"
+            },
+            {
+                "id": 44,
+                "name": "Wunsch Inc"
+            },
+            {
+                "id": 45,
+                "name": "Wunsch-Waters"
+            },
+            {
+                "id": 30,
+                "name": "Zieme, McClure and Kling"
+            }
+        ],
+        "suppliers": [
+            {
+                "id": 2,
+                "name": "vendor"
+            },
+            {
+                "id": 22,
+                "name": "Miss Shaina Casper"
+            },
+            {
+                "id": 514,
+                "name": "test"
+            }
+        ],
+        "price": {
+            "2001": "More than 2000",
+            "": "Price Range",
+            "10-500": "10-500",
+            "501-1000": "501-1000",
+            "1001-1500": "1001-1500",
+            "1501-2000": "1501-2000"
+        }
     },
     "responseCode": 200,
     "responseMessage": "Succesfull"
 }
-
-
-
 
 ```
 
