@@ -2115,3 +2115,178 @@ _Example_
     "responseCode": 200
 }
 ```
+
+
+
+<!-- 23 -->
+
+##  Orders Details
+
+
+**API** `http://localhost:8000/api/orderDetail/199`
+
+**Method** : Get
+
+### Response :
+
+
+_Example_
+
+```
+{
+    "order_detail": {
+        "id": 84,
+        "order_id": 199,
+        "product_id": 1011,
+        "attribute_id": 17,
+        "name": "sZEfgfr",
+        "quantity": 10,
+        "amount": 50,
+        "organization_id": 0,
+        "status": "placed",
+        "shipment_id": "",
+        "shipping_charge": "2.00",
+        "type": null,
+        "product": {
+            "id": 1011,
+            "user_id": 2,
+            "name": "sZEfgfr",
+            "slug": "",
+            "bdpin": "",
+            "brand_id": 9,
+            "model": "sdgdsgsd",
+            "sku": "sdxg",
+            "description": "jhgjhg",
+            "specification": "srgsde",
+            "weight": "15.00",
+            "length": "55.00",
+            "width": "55.00",
+            "height": "5.00",
+            "amount": "21.00",
+            "quantity": 521,
+            "status": 1,
+            "source": "bigly",
+            "source_id": null,
+            "created_at": "2018-05-02 18:11:59",
+            "updated_at": "2018-05-02 18:12:05",
+            "min_price": "121.00",
+            "max_price": "1200.00",
+            "shipping_charge": "2.00",
+            "brand_name": "dsgesdge",
+            "brand": {
+                "id": 9,
+                "name": "dsgesdge"
+            }
+        },
+        "media": [
+            {
+                "id": 364,
+                "mime": "",
+                "thumb": "http://lorempixel.com/270/220/business/5",
+                "small": null,
+                "medium": "http://lorempixel.com/480/360/business/5",
+                "large": "http://lorempixel.com/1280/720/business/5",
+                "caption": null,
+                "default": 1,
+                "check": "pending"
+            },
+            {
+                "id": 365,
+                "mime": "",
+                "thumb": "http://lorempixel.com/270/220/transport/5",
+                "small": null,
+                "medium": "http://lorempixel.com/480/360/transport/5",
+                "large": "http://lorempixel.com/1280/720/transport/5",
+                "caption": null,
+                "default": 0,
+                "check": "pending"
+            },
+            {
+                "id": 366,
+                "mime": "",
+                "thumb": "http://lorempixel.com/270/220/transport/5",
+                "small": null,
+                "medium": "http://lorempixel.com/480/360/transport/5",
+                "large": "http://lorempixel.com/1280/720/transport/5",
+                "caption": null,
+                "default": 0,
+                "check": "pending"
+            },
+            {
+                "id": 367,
+                "mime": "",
+                "thumb": "http://lorempixel.com/270/220/sports/5",
+                "small": null,
+                "medium": "http://lorempixel.com/480/360/sports/5",
+                "large": "http://lorempixel.com/1280/720/sports/5",
+                "caption": null,
+                "default": 0,
+                "check": "pending"
+            },
+            {
+                "id": 368,
+                "mime": "",
+                "thumb": "http://lorempixel.com/270/220/business/5",
+                "small": null,
+                "medium": "http://lorempixel.com/480/360/business/5",
+                "large": "http://lorempixel.com/1280/720/business/5",
+                "caption": null,
+                "default": 0,
+                "check": "pending"
+            },
+            {
+                "id": 369,
+                "mime": "",
+                "thumb": "http://lorempixel.com/270/220/business/5",
+                "small": null,
+                "medium": "http://lorempixel.com/480/360/business/5",
+                "large": "http://lorempixel.com/1280/720/business/5",
+                "caption": null,
+                "default": 0,
+                "check": "pending"
+            }
+        ],
+        "order": {
+            "id": 199,
+            "user_id": 510,
+            "client_id": 0,
+            "name": "DS_Order_auJ2cAixf82rYHQm",
+            "invoice": "",
+            "amount": "21.00",
+            "created_at": "2018-05-11 16:05:32",
+            "updated_at": "2018-05-11 16:05:32",
+            "status": "placed",
+            "price": "210.00",
+            "payment_method": "COD"
+        },
+        "organization": null,
+        "size": {
+            "id": 17,
+            "value": "50"
+        }
+    },
+    "cart_address": {
+        "id": 2,
+        "user_id": 510,
+        "order_id": 199,
+        "name": "sanjay",
+        "email": null,
+        "mobile": "1234567890",
+        "address": "tggggawyhrfgbeyshgfraegegea",
+        "street": "10 , 1bgdddddddddddddb",
+        "colony": "uygsfukrg",
+        "city": "vbycgsvafyk",
+        "state": "fsuyf",
+        "landmark": "sgfyuesgtes",
+        "pincode": "421848",
+        "country": "India",
+        "type": "BILLING",
+        "status": 1,
+        "created_at": "2018-04-21 06:21:48",
+        "updated_at": "2018-05-11 16:05:32"
+    },
+    "responseMessage": "User All Orders",
+    "responseCode": 200
+}
+```
+
