@@ -23,6 +23,7 @@
     19. Delete Shipping Address
     20. Create order
     21. Contact Us
+    22. My Orders
 
 
 
@@ -2007,3 +2008,110 @@ _Example_
 }
 ```
 
+<!-- 22 -->
+
+##  My Orders
+
+
+**API** `http://localhost:8000/api/orders/user/510`
+
+**Method** : Get
+
+### Response :
+
+
+_Example_
+
+```
+{
+    "orders": [
+        {
+            "id": 71,
+            "order_id": 187,
+            "product_id": 1011,
+            "attribute_id": 17,
+            "name": "sZEfgfr",
+            "quantity": 1,
+            "amount": 21,
+            "organization_id": 2,
+            "status": "completed",
+            "shipment_id": "902549187",
+            "shipping_charge": "2.00",
+            "media": [
+                {
+                    "id": 298,
+                    "mime": "",
+                    "thumb": "http://lorempixel.com/270/220/technics/2",
+                    "small": null,
+                    "medium": "http://lorempixel.com/480/360/technics/2",
+                    "large": "http://lorempixel.com/1280/720/technics/2",
+                    "caption": null,
+                    "default": 1,
+                    "check": "pending"
+                },
+                {
+                    "id": 299,
+                    "mime": "",
+                    "thumb": "http://lorempixel.com/270/220/people/2",
+                    "small": null,
+                    "medium": "http://lorempixel.com/480/360/people/2",
+                    "large": "http://lorempixel.com/1280/720/people/2",
+                    "caption": null,
+                    "default": 0,
+                    "check": "pending"
+                },
+                {
+                    "id": 300,
+                    "mime": "",
+                    "thumb": "http://lorempixel.com/270/220/technics/2",
+                    "small": null,
+                    "medium": "http://lorempixel.com/480/360/technics/2",
+                    "large": "http://lorempixel.com/1280/720/technics/2",
+                    "caption": null,
+                    "default": 0,
+                    "check": "pending"
+                },
+                {
+                    "id": 301,
+                    "mime": "",
+                    "thumb": "http://lorempixel.com/270/220/food/2",
+                    "small": null,
+                    "medium": "http://lorempixel.com/480/360/food/2",
+                    "large": "http://lorempixel.com/1280/720/food/2",
+                    "caption": null,
+                    "default": 0,
+                    "check": "pending"
+                },
+                {
+                    "id": 302,
+                    "mime": "",
+                    "thumb": "http://lorempixel.com/270/220/sports/2",
+                    "small": null,
+                    "medium": "http://lorempixel.com/480/360/sports/2",
+                    "large": "http://lorempixel.com/1280/720/sports/2",
+                    "caption": null,
+                    "default": 0,
+                    "check": "pending"
+                },
+                {
+                    "id": 303,
+                    "mime": "",
+                    "thumb": "http://lorempixel.com/270/220/business/2",
+                    "small": null,
+                    "medium": "http://lorempixel.com/480/360/business/2",
+                    "large": "http://lorempixel.com/1280/720/business/2",
+                    "caption": null,
+                    "default": 0,
+                    "check": "pending"
+                }
+            ],
+            "size": {
+                "id": 17,
+                "value": "50"
+            }
+        }
+    ],
+    "responseMessage": "User All Orders",
+    "responseCode": 200
+}
+```
