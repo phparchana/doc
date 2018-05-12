@@ -162,7 +162,7 @@ _Example_
 
 **API** `http://localhost:8000/api/products`
 
-`http://localhost:8000/api/products??q=&category=&vendor[]=514&vendor[]=2&price_range=&take=&button=`
+`http://localhost:8000/api/products?q=query&category[]=51&vendor[]=514&vendor[]=2&price_range=501-1000`
 
 **Method** : GET
 
