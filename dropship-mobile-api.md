@@ -24,6 +24,7 @@
     20. Create order
     21. Contact Us
     22. My Orders
+    23 . Order Details
 
 
 
@@ -1991,88 +1992,106 @@ _Example_
 {
     "orders": [
         {
-            "id": 71,
-            "order_id": 187,
+            "id": 86,
+            "order_id": 201,
             "product_id": 1011,
             "attribute_id": 17,
             "name": "sZEfgfr",
-            "quantity": 1,
-            "amount": 21,
-            "organization_id": 2,
-            "status": "completed",
-            "shipment_id": "902549187",
+            "quantity": 10,
+            "amount": 50,
+            "organization_id": 0,
+            "status": "placed",
+            "shipment_id": "",
             "shipping_charge": "2.00",
+            "type": null,
             "media": [
                 {
-                    "id": 298,
+                    "id": 378,
                     "mime": "",
-                    "thumb": "http://lorempixel.com/270/220/technics/2",
+                    "thumb": "http://lorempixel.com/270/220/nightlife/7",
                     "small": null,
-                    "medium": "http://lorempixel.com/480/360/technics/2",
-                    "large": "http://lorempixel.com/1280/720/technics/2",
+                    "medium": "http://lorempixel.com/480/360/nightlife/7",
+                    "large": "http://lorempixel.com/1280/720/nightlife/7",
                     "caption": null,
                     "default": 1,
                     "check": "pending"
                 },
                 {
-                    "id": 299,
+                    "id": 379,
                     "mime": "",
-                    "thumb": "http://lorempixel.com/270/220/people/2",
+                    "thumb": "http://lorempixel.com/270/220/fashion/7",
                     "small": null,
-                    "medium": "http://lorempixel.com/480/360/people/2",
-                    "large": "http://lorempixel.com/1280/720/people/2",
+                    "medium": "http://lorempixel.com/480/360/fashion/7",
+                    "large": "http://lorempixel.com/1280/720/fashion/7",
                     "caption": null,
                     "default": 0,
                     "check": "pending"
                 },
                 {
-                    "id": 300,
+                    "id": 380,
                     "mime": "",
-                    "thumb": "http://lorempixel.com/270/220/technics/2",
+                    "thumb": "http://lorempixel.com/270/220/nature/7",
                     "small": null,
-                    "medium": "http://lorempixel.com/480/360/technics/2",
-                    "large": "http://lorempixel.com/1280/720/technics/2",
+                    "medium": "http://lorempixel.com/480/360/nature/7",
+                    "large": "http://lorempixel.com/1280/720/nature/7",
                     "caption": null,
                     "default": 0,
                     "check": "pending"
                 },
                 {
-                    "id": 301,
+                    "id": 381,
                     "mime": "",
-                    "thumb": "http://lorempixel.com/270/220/food/2",
+                    "thumb": "http://lorempixel.com/270/220/food/7",
                     "small": null,
-                    "medium": "http://lorempixel.com/480/360/food/2",
-                    "large": "http://lorempixel.com/1280/720/food/2",
+                    "medium": "http://lorempixel.com/480/360/food/7",
+                    "large": "http://lorempixel.com/1280/720/food/7",
                     "caption": null,
                     "default": 0,
                     "check": "pending"
                 },
                 {
-                    "id": 302,
+                    "id": 382,
                     "mime": "",
-                    "thumb": "http://lorempixel.com/270/220/sports/2",
+                    "thumb": "http://lorempixel.com/270/220/sports/7",
                     "small": null,
-                    "medium": "http://lorempixel.com/480/360/sports/2",
-                    "large": "http://lorempixel.com/1280/720/sports/2",
+                    "medium": "http://lorempixel.com/480/360/sports/7",
+                    "large": "http://lorempixel.com/1280/720/sports/7",
                     "caption": null,
                     "default": 0,
                     "check": "pending"
                 },
                 {
-                    "id": 303,
+                    "id": 383,
                     "mime": "",
-                    "thumb": "http://lorempixel.com/270/220/business/2",
+                    "thumb": "http://lorempixel.com/270/220/fashion/7",
                     "small": null,
-                    "medium": "http://lorempixel.com/480/360/business/2",
-                    "large": "http://lorempixel.com/1280/720/business/2",
+                    "medium": "http://lorempixel.com/480/360/fashion/7",
+                    "large": "http://lorempixel.com/1280/720/fashion/7",
+                    "caption": null,
+                    "default": 0,
+                    "check": "pending"
+                },
+                {
+                    "id": 384,
+                    "mime": "",
+                    "thumb": "http://lorempixel.com/270/220/people/7",
+                    "small": null,
+                    "medium": "http://lorempixel.com/480/360/people/7",
+                    "large": "http://lorempixel.com/1280/720/people/7",
                     "caption": null,
                     "default": 0,
                     "check": "pending"
                 }
             ],
-            "size": {
+            "attribute_data": {
+                "product_id": 1011,
                 "id": 17,
-                "value": "50"
+                "attribute_id": 3,
+                "status": 1,
+                "value": "50",
+                "parent_id": 16,
+                "quantity": 20,
+                "price": null
             }
         }
     ],
@@ -2224,34 +2243,22 @@ _Example_
             "price": "210.00",
             "payment_method": "COD"
         },
-        "organization": null,
-        "size": {
+        "attribute_data": {
+            "product_id": 1011,
             "id": 17,
-            "value": "50"
-        }
+            "attribute_id": 3,
+            "status": 1,
+            "value": "50",
+            "parent_id": 16,
+            "quantity": 20,
+            "price": null
+        },
+        "organization": null
     },
-    "cart_address": {
-        "id": 2,
-        "user_id": 510,
-        "order_id": 199,
-        "name": "sanjay",
-        "email": null,
-        "mobile": "1234567890",
-        "address": "tggggawyhrfgbeyshgfraegegea",
-        "street": "10 , 1bgdddddddddddddb",
-        "colony": "uygsfukrg",
-        "city": "vbycgsvafyk",
-        "state": "fsuyf",
-        "landmark": "sgfyuesgtes",
-        "pincode": "421848",
-        "country": "India",
-        "type": "BILLING",
-        "status": 1,
-        "created_at": "2018-04-21 06:21:48",
-        "updated_at": "2018-05-11 16:05:32"
-    },
+    "shipping_address": null,
     "responseMessage": "User All Orders",
     "responseCode": 200
 }
+
 ```
 
