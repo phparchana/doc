@@ -25,6 +25,7 @@
     21. Contact Us
     22. My Orders
     23 . Order Details
+    24. Get Cancel Reasons
 
 
 
@@ -1992,107 +1993,631 @@ _Example_
 {
     "orders": [
         {
-            "id": 86,
-            "order_id": 201,
-            "product_id": 1011,
-            "attribute_id": 17,
-            "name": "sZEfgfr",
-            "quantity": 10,
-            "amount": 50,
-            "organization_id": 0,
-            "status": "placed",
-            "shipment_id": "",
-            "shipping_charge": "2.00",
-            "type": null,
+            "id": 187,
+            "user_id": 510,
+            "client_id": 547,
+            "name": "DS_Order_MfHJahqfF7G3LioW",
+            "invoice": "",
+            "amount": "21.00",
+            "created_at": "2018-05-03 12:17:14",
+            "updated_at": "2018-05-03 12:17:17",
+            "status": "",
+            "price": "21.00",
+            "payment_method": "cod",
+            "items": [
+                {
+                    "id": 71,
+                    "order_id": 187,
+                    "product_id": 1011,
+                    "attribute_id": 17,
+                    "name": "sZEfgfr",
+                    "quantity": 1,
+                    "amount": 21,
+                    "organization_id": 2,
+                    "status": "completed",
+                    "shipment_id": "902549187",
+                    "shipping_charge": "2.00",
+                    "type": null
+                }
+            ],
             "media": [
                 {
-                    "id": 378,
+                    "id": 854,
                     "mime": "",
-                    "thumb": "http://lorempixel.com/270/220/nightlife/7",
+                    "thumb": "http://lorempixel.com/270/220/people/8",
                     "small": null,
-                    "medium": "http://lorempixel.com/480/360/nightlife/7",
-                    "large": "http://lorempixel.com/1280/720/nightlife/7",
+                    "medium": "http://lorempixel.com/480/360/people/8",
+                    "large": "http://lorempixel.com/1280/720/people/8",
                     "caption": null,
                     "default": 1,
                     "check": "pending"
                 },
                 {
-                    "id": 379,
+                    "id": 855,
                     "mime": "",
-                    "thumb": "http://lorempixel.com/270/220/fashion/7",
+                    "thumb": "http://lorempixel.com/270/220/nature/8",
                     "small": null,
-                    "medium": "http://lorempixel.com/480/360/fashion/7",
-                    "large": "http://lorempixel.com/1280/720/fashion/7",
+                    "medium": "http://lorempixel.com/480/360/nature/8",
+                    "large": "http://lorempixel.com/1280/720/nature/8",
                     "caption": null,
                     "default": 0,
                     "check": "pending"
                 },
                 {
-                    "id": 380,
+                    "id": 856,
                     "mime": "",
-                    "thumb": "http://lorempixel.com/270/220/nature/7",
+                    "thumb": "http://lorempixel.com/270/220/sports/8",
                     "small": null,
-                    "medium": "http://lorempixel.com/480/360/nature/7",
-                    "large": "http://lorempixel.com/1280/720/nature/7",
+                    "medium": "http://lorempixel.com/480/360/sports/8",
+                    "large": "http://lorempixel.com/1280/720/sports/8",
                     "caption": null,
                     "default": 0,
                     "check": "pending"
                 },
                 {
-                    "id": 381,
+                    "id": 857,
                     "mime": "",
-                    "thumb": "http://lorempixel.com/270/220/food/7",
+                    "thumb": "http://lorempixel.com/270/220/nature/8",
                     "small": null,
-                    "medium": "http://lorempixel.com/480/360/food/7",
-                    "large": "http://lorempixel.com/1280/720/food/7",
-                    "caption": null,
-                    "default": 0,
-                    "check": "pending"
-                },
-                {
-                    "id": 382,
-                    "mime": "",
-                    "thumb": "http://lorempixel.com/270/220/sports/7",
-                    "small": null,
-                    "medium": "http://lorempixel.com/480/360/sports/7",
-                    "large": "http://lorempixel.com/1280/720/sports/7",
-                    "caption": null,
-                    "default": 0,
-                    "check": "pending"
-                },
-                {
-                    "id": 383,
-                    "mime": "",
-                    "thumb": "http://lorempixel.com/270/220/fashion/7",
-                    "small": null,
-                    "medium": "http://lorempixel.com/480/360/fashion/7",
-                    "large": "http://lorempixel.com/1280/720/fashion/7",
-                    "caption": null,
-                    "default": 0,
-                    "check": "pending"
-                },
-                {
-                    "id": 384,
-                    "mime": "",
-                    "thumb": "http://lorempixel.com/270/220/people/7",
-                    "small": null,
-                    "medium": "http://lorempixel.com/480/360/people/7",
-                    "large": "http://lorempixel.com/1280/720/people/7",
+                    "medium": "http://lorempixel.com/480/360/nature/8",
+                    "large": "http://lorempixel.com/1280/720/nature/8",
                     "caption": null,
                     "default": 0,
                     "check": "pending"
                 }
             ],
-            "attribute_data": {
-                "product_id": 1011,
-                "id": 17,
-                "attribute_id": 3,
-                "status": 1,
-                "value": "50",
-                "parent_id": 16,
-                "quantity": 20,
-                "price": null
-            }
+            "attribute_data": null
+        },
+        {
+            "id": 198,
+            "user_id": 510,
+            "client_id": 0,
+            "name": "DS_Order_7hCUgmn2BYfRvxxL",
+            "invoice": "",
+            "amount": "21.00",
+            "created_at": "2018-05-11 16:05:06",
+            "updated_at": "2018-05-11 16:05:06",
+            "status": "placed",
+            "price": "210.00",
+            "payment_method": "COD",
+            "items": [],
+            "media": [
+                {
+                    "id": 900,
+                    "mime": "",
+                    "thumb": "http://lorempixel.com/270/220/business/9",
+                    "small": null,
+                    "medium": "http://lorempixel.com/480/360/business/9",
+                    "large": "http://lorempixel.com/1280/720/business/9",
+                    "caption": null,
+                    "default": 1,
+                    "check": "pending"
+                },
+                {
+                    "id": 901,
+                    "mime": "",
+                    "thumb": "http://lorempixel.com/270/220/people/9",
+                    "small": null,
+                    "medium": "http://lorempixel.com/480/360/people/9",
+                    "large": "http://lorempixel.com/1280/720/people/9",
+                    "caption": null,
+                    "default": 0,
+                    "check": "pending"
+                },
+                {
+                    "id": 902,
+                    "mime": "",
+                    "thumb": "http://lorempixel.com/270/220/business/9",
+                    "small": null,
+                    "medium": "http://lorempixel.com/480/360/business/9",
+                    "large": "http://lorempixel.com/1280/720/business/9",
+                    "caption": null,
+                    "default": 0,
+                    "check": "pending"
+                },
+                {
+                    "id": 903,
+                    "mime": "",
+                    "thumb": "http://lorempixel.com/270/220/nature/9",
+                    "small": null,
+                    "medium": "http://lorempixel.com/480/360/nature/9",
+                    "large": "http://lorempixel.com/1280/720/nature/9",
+                    "caption": null,
+                    "default": 0,
+                    "check": "pending"
+                },
+                {
+                    "id": 904,
+                    "mime": "",
+                    "thumb": "http://lorempixel.com/270/220/sports/9",
+                    "small": null,
+                    "medium": "http://lorempixel.com/480/360/sports/9",
+                    "large": "http://lorempixel.com/1280/720/sports/9",
+                    "caption": null,
+                    "default": 0,
+                    "check": "pending"
+                },
+                {
+                    "id": 905,
+                    "mime": "",
+                    "thumb": "http://lorempixel.com/270/220/transport/9",
+                    "small": null,
+                    "medium": "http://lorempixel.com/480/360/transport/9",
+                    "large": "http://lorempixel.com/1280/720/transport/9",
+                    "caption": null,
+                    "default": 0,
+                    "check": "pending"
+                },
+                {
+                    "id": 906,
+                    "mime": "",
+                    "thumb": "http://lorempixel.com/270/220/nature/9",
+                    "small": null,
+                    "medium": "http://lorempixel.com/480/360/nature/9",
+                    "large": "http://lorempixel.com/1280/720/nature/9",
+                    "caption": null,
+                    "default": 0,
+                    "check": "pending"
+                }
+            ],
+            "attribute_data": null
+        },
+        {
+            "id": 199,
+            "user_id": 510,
+            "client_id": 0,
+            "name": "DS_Order_auJ2cAixf82rYHQm",
+            "invoice": "",
+            "amount": "21.00",
+            "created_at": "2018-05-11 16:05:32",
+            "updated_at": "2018-05-11 16:05:32",
+            "status": "placed",
+            "price": "210.00",
+            "payment_method": "COD",
+            "items": [
+                {
+                    "id": 84,
+                    "order_id": 199,
+                    "product_id": 1011,
+                    "attribute_id": 17,
+                    "name": "sZEfgfr",
+                    "quantity": 10,
+                    "amount": 50,
+                    "organization_id": 0,
+                    "status": "placed",
+                    "shipment_id": "",
+                    "shipping_charge": "2.00",
+                    "type": null
+                }
+            ],
+            "media": [
+                {
+                    "id": 907,
+                    "mime": "",
+                    "thumb": "http://lorempixel.com/270/220/transport/10",
+                    "small": null,
+                    "medium": "http://lorempixel.com/480/360/transport/10",
+                    "large": "http://lorempixel.com/1280/720/transport/10",
+                    "caption": null,
+                    "default": 1,
+                    "check": "pending"
+                },
+                {
+                    "id": 908,
+                    "mime": "",
+                    "thumb": "http://lorempixel.com/270/220/technics/10",
+                    "small": null,
+                    "medium": "http://lorempixel.com/480/360/technics/10",
+                    "large": "http://lorempixel.com/1280/720/technics/10",
+                    "caption": null,
+                    "default": 0,
+                    "check": "pending"
+                },
+                {
+                    "id": 909,
+                    "mime": "",
+                    "thumb": "http://lorempixel.com/270/220/fashion/10",
+                    "small": null,
+                    "medium": "http://lorempixel.com/480/360/fashion/10",
+                    "large": "http://lorempixel.com/1280/720/fashion/10",
+                    "caption": null,
+                    "default": 0,
+                    "check": "pending"
+                },
+                {
+                    "id": 910,
+                    "mime": "",
+                    "thumb": "http://lorempixel.com/270/220/technics/10",
+                    "small": null,
+                    "medium": "http://lorempixel.com/480/360/technics/10",
+                    "large": "http://lorempixel.com/1280/720/technics/10",
+                    "caption": null,
+                    "default": 0,
+                    "check": "pending"
+                },
+                {
+                    "id": 911,
+                    "mime": "",
+                    "thumb": "http://lorempixel.com/270/220/nightlife/10",
+                    "small": null,
+                    "medium": "http://lorempixel.com/480/360/nightlife/10",
+                    "large": "http://lorempixel.com/1280/720/nightlife/10",
+                    "caption": null,
+                    "default": 0,
+                    "check": "pending"
+                },
+                {
+                    "id": 912,
+                    "mime": "",
+                    "thumb": "http://lorempixel.com/270/220/sports/10",
+                    "small": null,
+                    "medium": "http://lorempixel.com/480/360/sports/10",
+                    "large": "http://lorempixel.com/1280/720/sports/10",
+                    "caption": null,
+                    "default": 0,
+                    "check": "pending"
+                },
+                {
+                    "id": 913,
+                    "mime": "",
+                    "thumb": "http://lorempixel.com/270/220/nightlife/10",
+                    "small": null,
+                    "medium": "http://lorempixel.com/480/360/nightlife/10",
+                    "large": "http://lorempixel.com/1280/720/nightlife/10",
+                    "caption": null,
+                    "default": 0,
+                    "check": "pending"
+                }
+            ],
+            "attribute_data": null
+        },
+        {
+            "id": 200,
+            "user_id": 510,
+            "client_id": 0,
+            "name": "DS_Order_Ku2Z89apCg12z8Dw",
+            "invoice": "",
+            "amount": "21.00",
+            "created_at": "2018-05-11 17:22:51",
+            "updated_at": "2018-05-11 17:22:51",
+            "status": "placed",
+            "price": "210.00",
+            "payment_method": "COD",
+            "items": [
+                {
+                    "id": 85,
+                    "order_id": 200,
+                    "product_id": 1011,
+                    "attribute_id": 17,
+                    "name": "sZEfgfr",
+                    "quantity": 10,
+                    "amount": 50,
+                    "organization_id": 0,
+                    "status": "placed",
+                    "shipment_id": "",
+                    "shipping_charge": "2.00",
+                    "type": null
+                }
+            ],
+            "media": [
+                {
+                    "id": 914,
+                    "mime": "",
+                    "thumb": "http://lorempixel.com/270/220/sports/1",
+                    "small": null,
+                    "medium": "http://lorempixel.com/480/360/sports/1",
+                    "large": "http://lorempixel.com/1280/720/sports/1",
+                    "caption": null,
+                    "default": 1,
+                    "check": "pending"
+                },
+                {
+                    "id": 915,
+                    "mime": "",
+                    "thumb": "http://lorempixel.com/270/220/business/1",
+                    "small": null,
+                    "medium": "http://lorempixel.com/480/360/business/1",
+                    "large": "http://lorempixel.com/1280/720/business/1",
+                    "caption": null,
+                    "default": 0,
+                    "check": "pending"
+                },
+                {
+                    "id": 916,
+                    "mime": "",
+                    "thumb": "http://lorempixel.com/270/220/food/1",
+                    "small": null,
+                    "medium": "http://lorempixel.com/480/360/food/1",
+                    "large": "http://lorempixel.com/1280/720/food/1",
+                    "caption": null,
+                    "default": 0,
+                    "check": "pending"
+                },
+                {
+                    "id": 917,
+                    "mime": "",
+                    "thumb": "http://lorempixel.com/270/220/nature/1",
+                    "small": null,
+                    "medium": "http://lorempixel.com/480/360/nature/1",
+                    "large": "http://lorempixel.com/1280/720/nature/1",
+                    "caption": null,
+                    "default": 0,
+                    "check": "pending"
+                },
+                {
+                    "id": 918,
+                    "mime": "",
+                    "thumb": "http://lorempixel.com/270/220/people/1",
+                    "small": null,
+                    "medium": "http://lorempixel.com/480/360/people/1",
+                    "large": "http://lorempixel.com/1280/720/people/1",
+                    "caption": null,
+                    "default": 0,
+                    "check": "pending"
+                }
+            ],
+            "attribute_data": null
+        },
+        {
+            "id": 201,
+            "user_id": 510,
+            "client_id": 0,
+            "name": "DS_Order_zrRdL7fcsuNtPr80",
+            "invoice": "",
+            "amount": "21.00",
+            "created_at": "2018-05-11 17:23:45",
+            "updated_at": "2018-05-11 17:23:45",
+            "status": "placed",
+            "price": "210.00",
+            "payment_method": "COD",
+            "items": [
+                {
+                    "id": 86,
+                    "order_id": 201,
+                    "product_id": 1011,
+                    "attribute_id": 17,
+                    "name": "sZEfgfr",
+                    "quantity": 10,
+                    "amount": 50,
+                    "organization_id": 0,
+                    "status": "placed",
+                    "shipment_id": "",
+                    "shipping_charge": "2.00",
+                    "type": null
+                }
+            ],
+            "media": [
+                {
+                    "id": 919,
+                    "mime": "",
+                    "thumb": "http://lorempixel.com/270/220/technics/2",
+                    "small": null,
+                    "medium": "http://lorempixel.com/480/360/technics/2",
+                    "large": "http://lorempixel.com/1280/720/technics/2",
+                    "caption": null,
+                    "default": 1,
+                    "check": "pending"
+                },
+                {
+                    "id": 920,
+                    "mime": "",
+                    "thumb": "http://lorempixel.com/270/220/people/2",
+                    "small": null,
+                    "medium": "http://lorempixel.com/480/360/people/2",
+                    "large": "http://lorempixel.com/1280/720/people/2",
+                    "caption": null,
+                    "default": 0,
+                    "check": "pending"
+                },
+                {
+                    "id": 921,
+                    "mime": "",
+                    "thumb": "http://lorempixel.com/270/220/food/2",
+                    "small": null,
+                    "medium": "http://lorempixel.com/480/360/food/2",
+                    "large": "http://lorempixel.com/1280/720/food/2",
+                    "caption": null,
+                    "default": 0,
+                    "check": "pending"
+                },
+                {
+                    "id": 922,
+                    "mime": "",
+                    "thumb": "http://lorempixel.com/270/220/nature/2",
+                    "small": null,
+                    "medium": "http://lorempixel.com/480/360/nature/2",
+                    "large": "http://lorempixel.com/1280/720/nature/2",
+                    "caption": null,
+                    "default": 0,
+                    "check": "pending"
+                },
+                {
+                    "id": 923,
+                    "mime": "",
+                    "thumb": "http://lorempixel.com/270/220/technics/2",
+                    "small": null,
+                    "medium": "http://lorempixel.com/480/360/technics/2",
+                    "large": "http://lorempixel.com/1280/720/technics/2",
+                    "caption": null,
+                    "default": 0,
+                    "check": "pending"
+                },
+                {
+                    "id": 924,
+                    "mime": "",
+                    "thumb": "http://lorempixel.com/270/220/fashion/2",
+                    "small": null,
+                    "medium": "http://lorempixel.com/480/360/fashion/2",
+                    "large": "http://lorempixel.com/1280/720/fashion/2",
+                    "caption": null,
+                    "default": 0,
+                    "check": "pending"
+                },
+                {
+                    "id": 925,
+                    "mime": "",
+                    "thumb": "http://lorempixel.com/270/220/technics/2",
+                    "small": null,
+                    "medium": "http://lorempixel.com/480/360/technics/2",
+                    "large": "http://lorempixel.com/1280/720/technics/2",
+                    "caption": null,
+                    "default": 0,
+                    "check": "pending"
+                }
+            ],
+            "attribute_data": null
+        },
+        {
+            "id": 202,
+            "user_id": 510,
+            "client_id": 0,
+            "name": "DS_Order_pKAmqVe5iGLoLwim",
+            "invoice": "",
+            "amount": "21.00",
+            "created_at": "2018-05-14 17:01:00",
+            "updated_at": "2018-05-14 17:01:00",
+            "status": "placed",
+            "price": "210.00",
+            "payment_method": "COD",
+            "items": [
+                {
+                    "id": 87,
+                    "order_id": 202,
+                    "product_id": 1011,
+                    "attribute_id": 17,
+                    "name": "sZEfgfr",
+                    "quantity": 10,
+                    "amount": 50,
+                    "organization_id": 0,
+                    "status": "placed",
+                    "shipment_id": "",
+                    "shipping_charge": "2.00",
+                    "type": null
+                }
+            ],
+            "media": [
+                {
+                    "id": 926,
+                    "mime": "",
+                    "thumb": "http://lorempixel.com/270/220/fashion/3",
+                    "small": null,
+                    "medium": "http://lorempixel.com/480/360/fashion/3",
+                    "large": "http://lorempixel.com/1280/720/fashion/3",
+                    "caption": null,
+                    "default": 1,
+                    "check": "pending"
+                },
+                {
+                    "id": 927,
+                    "mime": "",
+                    "thumb": "http://lorempixel.com/270/220/transport/3",
+                    "small": null,
+                    "medium": "http://lorempixel.com/480/360/transport/3",
+                    "large": "http://lorempixel.com/1280/720/transport/3",
+                    "caption": null,
+                    "default": 0,
+                    "check": "pending"
+                },
+                {
+                    "id": 928,
+                    "mime": "",
+                    "thumb": "http://lorempixel.com/270/220/food/3",
+                    "small": null,
+                    "medium": "http://lorempixel.com/480/360/food/3",
+                    "large": "http://lorempixel.com/1280/720/food/3",
+                    "caption": null,
+                    "default": 0,
+                    "check": "pending"
+                }
+            ],
+            "attribute_data": null
+        },
+        {
+            "id": 203,
+            "user_id": 510,
+            "client_id": 0,
+            "name": "DS_Order_eK1o6pd3eLF3djy7",
+            "invoice": "",
+            "amount": "21.00",
+            "created_at": "2018-05-14 17:01:32",
+            "updated_at": "2018-05-14 17:01:32",
+            "status": "placed",
+            "price": "210.00",
+            "payment_method": "COD",
+            "items": [
+                {
+                    "id": 88,
+                    "order_id": 203,
+                    "product_id": 1011,
+                    "attribute_id": 17,
+                    "name": "sZEfgfr",
+                    "quantity": 10,
+                    "amount": 50,
+                    "organization_id": 0,
+                    "status": "placed",
+                    "shipment_id": "",
+                    "shipping_charge": "2.00",
+                    "type": null
+                }
+            ],
+            "media": [
+                {
+                    "id": 929,
+                    "mime": "",
+                    "thumb": "http://lorempixel.com/270/220/nightlife/4",
+                    "small": null,
+                    "medium": "http://lorempixel.com/480/360/nightlife/4",
+                    "large": "http://lorempixel.com/1280/720/nightlife/4",
+                    "caption": null,
+                    "default": 1,
+                    "check": "pending"
+                },
+                {
+                    "id": 930,
+                    "mime": "",
+                    "thumb": "http://lorempixel.com/270/220/fashion/4",
+                    "small": null,
+                    "medium": "http://lorempixel.com/480/360/fashion/4",
+                    "large": "http://lorempixel.com/1280/720/fashion/4",
+                    "caption": null,
+                    "default": 0,
+                    "check": "pending"
+                },
+                {
+                    "id": 931,
+                    "mime": "",
+                    "thumb": "http://lorempixel.com/270/220/food/4",
+                    "small": null,
+                    "medium": "http://lorempixel.com/480/360/food/4",
+                    "large": "http://lorempixel.com/1280/720/food/4",
+                    "caption": null,
+                    "default": 0,
+                    "check": "pending"
+                },
+                {
+                    "id": 932,
+                    "mime": "",
+                    "thumb": "http://lorempixel.com/270/220/nature/4",
+                    "small": null,
+                    "medium": "http://lorempixel.com/480/360/nature/4",
+                    "large": "http://lorempixel.com/1280/720/nature/4",
+                    "caption": null,
+                    "default": 0,
+                    "check": "pending"
+                },
+                {
+                    "id": 933,
+                    "mime": "",
+                    "thumb": "http://lorempixel.com/270/220/people/4",
+                    "small": null,
+                    "medium": "http://lorempixel.com/480/360/people/4",
+                    "large": "http://lorempixel.com/1280/720/people/4",
+                    "caption": null,
+                    "default": 0,
+                    "check": "pending"
+                }
+            ],
+            "attribute_data": null
         }
     ],
     "responseMessage": "User All Orders",
@@ -2261,4 +2786,36 @@ _Example_
 }
 
 ```
+
+
+
+<!-- 24 -->
+
+##  Cancel Reason
+
+
+**API** `http://localhost:8000/api/reason`
+
+**Method** : Get
+
+### Response :
+
+
+_Example_
+
+```
+{
+    "reasons": [
+        {
+            "id": 1,
+            "reason": "rdetjdrf6jureu"
+        },
+        {
+            "id": 2,
+            "reason": "this is my reason"
+        }
+    ]
+}
+```
+
 
