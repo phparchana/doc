@@ -4210,3 +4210,47 @@ _Example_
 ```
 
 
+
+
+<!-- 25 -->
+
+##  Cancel Order
+
+
+**API** `http://dropship.bigly.io/api/orderCancel/282`
+
+**Method** : Get
+
+### Response :
+
+
+_Example_
+
+```
+{
+    "id": 275,
+    "order_id": "282",
+    "product_id": "22937",
+    "attribute_id": "0",
+    "name": "Desigrace Small Belt Palazzo- Beige",
+    "quantity": "10",
+    "amount": "275",
+    "organization_id": "0",
+    "status": "cancelled",
+    "shipment_id": "",
+    "shipping_charge": "75.00",
+    "order": {
+        "id": 282,
+        "user_id": "759",
+        "client_id": "0",
+        "name": "DS_Order_njXgBEcRmGnq1Qcb",
+        "invoice": "",
+        "amount": "275.00",
+        "created_at": "2018-05-15 17:16:24",
+        "updated_at": "2018-05-15 17:16:24",
+        "status": "cancelled",
+        "price": "2750.00",
+        "payment_method": "COD"
+    }
+}
+```
