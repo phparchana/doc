@@ -4343,7 +4343,7 @@ _Example_
 ##  Orders Details
 
 
-**API** `http://localhost:8000/api/orderDetail/199`
+**API** `http://localhost:8000/api/orders/199`
 
 **Method** : Get
 
