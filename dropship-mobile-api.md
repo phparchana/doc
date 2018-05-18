@@ -24,9 +24,13 @@
     20. Create order
     21. Contact Us
     22. My Orders
-    23 . Order Details
+    23. Order Details
     24. Get Cancel Reasons
     25. Cancel Order
+    26. My Profile
+    27. Edit Profile
+    28. Update Profile
+    29. My WishLists
 
 
 
@@ -3224,7 +3228,7 @@ _Example_
     "landmark" : "sgfyuesgtes",
     "pincode" : 421848,
     "country" : "India",
-    "type" : "shipping"
+    "type" : "SHIPPING"
 }
 ```
 
@@ -4516,7 +4520,7 @@ _Example_
 ##  Cancel Order
 
 
-**API** `http://dropship.bigly.io/api/orderCancel/282`
+**API** `http://dropship.bigly.io/api/orderCancel/271`
 
 **Method** : Post
 
@@ -4527,7 +4531,8 @@ _Example_
 
 ```
 {
-    "reason_id" : 2
+    "reason_id" : 2,
+    "reason" : "Reason Text"
 }
 
 ```
@@ -4535,3 +4540,145 @@ _Example_
 ### Response
 
 ```
+{
+    "order": {
+        "id": 271,
+        "user_id": "796",
+        "client_id": "0",
+        "name": "DS_Order_qLvsDGnAyyBqXRM0",
+        "invoice": "",
+        "amount": "449.00",
+        "created_at": "2018-05-10 15:52:41",
+        "updated_at": "2018-05-18 12:19:37",
+        "status": "cancelled",
+        "price": "449.00",
+        "payment_method": "PREPAID"
+    },
+    "reason": {
+        "user_id": 796,
+        "order_id": "271",
+        "reason": "this is reason 2",
+        "user_type": "client",
+        "reason_type": 2,
+        "type": "orders",
+        "updated_at": "2018-05-18 12:20:07",
+        "created_at": "2018-05-18 12:20:07",
+        "id": 7
+    }
+}
+```
+
+
+<!-- 26 -->
+
+## My Profile 
+
+**API** `http://localhost:8000/api/user`
+
+**Method** : Get
+
+### Response
+
+```
+
+{
+    "id": 510,
+    "name": "client",
+    "username": null,
+    "email": "client@seller.com",
+    "status": 1,
+    "phone": "1234567890",
+    "created_at": "Mar 03, 2018",
+    "updated_at": "2018-03-03 07:23:29",
+    "type": "client"
+}
+
+```
+
+
+<!-- 27 -->
+
+## Edit Profile 
+
+**API** `http://localhost:8000/api/user/510/edit`
+
+**Method** : Get
+
+
+### Response
+
+```
+
+{
+    "id": 510,
+    "name": "client",
+    "username": null,
+    "email": "client@seller.com",
+    "status": 1,
+    "phone": "1234567890",
+    "created_at": "Mar 03, 2018",
+    "updated_at": "2018-03-03 07:23:29",
+    "type": "client"
+}
+
+```
+
+
+<!-- 27 -->
+
+## Update Profile 
+
+**API** `http://localhost:8000/api/user/510/update`
+
+**Method** : Post
+
+
+### Request
+
+```
+{
+    "name" : "sakshi",
+    "email" : "yo@gmail.com",
+    "mobile" : "1234567890",
+    "address" : "tggggawyhrfgbeyshgfraegegea",
+    "street" : "10 , 1bgdddddddddddddb",
+    "colony" : "uygsfukrg",
+    "city" : "vbycgsvafyk",
+    "state" : "fsuyf",
+    "landmark" : "sgfyuesgtes",
+    "pincode" : 421848,
+    "country" : "India",
+    "type" : "BILLING"
+
+}
+
+```
+
+
+### Response
+
+```
+{
+    "user": {
+        "user_id": "510",
+        "name": "sakshi",
+        "email": "client@seller.com",
+        "mobile": null,
+        "address": "tggggawyhrfgbeyshgfraegegea",
+        "street": "10 , 1bgdddddddddddddb",
+        "colony": "uygsfukrg",
+        "city": "vbycgsvafyk",
+        "state": "fsuyf",
+        "landmark": "sgfyuesgtes",
+        "pincode": 421848,
+        "country": "India",
+        "type": "BILLING",
+        "updated_at": "2018-05-18 12:29:22",
+        "created_at": "2018-05-18 12:29:22",
+        "id": 9
+    },
+    "responseMessage": "Added Successfully",
+    "responseCode": 200
+}
+```
+
