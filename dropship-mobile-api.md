@@ -4625,7 +4625,7 @@ _Example_
 ```
 
 
-<!-- 27 -->
+<!-- 28 -->
 
 ## Update Profile 
 
@@ -4683,3 +4683,234 @@ _Example_
 }
 ```
 
+<!-- 29 -->
+
+## User Wishlist
+
+**API** `http://dropship.bigly.io/api/userWishlist`
+
+**Method** : Get
+
+
+### Response
+
+```
+{
+    "wishlists": [
+        {
+            "id": 39,
+            "user_id": "796",
+            "product_id": "22936",
+            "attribute_id": "0",
+            "quantity": "0",
+            "amount": "0",
+            "payment_mode": "",
+            "status": "1",
+            "type": "wishlist",
+            "created_at": "2018-05-16 17:55:25",
+            "updated_at": "2018-05-16 17:55:25",
+            "product": {
+                "id": 22936,
+                "user_id": "830",
+                "name": "Desigrace Double Miyani Legging- Red",
+                "slug": "",
+                "bdpin": "",
+                "brand_id": "197",
+                "model": " DG11005028",
+                "sku": " DG11005028",
+                "description": "Desigrace Presents the design High Quality Multi color jegging/ Casual Tousers/Plazzo/Legging/Salwar/Tuning Top For Beautiful Girls. It Comes In jegging Pattern Which Makes It More Beautiful. It'S Made Of Lycra Stuff And Superior In Quality, Marvellous And Style In Design. It'S a Multi Coloured Apparel. It Is Revealing Attire Which Looks Gorgeous On The Body To Enjoy Beautiful Moments With Beloved Ones. You Can Club These jegging With Any Stylish Trouser. Print Sequence Might Slightly Differ, You Will Get Almost Similar Product.",
+                "specification": "Specialty : (No color fade), Production place : Made in India",
+                "weight": "350.00",
+                "length": "20.00",
+                "width": "0.20",
+                "height": "25.00",
+                "amount": "180.00",
+                "quantity": "25",
+                "status": "1",
+                "source": "bigly",
+                "source_id": null,
+                "created_at": "2018-04-26 15:35:45",
+                "updated_at": "2018-04-26 15:35:45",
+                "min_price": "180.00",
+                "max_price": "499.00",
+                "shipping_charge": "75.00",
+                "brand_name": "Desigrace",
+                "brand": {
+                    "id": 197,
+                    "name": "Desigrace"
+                },
+                "media": [
+                    {
+                        "id": 66764,
+                        "mime": "image/jpeg",
+                        "thumb": "http://s.bigly.io/products/thumb/1524740750-71.jpg",
+                        "small": "http://s.bigly.io/products/small/1524740750-71.jpg",
+                        "medium": "http://s.bigly.io/products/medium/1524740750-71.jpg",
+                        "large": "http://s.bigly.io/products/large/1524740750-71.jpg",
+                        "caption": null,
+                        "default": "0",
+                        "check": "pending"
+                    },
+                    {
+                        "id": 66765,
+                        "mime": "image/jpeg",
+                        "thumb": "http://s.bigly.io/products/thumb/1524740751-72.jpg",
+                        "small": "http://s.bigly.io/products/small/1524740751-72.jpg",
+                        "medium": "http://s.bigly.io/products/medium/1524740751-72.jpg",
+                        "large": "http://s.bigly.io/products/large/1524740751-72.jpg",
+                        "caption": null,
+                        "default": "1",
+                        "check": "pending"
+                    },
+                    {
+                        "id": 66766,
+                        "mime": "image/jpeg",
+                        "thumb": "http://s.bigly.io/products/thumb/1524740752-74.jpg",
+                        "small": "http://s.bigly.io/products/small/1524740752-74.jpg",
+                        "medium": "http://s.bigly.io/products/medium/1524740752-74.jpg",
+                        "large": "http://s.bigly.io/products/large/1524740752-74.jpg",
+                        "caption": null,
+                        "default": "0",
+                        "check": "pending"
+                    },
+                    {
+                        "id": 66767,
+                        "mime": "image/jpeg",
+                        "thumb": "http://s.bigly.io/products/thumb/1524740752-75.jpg",
+                        "small": "http://s.bigly.io/products/small/1524740752-75.jpg",
+                        "medium": "http://s.bigly.io/products/medium/1524740752-75.jpg",
+                        "large": "http://s.bigly.io/products/large/1524740752-75.jpg",
+                        "caption": null,
+                        "default": "0",
+                        "check": "pending"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 46,
+            "user_id": "796",
+            "product_id": "22937",
+            "attribute_id": "0",
+            "quantity": "0",
+            "amount": "0",
+            "payment_mode": "",
+            "status": "1",
+            "type": "wishlist",
+            "created_at": "2018-05-17 11:29:22",
+            "updated_at": "2018-05-17 11:29:22",
+            "product": {
+                "id": 22937,
+                "user_id": "830",
+                "name": "Desigrace Small Belt Palazzo- Beige",
+                "slug": "",
+                "bdpin": "",
+                "brand_id": "197",
+                "model": " DG12005001",
+                "sku": " DG12005001",
+                "description": "Desigrace Presents the design High Quality Multi color jegging/ Casual Tousers/Plazzo/Legging/Salwar/Tuning Top For Beautiful Girls. It Comes In jegging Pattern Which Makes It More Beautiful. It'S Made Of Lycra Stuff And Superior In Quality, Marvellous And Style In Design. It'S a Multi Coloured Apparel. It Is Revealing Attire Which Looks Gorgeous On The Body To Enjoy Beautiful Moments With Beloved Ones. You Can Club These jegging With Any Stylish Trouser. Print Sequence Might Slightly Differ, You Will Get Almost Similar Product.",
+                "specification": "Specialty : Unique Design , Production place : Made in India",
+                "weight": "350.00",
+                "length": "20.00",
+                "width": "0.20",
+                "height": "25.00",
+                "amount": "275.00",
+                "quantity": "25",
+                "status": "1",
+                "source": "bigly",
+                "source_id": null,
+                "created_at": "2018-04-26 15:35:45",
+                "updated_at": "2018-04-26 15:35:45",
+                "min_price": "275.00",
+                "max_price": "699.00",
+                "shipping_charge": "75.00",
+                "brand_name": "Desigrace",
+                "brand": {
+                    "id": 197,
+                    "name": "Desigrace"
+                },
+                "media": [
+                    {
+                        "id": 66757,
+                        "mime": "image/jpeg",
+                        "thumb": "http://s.bigly.io/products/thumb/1524740554-6o9a5084.jpg",
+                        "small": "http://s.bigly.io/products/small/1524740554-6o9a5084.jpg",
+                        "medium": "http://s.bigly.io/products/medium/1524740554-6o9a5084.jpg",
+                        "large": "http://s.bigly.io/products/large/1524740554-6o9a5084.jpg",
+                        "caption": null,
+                        "default": "1",
+                        "check": "pending"
+                    },
+                    {
+                        "id": 66758,
+                        "mime": "image/jpeg",
+                        "thumb": "http://s.bigly.io/products/thumb/1524740556-6o9a5086.jpg",
+                        "small": "http://s.bigly.io/products/small/1524740556-6o9a5086.jpg",
+                        "medium": "http://s.bigly.io/products/medium/1524740556-6o9a5086.jpg",
+                        "large": "http://s.bigly.io/products/large/1524740556-6o9a5086.jpg",
+                        "caption": null,
+                        "default": "0",
+                        "check": "pending"
+                    },
+                    {
+                        "id": 66759,
+                        "mime": "image/jpeg",
+                        "thumb": "http://s.bigly.io/products/thumb/1524740557-6o9a5087.jpg",
+                        "small": "http://s.bigly.io/products/small/1524740557-6o9a5087.jpg",
+                        "medium": "http://s.bigly.io/products/medium/1524740557-6o9a5087.jpg",
+                        "large": "http://s.bigly.io/products/large/1524740557-6o9a5087.jpg",
+                        "caption": null,
+                        "default": "0",
+                        "check": "pending"
+                    },
+                    {
+                        "id": 66760,
+                        "mime": "image/jpeg",
+                        "thumb": "http://s.bigly.io/products/thumb/1524740558-6o9a5088.jpg",
+                        "small": "http://s.bigly.io/products/small/1524740558-6o9a5088.jpg",
+                        "medium": "http://s.bigly.io/products/medium/1524740558-6o9a5088.jpg",
+                        "large": "http://s.bigly.io/products/large/1524740558-6o9a5088.jpg",
+                        "caption": null,
+                        "default": "0",
+                        "check": "pending"
+                    },
+                    {
+                        "id": 66761,
+                        "mime": "image/jpeg",
+                        "thumb": "http://s.bigly.io/products/thumb/1524740559-6o9a5089.jpg",
+                        "small": "http://s.bigly.io/products/small/1524740559-6o9a5089.jpg",
+                        "medium": "http://s.bigly.io/products/medium/1524740559-6o9a5089.jpg",
+                        "large": "http://s.bigly.io/products/large/1524740559-6o9a5089.jpg",
+                        "caption": null,
+                        "default": "0",
+                        "check": "pending"
+                    },
+                    {
+                        "id": 66762,
+                        "mime": "image/jpeg",
+                        "thumb": "http://s.bigly.io/products/thumb/1524740560-6o9a5090.jpg",
+                        "small": "http://s.bigly.io/products/small/1524740560-6o9a5090.jpg",
+                        "medium": "http://s.bigly.io/products/medium/1524740560-6o9a5090.jpg",
+                        "large": "http://s.bigly.io/products/large/1524740560-6o9a5090.jpg",
+                        "caption": null,
+                        "default": "0",
+                        "check": "pending"
+                    },
+                    {
+                        "id": 66763,
+                        "mime": "image/jpeg",
+                        "thumb": "http://s.bigly.io/products/thumb/1524740562-6o9a5091.jpg",
+                        "small": "http://s.bigly.io/products/small/1524740562-6o9a5091.jpg",
+                        "medium": "http://s.bigly.io/products/medium/1524740562-6o9a5091.jpg",
+                        "large": "http://s.bigly.io/products/large/1524740562-6o9a5091.jpg",
+                        "caption": null,
+                        "default": "0",
+                        "check": "pending"
+                    }
+                ]
+            }
+        }
+    ],
+    "reponse_message": "wishlist found"
+}
+```
