@@ -4584,15 +4584,37 @@ _Example_
 ```
 
 {
-    "id": 510,
-    "name": "client",
-    "username": null,
-    "email": "client@seller.com",
-    "status": 1,
-    "phone": "1234567890",
-    "created_at": "Mar 03, 2018",
-    "updated_at": "2018-03-03 07:23:29",
-    "type": "client"
+    "user": {
+        "id": 759,
+        "name": "sakshi",
+        "username": null,
+        "email": "sakshikbc@gmail.com",
+        "status": 1,
+        "phone": null,
+        "created_at": "Apr 13, 2018",
+        "updated_at": "2018-05-19 18:09:33",
+        "type": "client"
+    },
+    "address": {
+        "id": 25,
+        "user_id": 759,
+        "order_id": 0,
+        "name": "sakshi",
+        "email": "sakshikbc@gmail.com",
+        "mobile": null,
+        "address": "tggggawyhrfgbeyshgfraegegea",
+        "street": "10 , 1bgdddddddddddddb",
+        "colony": "uygsfukrg",
+        "city": "vbycgsvafyk",
+        "state": "fsuyf",
+        "landmark": "sgfyuesgtes",
+        "pincode": "421848",
+        "country": "India",
+        "type": "BILLING",
+        "status": 1,
+        "created_at": "2018-05-19 18:09:33",
+        "updated_at": "2018-05-19 18:09:33"
+    }
 }
 
 ```
@@ -4662,9 +4684,22 @@ _Example_
 ```
 {
     "user": {
-        "user_id": "510",
+        "id": 759,
         "name": "sakshi",
-        "email": "client@seller.com",
+        "username": null,
+        "email": "sakshikbc@gmail.com",
+        "status": 1,
+        "phone": null,
+        "created_at": "Apr 13, 2018",
+        "updated_at": "2018-05-19 18:09:33",
+        "type": "client"
+    },
+    "address": {
+        "id": 25,
+        "user_id": 759,
+        "order_id": 0,
+        "name": "sakshi",
+        "email": "sakshikbc@gmail.com",
         "mobile": null,
         "address": "tggggawyhrfgbeyshgfraegegea",
         "street": "10 , 1bgdddddddddddddb",
@@ -4672,15 +4707,13 @@ _Example_
         "city": "vbycgsvafyk",
         "state": "fsuyf",
         "landmark": "sgfyuesgtes",
-        "pincode": 421848,
+        "pincode": "421848",
         "country": "India",
         "type": "BILLING",
-        "updated_at": "2018-05-18 12:29:22",
-        "created_at": "2018-05-18 12:29:22",
-        "id": 9
-    },
-    "responseMessage": "Updated Successfully",
-    "responseCode": 200
+        "status": 1,
+        "created_at": "2018-05-19 18:09:33",
+        "updated_at": "2018-05-19 18:09:33"
+    }
 }
 ```
 
