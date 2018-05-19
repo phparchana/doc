@@ -5008,9 +5008,9 @@ _Example_
 
 <!-- 30 -->
 
-## Terms and Condition
+## Get Faqs
 
-**API** `http://dropship.bigly.io/terms`
+**API** `http://dropship.bigly.io/api/faqs`
 
 **Method** : Get
 
@@ -5018,139 +5018,48 @@ _Example_
 ### Response
 
 ```
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Terms & Conditions</title>
-    <link rel="stylesheet" type="text/css" href="/bootstrap/dist/css/bootstrap.min.css">
-</head>
-<body>
-    <div class="container">
-
-<h1>Acknowledgment of Terms of Utilization </h1>
-
-These terms and conditions contained thus administer your utilization of the Bigly site. Your utilization of a specific Bigly site included inside the region may likewise be liable to extra terms sketched out somewhere else on those destinations. By utilizing, going by, or perusing the Bigly's website(s), you acknowledge and consent to be bound by these Terms of Utilization. If you are not agreeing with these Terms of Utilization, you ought not to utilize our administration or site. If it's not too much trouble note: return shipments sent to the address above will be can't. Kindly contact our customer support team for guidelines before returning items.
-
-These Terms of Utilization are a continuous contract amongst you and Bigly and apply to your utilization of the Bigly administration and site. These Terms of Utilization influence your rights and you should read them precisely.
-
-<h2>Changes to Terms of Utilization</h2>
-
-Bigly holds the right, from time to time, with or without notice to you, to change these Terms of Utilization in our sole and outright prudence. The most current adaptation of these Terms of Utilization can be surveyed by tapping on the connections that immediate you to the Terms on the Bigly site. The most current variant of the Terms will supersede every single past adaptation. Your utilization of the Bigly site or proceeded with utilization of our administration after changes are made implies that you consent to be bound by such changes.
-
-Fees & Cancellation
-
-By click “I Agree”, you agree to our additional Fees and Cancellations policy.
-
-<h2>Privacy Policy Agreement</h2>
-
-You agree to our Privacy Policy Agreement. Any data submitted on the Bigly site is liable to our Privacy Policy Agreement. If you don't mind, please review this strategy to comprehend our practices.
-
-<h2>Prices</h2>
-
-We have all authority to change prices at any time. Due to possible information misrepresentation, we may redress typographical and printing blunders identified with prices whenever. Individuals ought to know that item prices can and do vary because of a provider changing their drop shipping charges. Bigly has no power over any provider's estimating, sending and taking care of charge approaches and in this manner can't ensure anything will stay a specific price for any timeframe.
-
-<h2>Electronic Communications</h2>
-
-By utilizing the Bigly services, you agree to getting electronic, telephone, and mail communications from Bigly. These notices will include notification about your record (e.g., sending and receiving messages) and data concerning or identified with our administration. These correspondences are a piece of your association with Bigly and you are qualified for get them as a major aspect of the Bigly membership. You concur that any notice, understandings, revelation or different correspondences that we send to you electronically will fulfill any lawful correspondence prerequisites, including that such interchanges be in composing.
-
-<h2>Service Testing</h2>
-
-From time to time, we test different parts of our services, and we maintain all authority to incorporate you in these tests without informing you.
-
-<h2>Use of Information Submitted</h2>
-
-Bigly is free to utilize any remarks, data, thoughts, ideas, audits, or methods contained in any communication you may send to Bigly., including, without confinement responses to questionnaires or through postings to the Bigly site without encourage pay, affirmation or installment to you for any reason at all including, however not constrained to, creating, assembling and showcasing items and making, adjusting or modifying or improving the Bigly website or other websites.
-
-<h2>Intellectual Property Right</h2>
-
-<h2>Copyright</h2>
-
-All content included on the Bigly website and delivered to subscribers as part of the service, including content, illustrations, outlines, catch symbols, pictures, sound/video cuts, computerized downloads, information aggregations, graphics, logos, designs, photographs, button icons, images, audio/video clips, digital downloads, data compilations, and software, is the property of Bigly, or its suppliers and is protected by India copyright laws. If Bigly in its sole and absolute discretion, believes that you are in violation of this paragraph, such violations including the copying or other unauthorized use of our proprietary content.
-
-<h2>Trademark</h2>
-
-Bigly is a registered trademark of Bigly Technologies Pvt. Ltd and different imprints showed on our site are trademarks of Bigly Technologies Pvt. Ltd. All Bigly designs, logos, page headers, catch symbols, contents and administration names are trademarks or exchange dress of Bigly Technologies Pvt. Ltd. Bigly trademarks and exchange dress may not be utilized as a part of association with any item or administration that isn't Bigly, in any way that is probably going to cause perplexity among clients, in any way that weakens Bigly 's rights, or in any way that demonizes or dishonors Bigly All different trademarks not claimed by Bigly that show up on the Bigly site are the property of their individual proprietors, who might be subsidiary with, associated with, or supported by Bigly Any pictures of people or identities contained on the Bigly site should not be an indication of underwriting of a specific item or our administration unless generally particularly demonstrated.
-
-<h2>Account Access & Identity Protection</h2>
-
-In order to provide you with ease of access to your account, Bigly will place a cookie (a small text file) on any computer from which you access to the Bigly website. When you revisit the Bigly website, this cookie will enable us to recognize you as a previous user or as the account holder and provide you with direct access to your account without requiring you to retype any password or other user identification. You are responsible for updating and maintaining the truth and accuracy of the information you provide to us relating to your account.
-
-You are also responsible for maintaining the confidentiality/privacy/secrecy of your account and password and for restricting access to your computer. You may not share your account with other people by providing them your password. However, if you decide to share your account with other people, you assume full liability for their activities and liabilities. Users of public or shared computers should log out at the completion of each visit to the Bigly website.
-
-If you find that you’re a victim of identity theft and it involves a Bigly account, you should notify customer service. Then, you should report this instance to all your credit card issuers, as well as your local law enforcement agency.
-
-<h2>Payment Obligations</h2>
-
-The Member understands that a legitimate type of payments must go with all requests.
-
-<h2>Warranty</h2>
-
-All warranties for products purchased through Bigly are the responsibility of the respective manufacturers and their agents. All issues, claims and questions concerning product warranties should be submitted directly to the manufacturers. In the event that the product is a health related device or nutritional supplement, all information contained on the website, including information relating to medical and health conditions, products and treatments, is for informational purposes only. The information on the Bigly website, or information provided by the manufacturers of the products, or information on product packaging or labels is not meant to be a substitute for the advice of a physician or other medical professional and should not be used for prescribing a medication or diagnosing a health problem.
-
-<h2>Copyrights</h2>
-
-Bigly and its provider and distribution partners save possession and copyright to all materials distributed by Bigly Reproductions and adjustments of individual item pictures and portrayals might be utilized for showcasing and exchanging purposes. You should get composed permission from Bigly for some other utilize or any alteration of item pictures and other copyrighted materials. Bigly enables its individuals to exchange the items we have from our providers.
-
-<h2>Products</h2>
-
-Bigly strives intelligently to give as exact data as could be possible. Nonetheless, as all determinations and portrayals are given by the provider of the item. Bigly makes no guarantee communicated or accuracy of the information, including price, descriptions, specifications, and/or quantities. Both the item and maker names are utilized just with the end goal of identity proof. Individuals are in charge of ensuring the item data is right preceding offering any items from this site with the item's particular Manufacturers.
-
-Data Exports
-Bigly determinedly endeavors to give as exact data as could be possible. Nonetheless, as all determinations and portrayals are given by the provider of the item Bigly makes no guarantee communicated or accuracy of the information, including price, descriptions, specifications, and/or quantities. Both the item and maker names are utilized just with the end goal of identity proof. Individuals are in charge of ensuring the item data is right preceding offering any items from this site with the item's particular Manufacturers.
-
-<h2>Shipping & Handling Charges</h2>
-
-You are responsible to pay the transportation and taking care of charges for all items acquired from Bigly. You are responsible for these charges for shipments that are denied or returned for any reason. We are not in charge of co-incidental or considerable harms or misfortunes to blemished items, blunders in transportation your request, or different mistakes. The cutoff of our risk is the substitution cost of anything you buy from us. ANY ODD Estimated OR Unnecessary WEIGHTED Things MAY REQUIRE A CUSTOM Transportation COST Computation FROM BIGLY. ON THESE Events, THE Items Won't SHIP Until the point that YOU HAVE Affirmed THE CUSTOM Delivery COST.
-
-<h2>Order Replacement</h2>
-
-Bigly is not responsible for any mishappening, misfortune, or harms because of lost, mis-requested or other typographical blunders that happen during order placement. The individuals has sole duty regarding checking the exactness of the order placement including real thing, estimating, shipping, and additionally taking care of, before arrange accommodation. Order placement means (single, batch or API) does not change member responsibility and subsequent financial responsibility. 
-
-Once a request is put, it can't be changed in any capacity. Be that as it may, in specific situations, requests can be cancelled out as well as adjusted. If the Member contacts Bigly customer service department using the online form as soon as possible with a change request, it may be occasionally possible to amend the order. Bigly is not in charge of any misfortune, or harms that are a result of a change request occurring after the order has been placed.
-
-<h2>Order Returns</h2>
-BiglyDropship have 7 days of return policy for any kind of product for Suppliers and Sellers. If Supplier is not providing Return Policy for their product because of Product’s nature then BiglyDropship will not provide return for that product.
-Fraud Protection
-
-As a spearheading leader in the drop shipping industry, Bigly is proud to be the one of the company who offering fraud protection (members only) for drop shipping. As a Bigly member, you automatically receive this service at no additional cost.
-
-<h2>Taxes</h2>
-
-As a client of Bigly, you understand that you are absolutely independent entity from Bigly. You are responsible to pay taxes to state, federal or local authorities in accordance with any and all applicable laws. This tax responsibility includes collecting and remitting all appropriate taxes to state and local authorities.
-
-<h2>Product Sale & Value Disclaimer</h2>
-
-Although every one of the suppliers Bigly works with are approved wholesalers of the items they offer, and Bigly is approved to go about as a setting to supply said items, this indicates all things are reasonable for resale under a specific condition or scene. Bigly acts only as a venue to provide access to wholesale product distributors.
-
-Please note, some items which are prohibited are not necessarily against the law to sell, but are simply items that eBay, Flipkart, amazon or Snapdeal has decided to prohibit based on their own decision. Bigly has no control over what is and isn’t legal in any venue or region and is not responsible for the sale of any product through our services.
-
-<h2>Legal Course</h2>
-
-You and Bigly agree that the laws shall have exclusive jurisdiction over any dispute or claims, policies, and procedures between you and Bigly relating in any way to the Bigly service or website or these Terms. You and Bigly expressly and irrevocably consent to personal jurisdiction and venue in these courts. The non-prevailing party shall pay all attorney’s fees and court costs.
-
-<h2>Limitations on Use</h2>
-
-You should be 18 years old or more seasoned to subscribe to the Bigly services. While people younger than 18 may use the administration, they may do as such just with the inclusion of a parent or lawful guardian. Unless generally determined we permit you to get to the Bigly site. You may not download (other than through page storing important for individual utilize), adjust, duplicate, convey, transmit, show, perform, recreate, copy, distribute, permit, make subordinate works from, or offer available to be purchased any data contained on, or got from, the Bigly site without our express composed assent. Any unauthorized use of the Bigly website or its contents will terminate the limited license granted by us.
-
-<h2>Amendments</h2>
-
-Bigly reserves the right to make amendments to this agreement at any time without informing you. Amendments may be the result of changes in economic, legal, or other factors that affect the business of Bigly.
-
-<h2>Product Export</h2>
-
-Due to the nature of the product export no refunds will be granted for this service.
-
-<h2>Payment</h2>
-
-It is the Member’s responsibility to obtain payment or assurance of payment from their individual customers before ordering with Bigly. Bigly strongly recommends obtaining proper address verification systems (AVS) for credit card purchases and making sure all checks are deposited and cleared before placing the order with Bigly. Orders placed with Bigly are very difficult to cancel, and are subject to any restocking fees.
-
-<h2>Severability</h2>
-
-If one or more of the provisions of the policies and procedures in this user agreement are deemed void by law in a court of competent jurisdiction, the balance of the policies and procedures’ remaining provisions, or any provision in the Bigly manual, shall continue in full force and effect.
-    </div>
-</body>
-</html>
+{
+    "faqs": [
+        {
+            "que": "{\"What is Bigly\"",
+            "ans": "\"BigLy is Ecommerce platform tool\""
+        },
+        {
+            "que": "\"What is pricing\"",
+            "ans": "\"Goto app.bigly.io\\/pricing to check pricing\"}"
+        }
+    ]
+}
 ```
+
+
+
+
+<!-- 31-->
+
+## Update Faqs
+
+**API** `http://dropship.bigly.io/api/updateFaq`
+
+**Method** : Post
+
+
+### Response
+
+```
+{
+    "faqs": [
+        {
+            "que": "{\"What is Bigly\"",
+            "ans": "\"BigLy is Ecommerce platform tool\""
+        },
+        {
+            "que": "\"What is pricing\"",
+            "ans": "\"Goto app.bigly.io\\/pricing to check pricing\"}"
+        }
+    ]
+}
+```
+
 
 
