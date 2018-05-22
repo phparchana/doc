@@ -31,7 +31,8 @@
     27. Edit Profile
     28. Update Profile
     29. My WishLists
-    30. Terms and Condition
+    30. Get Faqs
+    31. Update Faqs
 
 
 
@@ -187,448 +188,187 @@ _Example_
         "current_page": 1,
         "data": [
             {
-                "id": 1,
+                "id": 13,
                 "user_id": 1,
-                "name": "cfdsgvd",
+                "name": "TT Bags Backpacks laptop bag Travel Accessories Fashion Waist Packs Blue Color With laptop Compartment",
                 "slug": "",
-                "bdpin": "1b2327d1-313d-368b-bd91-0638931d5ff5",
-                "brand_id": null,
-                "model": null,
-                "sku": "6b9390ec-1992-3bcb-b658-5743a401ca9c",
-                "description": "There was a long tail, certainly,' said Alice, swallowing down her anger as well as if nothing had happened. 'How am I then? Tell me that first, and then, and holding it to be found: all she could.",
-                "specification": null,
-                "weight": "5904.00",
-                "length": "5079.00",
-                "width": "8730.00",
-                "height": "3265.00",
-                "amount": "37.00",
-                "quantity": 0,
+                "bdpin": "",
+                "brand_id": 1,
+                "model": "BAG15",
+                "sku": "BAG15",
+                "description": "Built for fast moving pursuits, the TT Backpack holds all your essential for long day on a trail. It is robust backpack proving protection, It comes equipped with a large padded pocket, internal and external accessory pouches which zip for extra security Comfort was also no sacrifice in the design of this backpack. To ensure that you keep going on your journey throughout the day, the TT bags has two padded adjustable shoulder straps and a padded back panel. You will hardly know you are wearing it! And when you finally stop to take a rest, this backpack will securely stand upright to ensure none of your products are damaged when you set it down.",
+                "specification": "Model Number\tBAG15\r\nItem Height\t15 Centimeters\r\nItem Length\t20 Centimeters\r\nItem Width\t5 Centimeters\r\nVolume Capacity\t20 Liters\r\nItem Weight\t430 Grams\r\nMaterial\tPolyester\r\nSpecial Features\tZip Closure, Shoulder Strap, Laptop Compartment\r\nClosure\tZipper\r\nInner Material\tSatin\r\nStrap\tAdjustable\r\nWarranty Type\tManufacturer",
+                "weight": "500.00",
+                "length": "40.00",
+                "width": "20.00",
+                "height": "30.00",
+                "amount": "449.00",
+                "quantity": 20,
                 "status": 1,
                 "source": "bigly",
                 "source_id": null,
-                "created_at": "2018-03-01 10:54:50",
-                "updated_at": "2018-04-06 10:09:16",
-                "min_price": "0.00",
-                "max_price": "0.00",
-                "shipping_charge": "0.00",
+                "created_at": "2017-11-18 19:04:52",
+                "updated_at": "2018-05-08 23:02:32",
+                "min_price": "449.00",
+                "max_price": "1299.00",
+                "shipping_charge": "75.00",
                 "attributes": [],
-                "isWishlist": 1,
-                "organization": null,
-                "media": [
-                    {
-                        "id": 2,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/business/2",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/business/2",
-                        "large": "http://lorempixel.com/1280/720/business/2",
-                        "caption": null,
-                        "default": 1,
-                        "check": "pending"
-                    }
-                ],
-                "categories": [
-                    {
-                        "id": 38,
-                        "name": "Keebler-Huels",
-                        "description": "",
-                        "meta_title": "",
-                        "meta_des": "",
-                        "meta_keywords": "",
-                        "slug": "",
-                        "parent_id": null,
-                        "status": 1
-                    },
-                    {
-                        "id": 17,
-                        "name": "Denesik-Ondricka",
-                        "description": "",
-                        "meta_title": "",
-                        "meta_des": "",
-                        "meta_keywords": "",
-                        "slug": "",
-                        "parent_id": null,
-                        "status": 1
-                    },
-                    {
-                        "id": 28,
-                        "name": "Lubowitz Group",
-                        "description": "",
-                        "meta_title": "",
-                        "meta_des": "",
-                        "meta_keywords": "",
-                        "slug": "",
-                        "parent_id": null,
-                        "status": 1
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "user_id": 2,
-                "name": "Wunsch, Kerluke and Kuphal",
-                "slug": "",
-                "bdpin": "4c9d0997-baed-3284-827c-a0aa81b51bfb",
-                "brand_id": null,
-                "model": null,
-                "sku": "26463d4a-d488-35b8-b61f-84d865a1e943",
-                "description": "Alice, in a tone of the door that led into the court, by the hedge!' then silence, and then the puppy began a series of short charges at the March Hare said in an agony of terror. 'Oh, there goes.",
-                "specification": null,
-                "weight": "1648.00",
-                "length": "1464.00",
-                "width": "4143.00",
-                "height": "4618.00",
-                "amount": "68.00",
-                "quantity": 16,
-                "status": 1,
-                "source": "bigly",
-                "source_id": null,
-                "created_at": "2018-03-01 10:54:50",
-                "updated_at": "2018-03-01 10:54:50",
-                "min_price": "0.00",
-                "max_price": "0.00",
-                "shipping_charge": "0.00",
-                "attributes": [],
-                "isWishlist": 0,
-                "organization": null,
-                "media": [
-                    {
-                        "id": 3,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/technics/3",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/technics/3",
-                        "large": "http://lorempixel.com/1280/720/technics/3",
-                        "caption": null,
-                        "default": 1,
-                        "check": "pending"
-                    }
-                ],
-                "categories": [
-                    {
-                        "id": 23,
-                        "name": "Ledner-Harber",
-                        "description": "",
-                        "meta_title": "",
-                        "meta_des": "",
-                        "meta_keywords": "",
-                        "slug": "",
-                        "parent_id": null,
-                        "status": 1
-                    },
-                    {
-                        "id": 32,
-                        "name": "Denesik Group",
-                        "description": "",
-                        "meta_title": "",
-                        "meta_des": "",
-                        "meta_keywords": "",
-                        "slug": "",
-                        "parent_id": null,
-                        "status": 1
-                    },
-                    {
-                        "id": 27,
-                        "name": "Emmerich-Schultz",
-                        "description": "",
-                        "meta_title": "",
-                        "meta_des": "",
-                        "meta_keywords": "",
-                        "slug": "",
-                        "parent_id": null,
-                        "status": 1
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "user_id": 1,
-                "name": "Rogahn-Corkery",
-                "slug": "",
-                "bdpin": "875a9c56-0d9b-3215-ac5f-8ea83e05b9c4",
-                "brand_id": null,
-                "model": null,
-                "sku": "90e353ca-5fca-3df5-8989-6bed37d9368b",
-                "description": "Mock Turtle repeated thoughtfully. 'I should like to be managed? I suppose Dinah'll be sending me on messages next!' And she began again: 'Ou est ma chatte?' which was immediately suppressed by the.",
-                "specification": null,
-                "weight": "3700.00",
-                "length": "2745.00",
-                "width": "3881.00",
-                "height": "744.00",
-                "amount": "18.00",
-                "quantity": 0,
-                "status": 1,
-                "source": "bigly",
-                "source_id": null,
-                "created_at": "2018-03-01 10:54:50",
-                "updated_at": "2018-03-01 10:54:50",
-                "min_price": "0.00",
-                "max_price": "0.00",
-                "shipping_charge": "0.00",
-                "attributes": [],
-                "isWishlist": 0,
-                "organization": null,
-                "media": [
-                    {
-                        "id": 4,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/business/4",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/business/4",
-                        "large": "http://lorempixel.com/1280/720/business/4",
-                        "caption": null,
-                        "default": 1,
-                        "check": "pending"
-                    },
-                    {
-                        "id": 5,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/sports/4",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/sports/4",
-                        "large": "http://lorempixel.com/1280/720/sports/4",
-                        "caption": null,
-                        "default": 0,
-                        "check": "pending"
-                    }
-                ],
-                "categories": [
-                    {
-                        "id": 47,
-                        "name": "Ferry-Larkin",
-                        "description": "",
-                        "meta_title": "",
-                        "meta_des": "",
-                        "meta_keywords": "",
-                        "slug": "",
-                        "parent_id": null,
-                        "status": 1
-                    },
-                    {
-                        "id": 46,
-                        "name": "Schowalter, Yost and Fisher",
-                        "description": "",
-                        "meta_title": "",
-                        "meta_des": "",
-                        "meta_keywords": "",
-                        "slug": "",
-                        "parent_id": null,
-                        "status": 1
-                    },
-                    {
-                        "id": 33,
-                        "name": "Glover Group",
-                        "description": "",
-                        "meta_title": "",
-                        "meta_des": "",
-                        "meta_keywords": "",
-                        "slug": "",
-                        "parent_id": null,
-                        "status": 1
-                    }
-                ]
-            },
-            {
-                "id": 4,
-                "user_id": 1,
-                "name": "McClure-Jakubowski",
-                "slug": "",
-                "bdpin": "98ca4aa1-2555-3ec0-9918-89eb0e980c38",
-                "brand_id": null,
-                "model": null,
-                "sku": "0d4471c9-5683-3f2c-8717-8c24152dde61",
-                "description": "Mock Turtle said: 'no wise fish would go through,' thought poor Alice, 'to speak to this last remark that had fluttered down from the time at the end.' 'If you didn't sign it,' said Alice. 'That's.",
-                "specification": null,
-                "weight": "7469.00",
-                "length": "4855.00",
-                "width": "7561.00",
-                "height": "1356.00",
-                "amount": "91.00",
-                "quantity": 0,
-                "status": 1,
-                "source": "bigly",
-                "source_id": null,
-                "created_at": "2018-03-01 10:54:50",
-                "updated_at": "2018-03-01 10:54:50",
-                "min_price": "0.00",
-                "max_price": "0.00",
-                "shipping_charge": "0.00",
-                "attributes": [],
-                "isWishlist": 0,
-                "organization": null,
-                "media": [
-                    {
-                        "id": 6,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/technics/5",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/technics/5",
-                        "large": "http://lorempixel.com/1280/720/technics/5",
-                        "caption": null,
-                        "default": 1,
-                        "check": "pending"
-                    },
-                    {
-                        "id": 7,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/transport/5",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/transport/5",
-                        "large": "http://lorempixel.com/1280/720/transport/5",
-                        "caption": null,
-                        "default": 0,
-                        "check": "pending"
-                    },
-                    {
-                        "id": 8,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/business/5",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/business/5",
-                        "large": "http://lorempixel.com/1280/720/business/5",
-                        "caption": null,
-                        "default": 0,
-                        "check": "pending"
-                    },
-                    {
-                        "id": 9,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/nightlife/5",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/nightlife/5",
-                        "large": "http://lorempixel.com/1280/720/nightlife/5",
-                        "caption": null,
-                        "default": 0,
-                        "check": "pending"
-                    },
-                    {
-                        "id": 10,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/food/5",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/food/5",
-                        "large": "http://lorempixel.com/1280/720/food/5",
-                        "caption": null,
-                        "default": 0,
-                        "check": "pending"
-                    }
-                ],
-                "categories": [
-                    {
-                        "id": 39,
-                        "name": "Gutmann-McCullough",
-                        "description": "",
-                        "meta_title": "",
-                        "meta_des": "",
-                        "meta_keywords": "",
-                        "slug": "",
-                        "parent_id": null,
-                        "status": 1
-                    }
-                ]
-            },
-            {
-                "id": 5,
-                "user_id": 1,
-                "name": "Dare-Ullrich",
-                "slug": "",
-                "bdpin": "97be2e6f-77bc-3ac9-829d-e36d82dc9738",
-                "brand_id": null,
-                "model": null,
-                "sku": "a3081055-0a52-349b-aa00-4cf9cb2d7c34",
-                "description": "ALL RETURNED FROM HIM TO YOU,\"' said Alice. 'Then you should say what you were or might have been a RED rose-tree, and we won't talk about cats or dogs either, if you like,' said the Rabbit's voice;.",
-                "specification": null,
-                "weight": "3578.00",
-                "length": "593.00",
-                "width": "8598.00",
-                "height": "9802.00",
-                "amount": "83.00",
-                "quantity": 0,
-                "status": 1,
-                "source": "bigly",
-                "source_id": null,
-                "created_at": "2018-03-01 10:54:50",
-                "updated_at": "2018-03-01 10:54:50",
-                "min_price": "0.00",
-                "max_price": "0.00",
-                "shipping_charge": "0.00",
-                "attributes": [],
-                "isWishlist": 0,
+                "isWishlist": true,
+                "brand_name": "TT BAGS",
                 "organization": null,
                 "media": [
                     {
                         "id": 11,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/people/6",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/people/6",
-                        "large": "http://lorempixel.com/1280/720/people/6",
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1511012127-15-1.jpg",
+                        "small": "media/small/1511012127-15-1.jpg",
+                        "medium": "media/medium/1511012127-15-1.jpg",
+                        "large": "http://localhost:8000/media/large/1511012127-15-1.jpg",
                         "caption": null,
-                        "default": 1,
+                        "default": 0,
                         "check": "pending"
                     },
                     {
                         "id": 12,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/nightlife/6",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/nightlife/6",
-                        "large": "http://lorempixel.com/1280/720/nightlife/6",
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1511012127-15-2.jpg",
+                        "small": "media/small/1511012127-15-2.jpg",
+                        "medium": "media/medium/1511012127-15-2.jpg",
+                        "large": "http://localhost:8000/media/large/1511012127-15-2.jpg",
                         "caption": null,
                         "default": 0,
                         "check": "pending"
                     },
                     {
                         "id": 13,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/people/6",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/people/6",
-                        "large": "http://lorempixel.com/1280/720/people/6",
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1511012128-15-3.jpg",
+                        "small": "media/small/1511012128-15-3.jpg",
+                        "medium": "media/medium/1511012128-15-3.jpg",
+                        "large": "http://localhost:8000/media/large/1511012128-15-3.jpg",
                         "caption": null,
                         "default": 0,
                         "check": "pending"
                     },
                     {
                         "id": 14,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/nature/6",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/nature/6",
-                        "large": "http://lorempixel.com/1280/720/nature/6",
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1511012129-15-4.jpg",
+                        "small": "media/small/1511012129-15-4.jpg",
+                        "medium": "media/medium/1511012129-15-4.jpg",
+                        "large": "http://localhost:8000/media/large/1511012129-15-4.jpg",
                         "caption": null,
                         "default": 0,
                         "check": "pending"
                     },
                     {
                         "id": 15,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/people/6",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/people/6",
-                        "large": "http://lorempixel.com/1280/720/people/6",
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1511012130-15-5.jpg",
+                        "small": "media/small/1511012130-15-5.jpg",
+                        "medium": "media/medium/1511012130-15-5.jpg",
+                        "large": "http://localhost:8000/media/large/1511012130-15-5.jpg",
                         "caption": null,
                         "default": 0,
                         "check": "pending"
-                    },
+                    }
+                ],
+                "categories": [
+                    {
+                        "id": 100,
+                        "name": "Luggage & Bags - Backpacks",
+                        "description": "",
+                        "meta_title": "",
+                        "meta_des": "",
+                        "meta_keywords": "",
+                        "slug": "",
+                        "parent_id": null,
+                        "status": 1
+                    }
+                ],
+                "user_product": null
+            },
+            {
+                "id": 14,
+                "user_id": 1,
+                "name": "TT Bags Backpacks laptop bag Travel Accessories Fashion Waist Packs Green Color With laptop Compartment",
+                "slug": "",
+                "bdpin": "",
+                "brand_id": 1,
+                "model": "BAG16",
+                "sku": "BAG16",
+                "description": "Built for fast moving pursuits, the TT Backpack holds all your essential for long day on a trail. It is robust backpack proving protection, It comes equipped with a large padded pocket, internal and external accessory pouches which zip for extra security Comfort was also no sacrifice in the design of this backpack. To ensure that you keep going on your journey throughout the day, the TT bags has two padded adjustable shoulder straps and a padded back panel. You will hardly know you are wearing it! And when you finally stop to take a rest, this backpack will securely stand upright to ensure none of your products are damaged when you set it down.",
+                "specification": "Model Number\tBAG16\r\nItem Height\t15 Centimeters\r\nItem Length\t20 Centimeters\r\nItem Width\t5 Centimeters\r\nVolume Capacity\t20 Liters\r\nItem Weight\t430 Grams\r\nMaterial\tPolyester\r\nSpecial Features\tZip Closure, Shoulder Strap, Laptop Compartment\r\nClosure\tZipper\r\nInner Material\tSatin\r\nStrap\tAdjustable\r\nWarranty Type\tManufacturer",
+                "weight": "500.00",
+                "length": "40.00",
+                "width": "20.00",
+                "height": "30.00",
+                "amount": "449.00",
+                "quantity": 20,
+                "status": 1,
+                "source": "bigly",
+                "source_id": null,
+                "created_at": "2017-11-18 19:09:41",
+                "updated_at": "2018-05-08 23:02:26",
+                "min_price": "449.00",
+                "max_price": "1299.00",
+                "shipping_charge": "75.00",
+                "attributes": [],
+                "isWishlist": false,
+                "brand_name": "TT BAGS",
+                "organization": null,
+                "media": [
                     {
                         "id": 16,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/nightlife/6",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/nightlife/6",
-                        "large": "http://lorempixel.com/1280/720/nightlife/6",
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1511012497-16-1.jpg",
+                        "small": "media/small/1511012497-16-1.jpg",
+                        "medium": "media/medium/1511012497-16-1.jpg",
+                        "large": "http://localhost:8000/media/large/1511012497-16-1.jpg",
                         "caption": null,
                         "default": 0,
                         "check": "pending"
                     },
                     {
                         "id": 17,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/nature/6",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/nature/6",
-                        "large": "http://lorempixel.com/1280/720/nature/6",
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1511012498-16-2.jpg",
+                        "small": "media/small/1511012498-16-2.jpg",
+                        "medium": "media/medium/1511012498-16-2.jpg",
+                        "large": "http://localhost:8000/media/large/1511012498-16-2.jpg",
+                        "caption": null,
+                        "default": 0,
+                        "check": "pending"
+                    },
+                    {
+                        "id": 18,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1511012498-16-3.jpg",
+                        "small": "media/small/1511012498-16-3.jpg",
+                        "medium": "media/medium/1511012498-16-3.jpg",
+                        "large": "http://localhost:8000/media/large/1511012498-16-3.jpg",
+                        "caption": null,
+                        "default": 0,
+                        "check": "pending"
+                    },
+                    {
+                        "id": 19,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1511012499-16-4.jpg",
+                        "small": "media/small/1511012499-16-4.jpg",
+                        "medium": "media/medium/1511012499-16-4.jpg",
+                        "large": "http://localhost:8000/media/large/1511012499-16-4.jpg",
+                        "caption": null,
+                        "default": 0,
+                        "check": "pending"
+                    },
+                    {
+                        "id": 20,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1511012500-16-5.jpg",
+                        "small": "media/small/1511012500-16-5.jpg",
+                        "medium": "media/medium/1511012500-16-5.jpg",
+                        "large": "http://localhost:8000/media/large/1511012500-16-5.jpg",
                         "caption": null,
                         "default": 0,
                         "check": "pending"
@@ -636,8 +376,8 @@ _Example_
                 ],
                 "categories": [
                     {
-                        "id": 47,
-                        "name": "Ferry-Larkin",
+                        "id": 100,
+                        "name": "Luggage & Bags - Backpacks",
                         "description": "",
                         "meta_title": "",
                         "meta_des": "",
@@ -646,121 +386,99 @@ _Example_
                         "parent_id": null,
                         "status": 1
                     }
-                ]
+                ],
+                "user_product": {
+                    "id": 35909,
+                    "user_id": 759,
+                    "product_id": 14,
+                    "name": "sakshii bag",
+                    "amount": "230.00",
+                    "created_at": "2018-05-21 19:08:35",
+                    "updated_at": "2018-05-22 11:36:06",
+                    "description": ""
+                }
             },
             {
-                "id": 6,
+                "id": 15,
                 "user_id": 1,
-                "name": "Becker Inc",
+                "name": "TT Bags Unisex Backpacks Blue Color With laptop Compartment",
                 "slug": "",
-                "bdpin": "8b6b5866-bc7b-3ab5-8bd9-5790e2295379",
-                "brand_id": null,
-                "model": null,
-                "sku": "9a739e95-43f0-3349-8e72-818a27ac592e",
-                "description": "King, 'that saves a world of trouble, you know, this sort of knot, and then the different branches of Arithmetic--Ambition, Distraction, Uglification, and Derision.' 'I never was so large a house.",
-                "specification": null,
-                "weight": "8032.00",
-                "length": "4533.00",
-                "width": "1614.00",
-                "height": "687.00",
-                "amount": "92.00",
-                "quantity": 0,
+                "bdpin": "",
+                "brand_id": 1,
+                "model": "BAG17s",
+                "sku": "BAG17s",
+                "description": "Built for fast moving pursuits, the TT Backpack holds all your essential for long day on a trail. It is robust backpack proving protection, It comes equipped with a large padded pocket, internal and external accessory pouches which zip for extra security Comfort was also no sacrifice in the design of this backpack. To ensure that you keep going on your journey throughout the day, the TT bags has two padded adjustable shoulder straps and a padded back panel. You will hardly know you are wearing it! And when you finally stop to take a rest, this backpack will securely stand upright to ensure none of your products are damaged when you set it down.",
+                "specification": "Model Number\tBAG17s\r\nItem Height\t15 Centimeters\r\nItem Length\t20 Centimeters\r\nItem Width\t5 Centimeters\r\nVolume Capacity\t20 Liters\r\nItem Weight\t430 Grams\r\nMaterial\tPolyester\r\nSpecial Features\tZip Closure, Shoulder Strap, Laptop Compartment\r\nClosure\tZipper\r\nInner Material\tSatin\r\nStrap\tAdjustable\r\nWarranty Type\tManufacturer",
+                "weight": "500.00",
+                "length": "40.00",
+                "width": "20.00",
+                "height": "30.00",
+                "amount": "399.00",
+                "quantity": 20,
                 "status": 1,
                 "source": "bigly",
                 "source_id": null,
-                "created_at": "2018-03-01 10:54:50",
-                "updated_at": "2018-03-01 10:54:50",
-                "min_price": "0.00",
-                "max_price": "0.00",
-                "shipping_charge": "0.00",
+                "created_at": "2017-11-18 19:20:27",
+                "updated_at": "2018-05-08 23:02:20",
+                "min_price": "399.00",
+                "max_price": "1299.00",
+                "shipping_charge": "75.00",
                 "attributes": [],
-                "isWishlist": 0,
+                "isWishlist": false,
+                "brand_name": "TT BAGS",
                 "organization": null,
                 "media": [
                     {
-                        "id": 18,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/business/7",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/business/7",
-                        "large": "http://lorempixel.com/1280/720/business/7",
-                        "caption": null,
-                        "default": 1,
-                        "check": "pending"
-                    },
-                    {
-                        "id": 19,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/people/7",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/people/7",
-                        "large": "http://lorempixel.com/1280/720/people/7",
-                        "caption": null,
-                        "default": 0,
-                        "check": "pending"
-                    },
-                    {
-                        "id": 20,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/nature/7",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/nature/7",
-                        "large": "http://lorempixel.com/1280/720/nature/7",
-                        "caption": null,
-                        "default": 0,
-                        "check": "pending"
-                    },
-                    {
                         "id": 21,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/sports/7",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/sports/7",
-                        "large": "http://lorempixel.com/1280/720/sports/7",
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1511013060-17-1.jpg",
+                        "small": "media/small/1511013060-17-1.jpg",
+                        "medium": "media/medium/1511013060-17-1.jpg",
+                        "large": "http://localhost:8000/media/large/1511013060-17-1.jpg",
                         "caption": null,
                         "default": 0,
                         "check": "pending"
                     },
                     {
                         "id": 22,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/fashion/7",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/fashion/7",
-                        "large": "http://lorempixel.com/1280/720/fashion/7",
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1511013061-17-2.jpg",
+                        "small": "media/small/1511013061-17-2.jpg",
+                        "medium": "media/medium/1511013061-17-2.jpg",
+                        "large": "http://localhost:8000/media/large/1511013061-17-2.jpg",
                         "caption": null,
                         "default": 0,
                         "check": "pending"
                     },
                     {
                         "id": 23,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/business/7",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/business/7",
-                        "large": "http://lorempixel.com/1280/720/business/7",
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1511013062-17-3.jpg",
+                        "small": "media/small/1511013062-17-3.jpg",
+                        "medium": "media/medium/1511013062-17-3.jpg",
+                        "large": "http://localhost:8000/media/large/1511013062-17-3.jpg",
                         "caption": null,
                         "default": 0,
                         "check": "pending"
                     },
                     {
                         "id": 24,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/transport/7",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/transport/7",
-                        "large": "http://lorempixel.com/1280/720/transport/7",
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1511013063-17-4.jpg",
+                        "small": "media/small/1511013063-17-4.jpg",
+                        "medium": "media/medium/1511013063-17-4.jpg",
+                        "large": "http://localhost:8000/media/large/1511013063-17-4.jpg",
                         "caption": null,
                         "default": 0,
                         "check": "pending"
                     },
                     {
                         "id": 25,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/transport/7",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/transport/7",
-                        "large": "http://lorempixel.com/1280/720/transport/7",
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1511013064-17-5.jpg",
+                        "small": "media/small/1511013064-17-5.jpg",
+                        "medium": "media/medium/1511013064-17-5.jpg",
+                        "large": "http://localhost:8000/media/large/1511013064-17-5.jpg",
                         "caption": null,
                         "default": 0,
                         "check": "pending"
@@ -768,30 +486,8 @@ _Example_
                 ],
                 "categories": [
                     {
-                        "id": 11,
-                        "name": "Stracke PLC",
-                        "description": "",
-                        "meta_title": "",
-                        "meta_des": "",
-                        "meta_keywords": "",
-                        "slug": "",
-                        "parent_id": null,
-                        "status": 1
-                    },
-                    {
-                        "id": 5,
-                        "name": "Jacobi-Jakubowski",
-                        "description": "",
-                        "meta_title": "",
-                        "meta_des": "",
-                        "meta_keywords": "",
-                        "slug": "",
-                        "parent_id": null,
-                        "status": 1
-                    },
-                    {
-                        "id": 44,
-                        "name": "Wunsch Inc",
+                        "id": 100,
+                        "name": "Luggage & Bags - Backpacks",
                         "description": "",
                         "meta_title": "",
                         "meta_des": "",
@@ -800,209 +496,99 @@ _Example_
                         "parent_id": null,
                         "status": 1
                     }
-                ]
+                ],
+                "user_product": {
+                    "id": 35849,
+                    "user_id": 759,
+                    "product_id": 15,
+                    "name": "yo",
+                    "amount": "222.00",
+                    "created_at": null,
+                    "updated_at": null,
+                    "description": ""
+                }
             },
             {
-                "id": 7,
+                "id": 17,
                 "user_id": 1,
-                "name": "Fahey Group",
+                "name": "TT Bags Backpacks laptop bags Travel Accessories Fashion Waist Packs Green Color With laptop Compartment",
                 "slug": "",
-                "bdpin": "4f7756c2-d481-3dda-92f6-baf9d6cc624b",
-                "brand_id": null,
-                "model": null,
-                "sku": "7f00dd58-74b0-30b5-a637-3be164e3ee5c",
-                "description": "There was nothing on it except a little girl,' said Alice, rather doubtfully, as she went round the thistle again; then the Rabbit's voice along--'Catch him, you by the White Rabbit put on your.",
-                "specification": null,
-                "weight": "7591.00",
-                "length": "8825.00",
-                "width": "5296.00",
-                "height": "8837.00",
-                "amount": "64.00",
-                "quantity": 0,
+                "bdpin": "",
+                "brand_id": 1,
+                "model": "BAG18",
+                "sku": "BAG18",
+                "description": "Built for fast moving pursuits, the TT Backpack holds all your essential for long day on a trail. It is robust backpack proving protection, It comes equipped with a large padded pocket, internal and external accessory pouches which zip for extra security Comfort was also no sacrifice in the design of this backpack. To ensure that you keep going on your journey throughout the day, the TT bags has two padded adjustable shoulder straps and a padded back panel. You will hardly know you are wearing it! And when you finally stop to take a rest, this backpack will securely stand upright to ensure none of your products are damaged when you set it down.",
+                "specification": "Model Number\tBAG20\r\nItem Height\t15 Centimeters\r\nItem Length\t20 Centimeters\r\nItem Width\t5 Centimeters\r\nVolume Capacity\t20 Liters\r\nItem Weight\t430 Grams\r\nMaterial\tPolyester\r\nSpecial Features\tZip Closure, Shoulder Strap, Laptop Compartment\r\nClosure\tZipper\r\nInner Material\tSatin\r\nStrap\tAdjustable\r\nWarranty Type\tManufacturer",
+                "weight": "500.00",
+                "length": "40.00",
+                "width": "20.00",
+                "height": "30.00",
+                "amount": "249.00",
+                "quantity": 20,
                 "status": 1,
                 "source": "bigly",
                 "source_id": null,
-                "created_at": "2018-03-01 10:54:50",
-                "updated_at": "2018-03-01 10:54:50",
-                "min_price": "0.00",
-                "max_price": "0.00",
-                "shipping_charge": "0.00",
+                "created_at": "2017-11-21 20:09:28",
+                "updated_at": "2018-05-08 23:02:14",
+                "min_price": "249.00",
+                "max_price": "999.00",
+                "shipping_charge": "75.00",
                 "attributes": [],
-                "isWishlist": 0,
+                "isWishlist": false,
+                "brand_name": "TT BAGS",
                 "organization": null,
                 "media": [
                     {
-                        "id": 26,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/nightlife/8",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/nightlife/8",
-                        "large": "http://lorempixel.com/1280/720/nightlife/8",
-                        "caption": null,
-                        "default": 1,
-                        "check": "pending"
-                    },
-                    {
-                        "id": 27,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/food/8",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/food/8",
-                        "large": "http://lorempixel.com/1280/720/food/8",
-                        "caption": null,
-                        "default": 0,
-                        "check": "pending"
-                    },
-                    {
-                        "id": 28,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/business/8",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/business/8",
-                        "large": "http://lorempixel.com/1280/720/business/8",
-                        "caption": null,
-                        "default": 0,
-                        "check": "pending"
-                    },
-                    {
                         "id": 29,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/nightlife/8",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/nightlife/8",
-                        "large": "http://lorempixel.com/1280/720/nightlife/8",
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1511275208-18-1.jpg",
+                        "small": "media/small/1511275208-18-1.jpg",
+                        "medium": "media/medium/1511275208-18-1.jpg",
+                        "large": "http://localhost:8000/media/large/1511275208-18-1.jpg",
                         "caption": null,
                         "default": 0,
                         "check": "pending"
                     },
                     {
                         "id": 30,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/fashion/8",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/fashion/8",
-                        "large": "http://lorempixel.com/1280/720/fashion/8",
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1511275209-18-2.jpg",
+                        "small": "media/small/1511275209-18-2.jpg",
+                        "medium": "media/medium/1511275209-18-2.jpg",
+                        "large": "http://localhost:8000/media/large/1511275209-18-2.jpg",
                         "caption": null,
                         "default": 0,
                         "check": "pending"
                     },
                     {
                         "id": 31,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/technics/8",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/technics/8",
-                        "large": "http://lorempixel.com/1280/720/technics/8",
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1511275210-18-3.jpg",
+                        "small": "media/small/1511275210-18-3.jpg",
+                        "medium": "media/medium/1511275210-18-3.jpg",
+                        "large": "http://localhost:8000/media/large/1511275210-18-3.jpg",
                         "caption": null,
                         "default": 0,
                         "check": "pending"
                     },
                     {
                         "id": 32,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/business/8",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/business/8",
-                        "large": "http://lorempixel.com/1280/720/business/8",
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1511275211-18-4.jpg",
+                        "small": "media/small/1511275211-18-4.jpg",
+                        "medium": "media/medium/1511275211-18-4.jpg",
+                        "large": "http://localhost:8000/media/large/1511275211-18-4.jpg",
                         "caption": null,
                         "default": 0,
                         "check": "pending"
-                    }
-                ],
-                "categories": [
-                    {
-                        "id": 45,
-                        "name": "Wunsch-Waters",
-                        "description": "",
-                        "meta_title": "",
-                        "meta_des": "",
-                        "meta_keywords": "",
-                        "slug": "",
-                        "parent_id": null,
-                        "status": 1
                     },
-                    {
-                        "id": 35,
-                        "name": "Hackett PLC",
-                        "description": "",
-                        "meta_title": "",
-                        "meta_des": "",
-                        "meta_keywords": "",
-                        "slug": "",
-                        "parent_id": null,
-                        "status": 1
-                    }
-                ]
-            },
-            {
-                "id": 8,
-                "user_id": 1,
-                "name": "Effertz-Rau",
-                "slug": "",
-                "bdpin": "e12465f2-e9e4-3ab3-b40c-5869e8a83fce",
-                "brand_id": null,
-                "model": null,
-                "sku": "58f582a2-01da-34df-826f-61d078ffceb6",
-                "description": "And she began thinking over other children she knew, who might do very well as she spoke; 'either you or your head must be removed,' said the Queen, pointing to the jury, in a tone of great.",
-                "specification": null,
-                "weight": "7247.00",
-                "length": "4806.00",
-                "width": "1258.00",
-                "height": "4889.00",
-                "amount": "22.00",
-                "quantity": 0,
-                "status": 1,
-                "source": "bigly",
-                "source_id": null,
-                "created_at": "2018-03-01 10:54:50",
-                "updated_at": "2018-03-01 10:54:50",
-                "min_price": "0.00",
-                "max_price": "0.00",
-                "shipping_charge": "0.00",
-                "attributes": [],
-                "isWishlist": 0,
-                "organization": null,
-                "media": [
                     {
                         "id": 33,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/transport/9",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/transport/9",
-                        "large": "http://lorempixel.com/1280/720/transport/9",
-                        "caption": null,
-                        "default": 1,
-                        "check": "pending"
-                    },
-                    {
-                        "id": 34,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/nightlife/9",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/nightlife/9",
-                        "large": "http://lorempixel.com/1280/720/nightlife/9",
-                        "caption": null,
-                        "default": 0,
-                        "check": "pending"
-                    },
-                    {
-                        "id": 35,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/food/9",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/food/9",
-                        "large": "http://lorempixel.com/1280/720/food/9",
-                        "caption": null,
-                        "default": 0,
-                        "check": "pending"
-                    },
-                    {
-                        "id": 36,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/people/9",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/people/9",
-                        "large": "http://lorempixel.com/1280/720/people/9",
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1511275211-18-5.jpg",
+                        "small": "media/small/1511275211-18-5.jpg",
+                        "medium": "media/medium/1511275211-18-5.jpg",
+                        "large": "http://localhost:8000/media/large/1511275211-18-5.jpg",
                         "caption": null,
                         "default": 0,
                         "check": "pending"
@@ -1010,19 +596,8 @@ _Example_
                 ],
                 "categories": [
                     {
-                        "id": 47,
-                        "name": "Ferry-Larkin",
-                        "description": "",
-                        "meta_title": "",
-                        "meta_des": "",
-                        "meta_keywords": "",
-                        "slug": "",
-                        "parent_id": null,
-                        "status": 1
-                    },
-                    {
-                        "id": 12,
-                        "name": "Johnston-Kuhn",
+                        "id": 100,
+                        "name": "Luggage & Bags - Backpacks",
                         "description": "",
                         "meta_title": "",
                         "meta_des": "",
@@ -1031,55 +606,62 @@ _Example_
                         "parent_id": null,
                         "status": 1
                     }
-                ]
+                ],
+                "user_product": null
             },
             {
-                "id": 9,
+                "id": 24,
                 "user_id": 1,
-                "name": "Zulauf PLC",
+                "name": "TT BAGS Mesh Bag Waterproof Backpack (Blue, 20 L)",
                 "slug": "",
-                "bdpin": "252f5236-0aae-3409-8624-8b669e2cb925",
-                "brand_id": null,
-                "model": null,
-                "sku": "8352b0b3-c323-3115-a284-7f03a81b124e",
-                "description": "She pitied him deeply. 'What is his sorrow?' she asked the Mock Turtle yet?' 'No,' said Alice. 'Then it wasn't very civil of you to set them free, Exactly as we needn't try to find my way into that.",
-                "specification": null,
-                "weight": "5335.00",
-                "length": "417.00",
-                "width": "7665.00",
-                "height": "995.00",
-                "amount": "81.00",
-                "quantity": 0,
+                "bdpin": "",
+                "brand_id": 1,
+                "model": "TT Bags12",
+                "sku": "Bkpk-16",
+                "description": "built for fast moving pursuits, the tt backpack holds all your essential for long day on a trail. It is robust backpack proving protection, the tt bags has a compartment for every need and every accessory It comes equipped with a large padded pocket, internal and external accessory pouches which zip for extra security Comfort was also no sacrifice in the design of this backpack. To ensure that you keep going on your journey throughout the day, the tt bags has two padded adjustable shoulder straps and a padded back panel. You will hardly know you are wearing it! And when you finally stop to take a rest, this backpack will securely stand upright to ensure none of your products are damaged when you set it down.",
+                "specification": "\r\n\r\nFor Men &amp; Women WaterproofLaptop Backpack\r\n\r\n\r\n",
+                "weight": "390.00",
+                "length": "15.00",
+                "width": "5.00",
+                "height": "20.00",
+                "amount": "599.00",
+                "quantity": 100,
                 "status": 1,
                 "source": "bigly",
                 "source_id": null,
-                "created_at": "2018-03-01 10:54:50",
-                "updated_at": "2018-03-01 10:54:50",
-                "min_price": "0.00",
-                "max_price": "0.00",
-                "shipping_charge": "0.00",
+                "created_at": "2017-12-16 14:15:19",
+                "updated_at": "2018-03-13 16:16:31",
+                "min_price": "599.00",
+                "max_price": "1299.00",
+                "shipping_charge": "75.00",
                 "attributes": [],
-                "isWishlist": 0,
-                "organization": null,
+                "isWishlist": false,
+                "brand_name": "TT BAGS",
+                "organization": {
+                    "id": 1,
+                    "user_id": 1,
+                    "type_id": 0,
+                    "name": "Triple Three Enterprises",
+                    "logo": "",
+                    "gst": "07AIYPB1269J1ZV",
+                    "incorporation_number": "07AIYPB1269J1ZV",
+                    "address": "House no.163, No.2 Floor Ground Block - WZ VILLAGE, DASGHARA, NEW DELHI, DELHI, IN, 110012\r\n9810795886",
+                    "introduction": "TT Bags is the manufacturer and supplier of wide range of bags such as Backpack, Travelling bags and Duffle bags.",
+                    "created_at": "2017-11-18 18:46:56",
+                    "updated_at": "2018-03-29 14:44:24",
+                    "city": "Delhi",
+                    "state": "Delhi",
+                    "pincode": "110012",
+                    "country": "India"
+                },
                 "media": [
                     {
-                        "id": 37,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/technics/10",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/technics/10",
-                        "large": "http://lorempixel.com/1280/720/technics/10",
-                        "caption": null,
-                        "default": 1,
-                        "check": "pending"
-                    },
-                    {
-                        "id": 38,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/technics/10",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/technics/10",
-                        "large": "http://lorempixel.com/1280/720/technics/10",
+                        "id": 117,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513596154-bkpk-16-tt-bags-20-original-imaetcgj6mbspdph.jpeg",
+                        "small": "media/small/1513596154-bkpk-16-tt-bags-20-original-imaetcgj6mbspdph.jpeg",
+                        "medium": "media/medium/1513596154-bkpk-16-tt-bags-20-original-imaetcgj6mbspdph.jpeg",
+                        "large": "http://localhost:8000/media/large/1513596154-bkpk-16-tt-bags-20-original-imaetcgj6mbspdph.jpeg",
                         "caption": null,
                         "default": 0,
                         "check": "pending"
@@ -1087,30 +669,8 @@ _Example_
                 ],
                 "categories": [
                     {
-                        "id": 3,
-                        "name": "Kautzer-Goyette",
-                        "description": "",
-                        "meta_title": "",
-                        "meta_des": "",
-                        "meta_keywords": "",
-                        "slug": "",
-                        "parent_id": null,
-                        "status": 1
-                    },
-                    {
-                        "id": 6,
-                        "name": "Maggio Ltd",
-                        "description": "",
-                        "meta_title": "",
-                        "meta_des": "",
-                        "meta_keywords": "",
-                        "slug": "",
-                        "parent_id": null,
-                        "status": 1
-                    },
-                    {
-                        "id": 45,
-                        "name": "Wunsch-Waters",
+                        "id": 100,
+                        "name": "Luggage & Bags - Backpacks",
                         "description": "",
                         "meta_title": "",
                         "meta_des": "",
@@ -1119,66 +679,106 @@ _Example_
                         "parent_id": null,
                         "status": 1
                     }
-                ]
+                ],
+                "user_product": null
             },
             {
-                "id": 10,
+                "id": 25,
                 "user_id": 1,
-                "name": "Stamm, Jones and Buckridge",
+                "name": "TT BAGS Mesh Bag Waterproof Backpack (Blue, 20 L)",
                 "slug": "",
-                "bdpin": "42f0495c-7b89-3aa9-9221-509eb83f9ac5",
-                "brand_id": null,
-                "model": null,
-                "sku": "93bc3aa3-dac9-349c-ae13-10a89ed51fb7",
-                "description": "Alice went on, taking first one side and up I goes like a telescope! I think that proved it at last, more calmly, though still sobbing a little bit of mushroom, and raised herself to about two feet.",
-                "specification": null,
-                "weight": "3471.00",
-                "length": "2333.00",
-                "width": "3312.00",
-                "height": "1658.00",
-                "amount": "63.00",
-                "quantity": 0,
+                "bdpin": "",
+                "brand_id": 1,
+                "model": "TT Bags13",
+                "sku": "Bkpk-2",
+                "description": "built for fast moving pursuits, the tt backpack holds all your essential for long day on a trail. It is robust backpack proving protection, the tt bags has a compartment for every need and every accessory It comes equipped with a large padded pocket, internal and external accessory pouches which zip for extra security Comfort was also no sacrifice in the design of this backpack. To ensure that you keep going on your journey throughout the day, the tt bags has two padded adjustable shoulder straps and a padded back panel. You will hardly know you are wearing it! And when you finally stop to take a rest, this backpack will securely stand upright to ensure none of your products are damaged when you set it down.",
+                "specification": "\r\n\r\nFor Men &amp; Women WaterproofLaptop Backpack\r\n\r\n\r\n",
+                "weight": "390.00",
+                "length": "15.00",
+                "width": "5.00",
+                "height": "20.00",
+                "amount": "449.00",
+                "quantity": 100,
                 "status": 1,
                 "source": "bigly",
                 "source_id": null,
-                "created_at": "2018-03-01 10:54:50",
-                "updated_at": "2018-03-01 10:54:50",
-                "min_price": "0.00",
-                "max_price": "0.00",
-                "shipping_charge": "0.00",
+                "created_at": "2017-12-16 14:15:19",
+                "updated_at": "2018-02-23 12:22:43",
+                "min_price": "449.00",
+                "max_price": "1299.00",
+                "shipping_charge": "75.00",
                 "attributes": [],
-                "isWishlist": 0,
-                "organization": null,
+                "isWishlist": false,
+                "brand_name": "TT BAGS",
+                "organization": {
+                    "id": 1,
+                    "user_id": 1,
+                    "type_id": 0,
+                    "name": "Triple Three Enterprises",
+                    "logo": "",
+                    "gst": "07AIYPB1269J1ZV",
+                    "incorporation_number": "07AIYPB1269J1ZV",
+                    "address": "House no.163, No.2 Floor Ground Block - WZ VILLAGE, DASGHARA, NEW DELHI, DELHI, IN, 110012\r\n9810795886",
+                    "introduction": "TT Bags is the manufacturer and supplier of wide range of bags such as Backpack, Travelling bags and Duffle bags.",
+                    "created_at": "2017-11-18 18:46:56",
+                    "updated_at": "2018-03-29 14:44:24",
+                    "city": "Delhi",
+                    "state": "Delhi",
+                    "pincode": "110012",
+                    "country": "India"
+                },
                 "media": [
                     {
-                        "id": 39,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/business/1",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/business/1",
-                        "large": "http://lorempixel.com/1280/720/business/1",
-                        "caption": null,
-                        "default": 1,
-                        "check": "pending"
-                    },
-                    {
-                        "id": 40,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/technics/1",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/technics/1",
-                        "large": "http://lorempixel.com/1280/720/technics/1",
+                        "id": 127,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513597761-bkpk-2-tt-bags-20-original-imaetcgg5w8pkzvc.jpeg",
+                        "small": "media/small/1513597761-bkpk-2-tt-bags-20-original-imaetcgg5w8pkzvc.jpeg",
+                        "medium": "media/medium/1513597761-bkpk-2-tt-bags-20-original-imaetcgg5w8pkzvc.jpeg",
+                        "large": "http://localhost:8000/media/large/1513597761-bkpk-2-tt-bags-20-original-imaetcgg5w8pkzvc.jpeg",
                         "caption": null,
                         "default": 0,
                         "check": "pending"
                     },
                     {
-                        "id": 41,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/transport/1",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/transport/1",
-                        "large": "http://lorempixel.com/1280/720/transport/1",
+                        "id": 128,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513597801-bkpk-2-tt-bags-20-original-imaetcggyy2pekbu.jpeg",
+                        "small": "media/small/1513597801-bkpk-2-tt-bags-20-original-imaetcggyy2pekbu.jpeg",
+                        "medium": "media/medium/1513597801-bkpk-2-tt-bags-20-original-imaetcggyy2pekbu.jpeg",
+                        "large": "http://localhost:8000/media/large/1513597801-bkpk-2-tt-bags-20-original-imaetcggyy2pekbu.jpeg",
+                        "caption": null,
+                        "default": 0,
+                        "check": "pending"
+                    },
+                    {
+                        "id": 129,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513597813-bkpk-2-tt-bags-20-original-imaetcgguchjd8v3.jpeg",
+                        "small": "media/small/1513597813-bkpk-2-tt-bags-20-original-imaetcgguchjd8v3.jpeg",
+                        "medium": "media/medium/1513597813-bkpk-2-tt-bags-20-original-imaetcgguchjd8v3.jpeg",
+                        "large": "http://localhost:8000/media/large/1513597813-bkpk-2-tt-bags-20-original-imaetcgguchjd8v3.jpeg",
+                        "caption": null,
+                        "default": 0,
+                        "check": "pending"
+                    },
+                    {
+                        "id": 130,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513597822-bkpk-2-tt-bags-20-original-imaetcggtexg24zu.jpeg",
+                        "small": "media/small/1513597822-bkpk-2-tt-bags-20-original-imaetcggtexg24zu.jpeg",
+                        "medium": "media/medium/1513597822-bkpk-2-tt-bags-20-original-imaetcggtexg24zu.jpeg",
+                        "large": "http://localhost:8000/media/large/1513597822-bkpk-2-tt-bags-20-original-imaetcggtexg24zu.jpeg",
+                        "caption": null,
+                        "default": 0,
+                        "check": "pending"
+                    },
+                    {
+                        "id": 131,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513597832-bkpk-2-tt-bags-20-original-imaetcggr2t2xjgj.jpeg",
+                        "small": "media/small/1513597832-bkpk-2-tt-bags-20-original-imaetcggr2t2xjgj.jpeg",
+                        "medium": "media/medium/1513597832-bkpk-2-tt-bags-20-original-imaetcggr2t2xjgj.jpeg",
+                        "large": "http://localhost:8000/media/large/1513597832-bkpk-2-tt-bags-20-original-imaetcggr2t2xjgj.jpeg",
                         "caption": null,
                         "default": 0,
                         "check": "pending"
@@ -1186,8 +786,8 @@ _Example_
                 ],
                 "categories": [
                     {
-                        "id": 1,
-                        "name": "Torphy-Schimmel",
+                        "id": 100,
+                        "name": "Luggage & Bags - Backpacks",
                         "description": "",
                         "meta_title": "",
                         "meta_des": "",
@@ -1196,66 +796,106 @@ _Example_
                         "parent_id": null,
                         "status": 1
                     }
-                ]
+                ],
+                "user_product": null
             },
             {
-                "id": 11,
+                "id": 30,
                 "user_id": 1,
-                "name": "Bergnaum-Watsica",
+                "name": "TT BAGS Backpack 2.5 L Laptop Backpack (Black)",
                 "slug": "",
-                "bdpin": "28cdf437-98d1-3fa8-983b-4776a00a76b3",
-                "brand_id": null,
-                "model": null,
-                "sku": "051c0184-e905-31ad-bfd9-35245869b9ca",
-                "description": "She is such a subject! Our family always HATED cats: nasty, low, vulgar things! Don't let him know she liked them best, For this must ever be A secret, kept from all the creatures wouldn't be so.",
-                "specification": null,
-                "weight": "6396.00",
-                "length": "251.00",
-                "width": "8996.00",
-                "height": "8259.00",
-                "amount": "43.00",
-                "quantity": 0,
+                "bdpin": "",
+                "brand_id": 1,
+                "model": "TT Bags14",
+                "sku": "BAG03",
+                "description": "Built for fast moving pursuits, the TT Backpack holds all your essential for long day on a trail. It is robust backpack proving protection, It comes equipped with a large padded pocket, internal and external accessory pouches which zip for extra security Comfort was also no sacrifice in the design of this backpack. To ensure that you keep going on your journey throughout the day, the TT bags has two padded adjustable shoulder straps and a padded back panel. You will hardly know you are wearing it! And when you finally stop to take a rest, this backpack will securely stand upright to ensure none of your products are damaged when you set it down.",
+                "specification": "\r\n\r\nFor Men &amp; Women WaterproofLaptop Backpack\r\n\r\n\r\n",
+                "weight": "390.00",
+                "length": "15.00",
+                "width": "5.00",
+                "height": "20.00",
+                "amount": "599.00",
+                "quantity": 10,
                 "status": 1,
                 "source": "bigly",
                 "source_id": null,
-                "created_at": "2018-03-01 10:54:50",
-                "updated_at": "2018-03-01 10:54:50",
-                "min_price": "0.00",
-                "max_price": "0.00",
-                "shipping_charge": "0.00",
+                "created_at": "2017-12-16 15:57:50",
+                "updated_at": "2018-03-13 16:11:30",
+                "min_price": "599.00",
+                "max_price": "1299.00",
+                "shipping_charge": "75.00",
                 "attributes": [],
-                "isWishlist": 1,
-                "organization": null,
+                "isWishlist": false,
+                "brand_name": "TT BAGS",
+                "organization": {
+                    "id": 1,
+                    "user_id": 1,
+                    "type_id": 0,
+                    "name": "Triple Three Enterprises",
+                    "logo": "",
+                    "gst": "07AIYPB1269J1ZV",
+                    "incorporation_number": "07AIYPB1269J1ZV",
+                    "address": "House no.163, No.2 Floor Ground Block - WZ VILLAGE, DASGHARA, NEW DELHI, DELHI, IN, 110012\r\n9810795886",
+                    "introduction": "TT Bags is the manufacturer and supplier of wide range of bags such as Backpack, Travelling bags and Duffle bags.",
+                    "created_at": "2017-11-18 18:46:56",
+                    "updated_at": "2018-03-29 14:44:24",
+                    "city": "Delhi",
+                    "state": "Delhi",
+                    "pincode": "110012",
+                    "country": "India"
+                },
                 "media": [
                     {
-                        "id": 42,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/food/2",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/food/2",
-                        "large": "http://lorempixel.com/1280/720/food/2",
-                        "caption": null,
-                        "default": 1,
-                        "check": "pending"
-                    },
-                    {
-                        "id": 43,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/people/2",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/people/2",
-                        "large": "http://lorempixel.com/1280/720/people/2",
+                        "id": 132,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513598095-backpack-tt1-laptop-backpack-tt-bags-original-imaetmd45cjzkyhz.jpeg",
+                        "small": "media/small/1513598095-backpack-tt1-laptop-backpack-tt-bags-original-imaetmd45cjzkyhz.jpeg",
+                        "medium": "media/medium/1513598095-backpack-tt1-laptop-backpack-tt-bags-original-imaetmd45cjzkyhz.jpeg",
+                        "large": "http://localhost:8000/media/large/1513598095-backpack-tt1-laptop-backpack-tt-bags-original-imaetmd45cjzkyhz.jpeg",
                         "caption": null,
                         "default": 0,
                         "check": "pending"
                     },
                     {
-                        "id": 44,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/nature/2",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/nature/2",
-                        "large": "http://lorempixel.com/1280/720/nature/2",
+                        "id": 133,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513598102-backpack-tt1-laptop-backpack-tt-bags-original-imaetmd4jvbx8znb.jpeg",
+                        "small": "media/small/1513598102-backpack-tt1-laptop-backpack-tt-bags-original-imaetmd4jvbx8znb.jpeg",
+                        "medium": "media/medium/1513598102-backpack-tt1-laptop-backpack-tt-bags-original-imaetmd4jvbx8znb.jpeg",
+                        "large": "http://localhost:8000/media/large/1513598102-backpack-tt1-laptop-backpack-tt-bags-original-imaetmd4jvbx8znb.jpeg",
+                        "caption": null,
+                        "default": 0,
+                        "check": "pending"
+                    },
+                    {
+                        "id": 134,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513598108-backpack-tt1-laptop-backpack-tt-bags-original-imaetmd4mhtaqmst.jpeg",
+                        "small": "media/small/1513598108-backpack-tt1-laptop-backpack-tt-bags-original-imaetmd4mhtaqmst.jpeg",
+                        "medium": "media/medium/1513598108-backpack-tt1-laptop-backpack-tt-bags-original-imaetmd4mhtaqmst.jpeg",
+                        "large": "http://localhost:8000/media/large/1513598108-backpack-tt1-laptop-backpack-tt-bags-original-imaetmd4mhtaqmst.jpeg",
+                        "caption": null,
+                        "default": 0,
+                        "check": "pending"
+                    },
+                    {
+                        "id": 135,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513598114-backpack-tt1-laptop-backpack-tt-bags-original-imaetmd47xtfjbbk.jpeg",
+                        "small": "media/small/1513598114-backpack-tt1-laptop-backpack-tt-bags-original-imaetmd47xtfjbbk.jpeg",
+                        "medium": "media/medium/1513598114-backpack-tt1-laptop-backpack-tt-bags-original-imaetmd47xtfjbbk.jpeg",
+                        "large": "http://localhost:8000/media/large/1513598114-backpack-tt1-laptop-backpack-tt-bags-original-imaetmd47xtfjbbk.jpeg",
+                        "caption": null,
+                        "default": 0,
+                        "check": "pending"
+                    },
+                    {
+                        "id": 136,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513598120-backpack-tt1-laptop-backpack-tt-bags-original-imaetmd4pgjdq4za.jpeg",
+                        "small": "media/small/1513598120-backpack-tt1-laptop-backpack-tt-bags-original-imaetmd4pgjdq4za.jpeg",
+                        "medium": "media/medium/1513598120-backpack-tt1-laptop-backpack-tt-bags-original-imaetmd4pgjdq4za.jpeg",
+                        "large": "http://localhost:8000/media/large/1513598120-backpack-tt1-laptop-backpack-tt-bags-original-imaetmd4pgjdq4za.jpeg",
                         "caption": null,
                         "default": 0,
                         "check": "pending"
@@ -1263,19 +903,8 @@ _Example_
                 ],
                 "categories": [
                     {
-                        "id": 19,
-                        "name": "Carroll-Swaniawski",
-                        "description": "",
-                        "meta_title": "",
-                        "meta_des": "",
-                        "meta_keywords": "",
-                        "slug": "",
-                        "parent_id": null,
-                        "status": 1
-                    },
-                    {
-                        "id": 42,
-                        "name": "Spencer Group",
+                        "id": 100,
+                        "name": "Luggage & Bags - Backpacks",
                         "description": "",
                         "meta_title": "",
                         "meta_des": "",
@@ -1284,66 +913,106 @@ _Example_
                         "parent_id": null,
                         "status": 1
                     }
-                ]
+                ],
+                "user_product": null
             },
             {
-                "id": 12,
+                "id": 32,
                 "user_id": 1,
-                "name": "O'Reilly LLC",
+                "name": "TT Bags Bkpk-21 15 L Backpack (Orange)",
                 "slug": "",
-                "bdpin": "2413bc07-e121-32b8-a3d1-103b7bd3108d",
-                "brand_id": null,
-                "model": null,
-                "sku": "0e10efef-13e6-3377-9507-20efa9042f0f",
-                "description": "products seem good",
-                "specification": null,
-                "weight": "6917.00",
-                "length": "1592.00",
-                "width": "629.00",
-                "height": "8460.00",
-                "amount": "18.00",
-                "quantity": 0,
+                "bdpin": "",
+                "brand_id": 1,
+                "model": "TT Bags16",
+                "sku": "Bkpk-21",
+                "description": "Built for fast moving pursuits, the TT Backpack holds all your essential for long day on a trail. It is robust backpack proving protection, It comes equipped with a large padded pocket, internal and external accessory pouches which zip for extra security Comfort was also no sacrifice in the design of this backpack. To ensure that you keep going on your journey throughout the day, the TT bags has two padded adjustable shoulder straps and a padded back panel. You will hardly know you are wearing it! And when you finally stop to take a rest, this backpack will securely stand upright to ensure none of your products are damaged when you set it down.",
+                "specification": "\r\n\r\nFor Men &amp; Women WaterproofLaptop Backpack\r\n\r\n\r\n",
+                "weight": "390.00",
+                "length": "15.00",
+                "width": "5.00",
+                "height": "20.00",
+                "amount": "299.00",
+                "quantity": 10,
                 "status": 1,
                 "source": "bigly",
                 "source_id": null,
-                "created_at": "2018-03-01 10:54:50",
-                "updated_at": "2018-03-01 10:54:50",
-                "min_price": "0.00",
-                "max_price": "0.00",
-                "shipping_charge": "0.00",
+                "created_at": "2017-12-16 15:57:50",
+                "updated_at": "2018-02-23 12:21:30",
+                "min_price": "299.00",
+                "max_price": "999.00",
+                "shipping_charge": "75.00",
                 "attributes": [],
-                "isWishlist": 0,
-                "organization": null,
+                "isWishlist": false,
+                "brand_name": "TT BAGS",
+                "organization": {
+                    "id": 1,
+                    "user_id": 1,
+                    "type_id": 0,
+                    "name": "Triple Three Enterprises",
+                    "logo": "",
+                    "gst": "07AIYPB1269J1ZV",
+                    "incorporation_number": "07AIYPB1269J1ZV",
+                    "address": "House no.163, No.2 Floor Ground Block - WZ VILLAGE, DASGHARA, NEW DELHI, DELHI, IN, 110012\r\n9810795886",
+                    "introduction": "TT Bags is the manufacturer and supplier of wide range of bags such as Backpack, Travelling bags and Duffle bags.",
+                    "created_at": "2017-11-18 18:46:56",
+                    "updated_at": "2018-03-29 14:44:24",
+                    "city": "Delhi",
+                    "state": "Delhi",
+                    "pincode": "110012",
+                    "country": "India"
+                },
                 "media": [
                     {
-                        "id": 45,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/sports/3",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/sports/3",
-                        "large": "http://lorempixel.com/1280/720/sports/3",
-                        "caption": null,
-                        "default": 1,
-                        "check": "pending"
-                    },
-                    {
-                        "id": 46,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/nature/3",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/nature/3",
-                        "large": "http://lorempixel.com/1280/720/nature/3",
+                        "id": 142,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513598471-bkpk-21-bag8-backpack-tt-bags-original-imaevmkggcumfmgh.jpeg",
+                        "small": "media/small/1513598471-bkpk-21-bag8-backpack-tt-bags-original-imaevmkggcumfmgh.jpeg",
+                        "medium": "media/medium/1513598471-bkpk-21-bag8-backpack-tt-bags-original-imaevmkggcumfmgh.jpeg",
+                        "large": "http://localhost:8000/media/large/1513598471-bkpk-21-bag8-backpack-tt-bags-original-imaevmkggcumfmgh.jpeg",
                         "caption": null,
                         "default": 0,
                         "check": "pending"
                     },
                     {
-                        "id": 47,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/food/3",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/food/3",
-                        "large": "http://lorempixel.com/1280/720/food/3",
+                        "id": 143,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513598477-bkpk-21-bag8-backpack-tt-bags-original-imaevmkghagq6juw.jpeg",
+                        "small": "media/small/1513598477-bkpk-21-bag8-backpack-tt-bags-original-imaevmkghagq6juw.jpeg",
+                        "medium": "media/medium/1513598477-bkpk-21-bag8-backpack-tt-bags-original-imaevmkghagq6juw.jpeg",
+                        "large": "http://localhost:8000/media/large/1513598477-bkpk-21-bag8-backpack-tt-bags-original-imaevmkghagq6juw.jpeg",
+                        "caption": null,
+                        "default": 0,
+                        "check": "pending"
+                    },
+                    {
+                        "id": 144,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513598483-bkpk-21-bag8-backpack-tt-bags-original-imaevmkgbym2dger.jpeg",
+                        "small": "media/small/1513598483-bkpk-21-bag8-backpack-tt-bags-original-imaevmkgbym2dger.jpeg",
+                        "medium": "media/medium/1513598483-bkpk-21-bag8-backpack-tt-bags-original-imaevmkgbym2dger.jpeg",
+                        "large": "http://localhost:8000/media/large/1513598483-bkpk-21-bag8-backpack-tt-bags-original-imaevmkgbym2dger.jpeg",
+                        "caption": null,
+                        "default": 0,
+                        "check": "pending"
+                    },
+                    {
+                        "id": 145,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513598500-bkpk-21-bag8-backpack-tt-bags-original-imaevmkgkf8adhyx.jpeg",
+                        "small": "media/small/1513598500-bkpk-21-bag8-backpack-tt-bags-original-imaevmkgkf8adhyx.jpeg",
+                        "medium": "media/medium/1513598500-bkpk-21-bag8-backpack-tt-bags-original-imaevmkgkf8adhyx.jpeg",
+                        "large": "http://localhost:8000/media/large/1513598500-bkpk-21-bag8-backpack-tt-bags-original-imaevmkgkf8adhyx.jpeg",
+                        "caption": null,
+                        "default": 0,
+                        "check": "pending"
+                    },
+                    {
+                        "id": 146,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513598513-bkpk-21-bag8-backpack-tt-bags-original-imaevmkgyzgdg5ma.jpeg",
+                        "small": "media/small/1513598513-bkpk-21-bag8-backpack-tt-bags-original-imaevmkgyzgdg5ma.jpeg",
+                        "medium": "media/medium/1513598513-bkpk-21-bag8-backpack-tt-bags-original-imaevmkgyzgdg5ma.jpeg",
+                        "large": "http://localhost:8000/media/large/1513598513-bkpk-21-bag8-backpack-tt-bags-original-imaevmkgyzgdg5ma.jpeg",
                         "caption": null,
                         "default": 0,
                         "check": "pending"
@@ -1351,30 +1020,8 @@ _Example_
                 ],
                 "categories": [
                     {
-                        "id": 20,
-                        "name": "Carroll-Runolfsdottir",
-                        "description": "",
-                        "meta_title": "",
-                        "meta_des": "",
-                        "meta_keywords": "",
-                        "slug": "",
-                        "parent_id": null,
-                        "status": 1
-                    },
-                    {
-                        "id": 36,
-                        "name": "Hegmann Ltd",
-                        "description": "",
-                        "meta_title": "",
-                        "meta_des": "",
-                        "meta_keywords": "",
-                        "slug": "",
-                        "parent_id": null,
-                        "status": 1
-                    },
-                    {
-                        "id": 22,
-                        "name": "Thiel Group",
+                        "id": 100,
+                        "name": "Luggage & Bags - Backpacks",
                         "description": "",
                         "meta_title": "",
                         "meta_des": "",
@@ -1383,53 +1030,113 @@ _Example_
                         "parent_id": null,
                         "status": 1
                     }
-                ]
+                ],
+                "user_product": {
+                    "id": 35245,
+                    "user_id": 759,
+                    "product_id": 32,
+                    "name": "TT Bags Bkpk-21 15 L Backpack (Orange)",
+                    "amount": "299.00",
+                    "created_at": "2018-05-10 21:46:17",
+                    "updated_at": "2018-05-10 21:46:17",
+                    "description": ""
+                }
             },
             {
-                "id": 13,
+                "id": 33,
                 "user_id": 1,
-                "name": "Bergnaum Group",
+                "name": "TT BAGS Backpack 2.5 L Laptop Backpack (Blue)",
                 "slug": "",
-                "bdpin": "5e979a98-bd51-3aaf-a4a2-5f61159e2831",
-                "brand_id": null,
-                "model": null,
-                "sku": "4396f31f-4e58-3242-96f9-27b520e03e4b",
-                "description": "Queen will hear you! You see, she came in with a kind of serpent, that's all the jurymen on to her very much what would be a person of authority among them, called out, 'Sit down, all of them bowed.",
-                "specification": null,
-                "weight": "7502.00",
-                "length": "8119.00",
-                "width": "165.00",
-                "height": "158.00",
-                "amount": "56.00",
-                "quantity": 0,
+                "bdpin": "",
+                "brand_id": 1,
+                "model": "TT Bags17",
+                "sku": "BAG07",
+                "description": "Built for fast moving pursuits, the TT Backpack holds all your essential for long day on a trail. It is robust backpack proving protection, It comes equipped with a large padded pocket, internal and external accessory pouches which zip for extra security Comfort was also no sacrifice in the design of this backpack. To ensure that you keep going on your journey throughout the day, the TT bags has two padded adjustable shoulder straps and a padded back panel. You will hardly know you are wearing it! And when you finally stop to take a rest, this backpack will securely stand upright to ensure none of your products are damaged when you set it down.",
+                "specification": "\r\n\r\nFor Men &amp; Women WaterproofLaptop Backpack\r\n\r\n\r\n",
+                "weight": "390.00",
+                "length": "15.00",
+                "width": "5.00",
+                "height": "20.00",
+                "amount": "499.00",
+                "quantity": 10,
                 "status": 1,
                 "source": "bigly",
                 "source_id": null,
-                "created_at": "2018-03-01 10:54:50",
-                "updated_at": "2018-03-01 10:54:50",
-                "min_price": "0.00",
-                "max_price": "0.00",
-                "shipping_charge": "0.00",
+                "created_at": "2017-12-16 15:57:50",
+                "updated_at": "2018-03-13 16:14:08",
+                "min_price": "499.00",
+                "max_price": "1299.00",
+                "shipping_charge": "75.00",
                 "attributes": [],
-                "isWishlist": 0,
-                "organization": null,
+                "isWishlist": false,
+                "brand_name": "TT BAGS",
+                "organization": {
+                    "id": 1,
+                    "user_id": 1,
+                    "type_id": 0,
+                    "name": "Triple Three Enterprises",
+                    "logo": "",
+                    "gst": "07AIYPB1269J1ZV",
+                    "incorporation_number": "07AIYPB1269J1ZV",
+                    "address": "House no.163, No.2 Floor Ground Block - WZ VILLAGE, DASGHARA, NEW DELHI, DELHI, IN, 110012\r\n9810795886",
+                    "introduction": "TT Bags is the manufacturer and supplier of wide range of bags such as Backpack, Travelling bags and Duffle bags.",
+                    "created_at": "2017-11-18 18:46:56",
+                    "updated_at": "2018-03-29 14:44:24",
+                    "city": "Delhi",
+                    "state": "Delhi",
+                    "pincode": "110012",
+                    "country": "India"
+                },
                 "media": [
                     {
-                        "id": 48,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/technics/4",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/technics/4",
-                        "large": "http://lorempixel.com/1280/720/technics/4",
+                        "id": 147,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513598707-backpack-tt3-laptop-backpack-tt-bags-original-imaetmd4zcwxwyg8.jpeg",
+                        "small": "media/small/1513598707-backpack-tt3-laptop-backpack-tt-bags-original-imaetmd4zcwxwyg8.jpeg",
+                        "medium": "media/medium/1513598707-backpack-tt3-laptop-backpack-tt-bags-original-imaetmd4zcwxwyg8.jpeg",
+                        "large": "http://localhost:8000/media/large/1513598707-backpack-tt3-laptop-backpack-tt-bags-original-imaetmd4zcwxwyg8.jpeg",
                         "caption": null,
-                        "default": 1,
+                        "default": 0,
+                        "check": "pending"
+                    },
+                    {
+                        "id": 148,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513598746-backpack-tt3-laptop-backpack-tt-bags-original-imaetmd4e3ees82y.jpeg",
+                        "small": "media/small/1513598746-backpack-tt3-laptop-backpack-tt-bags-original-imaetmd4e3ees82y.jpeg",
+                        "medium": "media/medium/1513598746-backpack-tt3-laptop-backpack-tt-bags-original-imaetmd4e3ees82y.jpeg",
+                        "large": "http://localhost:8000/media/large/1513598746-backpack-tt3-laptop-backpack-tt-bags-original-imaetmd4e3ees82y.jpeg",
+                        "caption": null,
+                        "default": 0,
+                        "check": "pending"
+                    },
+                    {
+                        "id": 149,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513598760-backpack-tt3-laptop-backpack-tt-bags-original-imaetmd4v2wjmgtk.jpeg",
+                        "small": "media/small/1513598760-backpack-tt3-laptop-backpack-tt-bags-original-imaetmd4v2wjmgtk.jpeg",
+                        "medium": "media/medium/1513598760-backpack-tt3-laptop-backpack-tt-bags-original-imaetmd4v2wjmgtk.jpeg",
+                        "large": "http://localhost:8000/media/large/1513598760-backpack-tt3-laptop-backpack-tt-bags-original-imaetmd4v2wjmgtk.jpeg",
+                        "caption": null,
+                        "default": 0,
+                        "check": "pending"
+                    },
+                    {
+                        "id": 150,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513598769-backpack-tt3-laptop-backpack-tt-bags-original-imaetmd4pkqvmhmm.jpeg",
+                        "small": "media/small/1513598769-backpack-tt3-laptop-backpack-tt-bags-original-imaetmd4pkqvmhmm.jpeg",
+                        "medium": "media/medium/1513598769-backpack-tt3-laptop-backpack-tt-bags-original-imaetmd4pkqvmhmm.jpeg",
+                        "large": "http://localhost:8000/media/large/1513598769-backpack-tt3-laptop-backpack-tt-bags-original-imaetmd4pkqvmhmm.jpeg",
+                        "caption": null,
+                        "default": 0,
                         "check": "pending"
                     }
                 ],
                 "categories": [
                     {
-                        "id": 33,
-                        "name": "Glover Group",
+                        "id": 100,
+                        "name": "Luggage & Bags - Backpacks",
                         "description": "",
                         "meta_title": "",
                         "meta_des": "",
@@ -1438,55 +1145,106 @@ _Example_
                         "parent_id": null,
                         "status": 1
                     }
-                ]
+                ],
+                "user_product": null
             },
             {
-                "id": 14,
+                "id": 34,
                 "user_id": 1,
-                "name": "Langosh Group",
+                "name": "TT BAGS Mesh Bag Waterproof Backpack (Red, 20 L)",
                 "slug": "",
-                "bdpin": "17b2501b-fc87-3522-ab9a-e5f606b66664",
-                "brand_id": null,
-                "model": null,
-                "sku": "8ed17792-39e6-34bf-883d-d0e13747d3fc",
-                "description": "I THINK,' said Alice. 'Call it what you mean,' the March Hare, who had been jumping about like mad things all this grand procession, came THE KING AND QUEEN OF HEARTS. Alice was silent. The King.",
-                "specification": null,
-                "weight": "3281.00",
-                "length": "2642.00",
-                "width": "9059.00",
-                "height": "622.00",
-                "amount": "100.00",
-                "quantity": 0,
+                "bdpin": "",
+                "brand_id": 1,
+                "model": "TT Bags18",
+                "sku": "Bkpk-12",
+                "description": "Built for fast moving pursuits, the TT Backpack holds all your essential for long day on a trail. It is robust backpack proving protection, It comes equipped with a large padded pocket, internal and external accessory pouches which zip for extra security Comfort was also no sacrifice in the design of this backpack. To ensure that you keep going on your journey throughout the day, the TT bags has two padded adjustable shoulder straps and a padded back panel. You will hardly know you are wearing it! And when you finally stop to take a rest, this backpack will securely stand upright to ensure none of your products are damaged when you set it down.",
+                "specification": "For Men &amp; Women WaterproofLaptop Backpack\r\n",
+                "weight": "390.00",
+                "length": "15.00",
+                "width": "5.00",
+                "height": "20.00",
+                "amount": "849.00",
+                "quantity": 10,
                 "status": 1,
                 "source": "bigly",
                 "source_id": null,
-                "created_at": "2018-03-01 10:54:50",
-                "updated_at": "2018-03-01 10:54:50",
-                "min_price": "0.00",
-                "max_price": "0.00",
-                "shipping_charge": "0.00",
+                "created_at": "2017-12-16 15:57:50",
+                "updated_at": "2018-02-23 12:29:55",
+                "min_price": "849.00",
+                "max_price": "1999.00",
+                "shipping_charge": "75.00",
                 "attributes": [],
-                "isWishlist": 0,
-                "organization": null,
+                "isWishlist": false,
+                "brand_name": "TT BAGS",
+                "organization": {
+                    "id": 1,
+                    "user_id": 1,
+                    "type_id": 0,
+                    "name": "Triple Three Enterprises",
+                    "logo": "",
+                    "gst": "07AIYPB1269J1ZV",
+                    "incorporation_number": "07AIYPB1269J1ZV",
+                    "address": "House no.163, No.2 Floor Ground Block - WZ VILLAGE, DASGHARA, NEW DELHI, DELHI, IN, 110012\r\n9810795886",
+                    "introduction": "TT Bags is the manufacturer and supplier of wide range of bags such as Backpack, Travelling bags and Duffle bags.",
+                    "created_at": "2017-11-18 18:46:56",
+                    "updated_at": "2018-03-29 14:44:24",
+                    "city": "Delhi",
+                    "state": "Delhi",
+                    "pincode": "110012",
+                    "country": "India"
+                },
                 "media": [
                     {
-                        "id": 49,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/nature/5",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/nature/5",
-                        "large": "http://lorempixel.com/1280/720/nature/5",
+                        "id": 151,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513600641-bkpk-12-tt-bags-20-original-imaet9ahfey2rhvx.jpeg",
+                        "small": "media/small/1513600641-bkpk-12-tt-bags-20-original-imaet9ahfey2rhvx.jpeg",
+                        "medium": "media/medium/1513600641-bkpk-12-tt-bags-20-original-imaet9ahfey2rhvx.jpeg",
+                        "large": "http://localhost:8000/media/large/1513600641-bkpk-12-tt-bags-20-original-imaet9ahfey2rhvx.jpeg",
                         "caption": null,
-                        "default": 1,
+                        "default": 0,
                         "check": "pending"
                     },
                     {
-                        "id": 50,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/people/5",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/people/5",
-                        "large": "http://lorempixel.com/1280/720/people/5",
+                        "id": 152,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513600650-bkpk-12-tt-bags-20-original-imaet9ahntbe9fzd.jpeg",
+                        "small": "media/small/1513600650-bkpk-12-tt-bags-20-original-imaet9ahntbe9fzd.jpeg",
+                        "medium": "media/medium/1513600650-bkpk-12-tt-bags-20-original-imaet9ahntbe9fzd.jpeg",
+                        "large": "http://localhost:8000/media/large/1513600650-bkpk-12-tt-bags-20-original-imaet9ahntbe9fzd.jpeg",
+                        "caption": null,
+                        "default": 0,
+                        "check": "pending"
+                    },
+                    {
+                        "id": 153,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513600667-bkpk-12-tt-bags-20-original-imaet9ahbjf9xvza.jpeg",
+                        "small": "media/small/1513600667-bkpk-12-tt-bags-20-original-imaet9ahbjf9xvza.jpeg",
+                        "medium": "media/medium/1513600667-bkpk-12-tt-bags-20-original-imaet9ahbjf9xvza.jpeg",
+                        "large": "http://localhost:8000/media/large/1513600667-bkpk-12-tt-bags-20-original-imaet9ahbjf9xvza.jpeg",
+                        "caption": null,
+                        "default": 0,
+                        "check": "pending"
+                    },
+                    {
+                        "id": 154,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513600675-bkpk-12-tt-bags-20-original-imaet9ahggpgfzys.jpeg",
+                        "small": "media/small/1513600675-bkpk-12-tt-bags-20-original-imaet9ahggpgfzys.jpeg",
+                        "medium": "media/medium/1513600675-bkpk-12-tt-bags-20-original-imaet9ahggpgfzys.jpeg",
+                        "large": "http://localhost:8000/media/large/1513600675-bkpk-12-tt-bags-20-original-imaet9ahggpgfzys.jpeg",
+                        "caption": null,
+                        "default": 0,
+                        "check": "pending"
+                    },
+                    {
+                        "id": 155,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513600685-bkpk-12-tt-bags-20-original-imaet9ahz6ghw2wd.jpeg",
+                        "small": "media/small/1513600685-bkpk-12-tt-bags-20-original-imaet9ahz6ghw2wd.jpeg",
+                        "medium": "media/medium/1513600685-bkpk-12-tt-bags-20-original-imaet9ahz6ghw2wd.jpeg",
+                        "large": "http://localhost:8000/media/large/1513600685-bkpk-12-tt-bags-20-original-imaet9ahz6ghw2wd.jpeg",
                         "caption": null,
                         "default": 0,
                         "check": "pending"
@@ -1494,30 +1252,8 @@ _Example_
                 ],
                 "categories": [
                     {
-                        "id": 1,
-                        "name": "Torphy-Schimmel",
-                        "description": "",
-                        "meta_title": "",
-                        "meta_des": "",
-                        "meta_keywords": "",
-                        "slug": "",
-                        "parent_id": null,
-                        "status": 1
-                    },
-                    {
-                        "id": 14,
-                        "name": "Koepp and Sons",
-                        "description": "",
-                        "meta_title": "",
-                        "meta_des": "",
-                        "meta_keywords": "",
-                        "slug": "",
-                        "parent_id": null,
-                        "status": 1
-                    },
-                    {
-                        "id": 36,
-                        "name": "Hegmann Ltd",
+                        "id": 100,
+                        "name": "Luggage & Bags - Backpacks",
                         "description": "",
                         "meta_title": "",
                         "meta_des": "",
@@ -1526,110 +1262,106 @@ _Example_
                         "parent_id": null,
                         "status": 1
                     }
-                ]
+                ],
+                "user_product": null
             },
             {
-                "id": 15,
+                "id": 35,
                 "user_id": 1,
-                "name": "Volkman, Mayer and Wuckert",
+                "name": "TT BAGS Mesh Bag Waterproof Backpack (Grey, 20 L)",
                 "slug": "",
-                "bdpin": "f0291e04-e26d-3bed-88d8-88344dd7a50e",
-                "brand_id": null,
-                "model": null,
-                "sku": "04dfddd7-a58b-3834-b6eb-04542379d258",
-                "description": "I don't know what you like,' said the King triumphantly, pointing to the Dormouse, who was peeping anxiously into its nest. Alice crouched down among the distant sobs of the bread-and-butter. Just.",
-                "specification": null,
-                "weight": "4564.00",
-                "length": "449.00",
-                "width": "4229.00",
-                "height": "6349.00",
-                "amount": "95.00",
-                "quantity": 0,
+                "bdpin": "",
+                "brand_id": 1,
+                "model": "TT Bags19",
+                "sku": "Bkpk-8",
+                "description": "Built for fast moving pursuits, the TT Backpack holds all your essential for long day on a trail. It is robust backpack proving protection, It comes equipped with a large padded pocket, internal and external accessory pouches which zip for extra security Comfort was also no sacrifice in the design of this backpack. To ensure that you keep going on your journey throughout the day, the TT bags has two padded adjustable shoulder straps and a padded back panel. You will hardly know you are wearing it! And when you finally stop to take a rest, this backpack will securely stand upright to ensure none of your products are damaged when you set it down.",
+                "specification": "\r\n\r\nFor Men &amp; Women WaterproofLaptop Backpack\r\n\r\n\r\n\r\n",
+                "weight": "390.00",
+                "length": "15.00",
+                "width": "5.00",
+                "height": "20.00",
+                "amount": "449.00",
+                "quantity": 10,
                 "status": 1,
                 "source": "bigly",
                 "source_id": null,
-                "created_at": "2018-03-01 10:54:50",
-                "updated_at": "2018-03-01 10:54:50",
-                "min_price": "0.00",
-                "max_price": "0.00",
-                "shipping_charge": "0.00",
+                "created_at": "2017-12-16 15:57:50",
+                "updated_at": "2018-02-23 12:16:51",
+                "min_price": "449.00",
+                "max_price": "1299.00",
+                "shipping_charge": "75.00",
                 "attributes": [],
-                "isWishlist": 0,
-                "organization": null,
+                "isWishlist": false,
+                "brand_name": "TT BAGS",
+                "organization": {
+                    "id": 1,
+                    "user_id": 1,
+                    "type_id": 0,
+                    "name": "Triple Three Enterprises",
+                    "logo": "",
+                    "gst": "07AIYPB1269J1ZV",
+                    "incorporation_number": "07AIYPB1269J1ZV",
+                    "address": "House no.163, No.2 Floor Ground Block - WZ VILLAGE, DASGHARA, NEW DELHI, DELHI, IN, 110012\r\n9810795886",
+                    "introduction": "TT Bags is the manufacturer and supplier of wide range of bags such as Backpack, Travelling bags and Duffle bags.",
+                    "created_at": "2017-11-18 18:46:56",
+                    "updated_at": "2018-03-29 14:44:24",
+                    "city": "Delhi",
+                    "state": "Delhi",
+                    "pincode": "110012",
+                    "country": "India"
+                },
                 "media": [
                     {
-                        "id": 51,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/nightlife/6",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/nightlife/6",
-                        "large": "http://lorempixel.com/1280/720/nightlife/6",
-                        "caption": null,
-                        "default": 1,
-                        "check": "pending"
-                    },
-                    {
-                        "id": 52,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/nightlife/6",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/nightlife/6",
-                        "large": "http://lorempixel.com/1280/720/nightlife/6",
+                        "id": 156,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513659487-bkpk-8-tt-bags-20-original-imaet9ah54fy6bz9.jpeg",
+                        "small": "media/small/1513659487-bkpk-8-tt-bags-20-original-imaet9ah54fy6bz9.jpeg",
+                        "medium": "media/medium/1513659487-bkpk-8-tt-bags-20-original-imaet9ah54fy6bz9.jpeg",
+                        "large": "http://localhost:8000/media/large/1513659487-bkpk-8-tt-bags-20-original-imaet9ah54fy6bz9.jpeg",
                         "caption": null,
                         "default": 0,
                         "check": "pending"
                     },
                     {
-                        "id": 53,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/people/6",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/people/6",
-                        "large": "http://lorempixel.com/1280/720/people/6",
+                        "id": 158,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513659522-bkpk-8-tt-bags-20-original-imaet9aheadfqhah.jpeg",
+                        "small": "media/small/1513659522-bkpk-8-tt-bags-20-original-imaet9aheadfqhah.jpeg",
+                        "medium": "media/medium/1513659522-bkpk-8-tt-bags-20-original-imaet9aheadfqhah.jpeg",
+                        "large": "http://localhost:8000/media/large/1513659522-bkpk-8-tt-bags-20-original-imaet9aheadfqhah.jpeg",
                         "caption": null,
                         "default": 0,
                         "check": "pending"
                     },
                     {
-                        "id": 54,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/business/6",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/business/6",
-                        "large": "http://lorempixel.com/1280/720/business/6",
+                        "id": 159,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513659527-bkpk-8-tt-bags-20-original-imaet9ah8ehdyz6h.jpeg",
+                        "small": "media/small/1513659527-bkpk-8-tt-bags-20-original-imaet9ah8ehdyz6h.jpeg",
+                        "medium": "media/medium/1513659527-bkpk-8-tt-bags-20-original-imaet9ah8ehdyz6h.jpeg",
+                        "large": "http://localhost:8000/media/large/1513659527-bkpk-8-tt-bags-20-original-imaet9ah8ehdyz6h.jpeg",
                         "caption": null,
                         "default": 0,
                         "check": "pending"
                     },
                     {
-                        "id": 55,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/transport/6",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/transport/6",
-                        "large": "http://lorempixel.com/1280/720/transport/6",
+                        "id": 160,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513659535-bkpk-8-tt-bags-20-original-imaet9ahffhxkgza.jpeg",
+                        "small": "media/small/1513659535-bkpk-8-tt-bags-20-original-imaet9ahffhxkgza.jpeg",
+                        "medium": "media/medium/1513659535-bkpk-8-tt-bags-20-original-imaet9ahffhxkgza.jpeg",
+                        "large": "http://localhost:8000/media/large/1513659535-bkpk-8-tt-bags-20-original-imaet9ahffhxkgza.jpeg",
                         "caption": null,
                         "default": 0,
                         "check": "pending"
                     },
                     {
-                        "id": 56,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/people/6",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/people/6",
-                        "large": "http://lorempixel.com/1280/720/people/6",
-                        "caption": null,
-                        "default": 0,
-                        "check": "pending"
-                    },
-                    {
-                        "id": 57,
-                        "mime": "",
-                        "thumb": "http://lorempixel.com/270/220/nature/6",
-                        "small": null,
-                        "medium": "http://lorempixel.com/480/360/nature/6",
-                        "large": "http://lorempixel.com/1280/720/nature/6",
+                        "id": 161,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513659541-bkpk-8-tt-bags-20-original-imaet9ahbv8utkfq.jpeg",
+                        "small": "media/small/1513659541-bkpk-8-tt-bags-20-original-imaet9ahbv8utkfq.jpeg",
+                        "medium": "media/medium/1513659541-bkpk-8-tt-bags-20-original-imaet9ahbv8utkfq.jpeg",
+                        "large": "http://localhost:8000/media/large/1513659541-bkpk-8-tt-bags-20-original-imaet9ahbv8utkfq.jpeg",
                         "caption": null,
                         "default": 0,
                         "check": "pending"
@@ -1637,8 +1369,8 @@ _Example_
                 ],
                 "categories": [
                     {
-                        "id": 11,
-                        "name": "Stracke PLC",
+                        "id": 100,
+                        "name": "Luggage & Bags - Backpacks",
                         "description": "",
                         "meta_title": "",
                         "meta_des": "",
@@ -1647,237 +1379,827 @@ _Example_
                         "parent_id": null,
                         "status": 1
                     }
-                ]
+                ],
+                "user_product": null
+            },
+            {
+                "id": 36,
+                "user_id": 1,
+                "name": "TT BAGS Backpack 2.5 L Laptop Backpack (Black)",
+                "slug": "",
+                "bdpin": "",
+                "brand_id": 1,
+                "model": "TT Bags20",
+                "sku": "BAG01",
+                "description": "Built for fast moving pursuits, the TT Backpack holds all your essential for long day on a trail. It is robust backpack proving protection, It comes equipped with a large padded pocket, internal and external accessory pouches which zip for extra security Comfort was also no sacrifice in the design of this backpack. To ensure that you keep going on your journey throughout the day, the TT bags has two padded adjustable shoulder straps and a padded back panel. You will hardly know you are wearing it! And when you finally stop to take a rest, this backpack will securely stand upright to ensure none of your products are damaged when you set it down.",
+                "specification": "\r\n\r\nFor Men &amp; Women&nbsp;WaterproofCapacity: 2.5 L",
+                "weight": "390.00",
+                "length": "15.00",
+                "width": "5.00",
+                "height": "20.00",
+                "amount": "499.00",
+                "quantity": 10,
+                "status": 1,
+                "source": "bigly",
+                "source_id": null,
+                "created_at": "2017-12-16 15:57:50",
+                "updated_at": "2018-03-13 16:15:40",
+                "min_price": "499.00",
+                "max_price": "1299.00",
+                "shipping_charge": "75.00",
+                "attributes": [],
+                "isWishlist": false,
+                "brand_name": "TT BAGS",
+                "organization": {
+                    "id": 1,
+                    "user_id": 1,
+                    "type_id": 0,
+                    "name": "Triple Three Enterprises",
+                    "logo": "",
+                    "gst": "07AIYPB1269J1ZV",
+                    "incorporation_number": "07AIYPB1269J1ZV",
+                    "address": "House no.163, No.2 Floor Ground Block - WZ VILLAGE, DASGHARA, NEW DELHI, DELHI, IN, 110012\r\n9810795886",
+                    "introduction": "TT Bags is the manufacturer and supplier of wide range of bags such as Backpack, Travelling bags and Duffle bags.",
+                    "created_at": "2017-11-18 18:46:56",
+                    "updated_at": "2018-03-29 14:44:24",
+                    "city": "Delhi",
+                    "state": "Delhi",
+                    "pincode": "110012",
+                    "country": "India"
+                },
+                "media": [
+                    {
+                        "id": 162,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513659736-backpack-tts1-laptop-backpack-tt-bags-original-imaetmd45kccngtd.jpeg",
+                        "small": "media/small/1513659736-backpack-tts1-laptop-backpack-tt-bags-original-imaetmd45kccngtd.jpeg",
+                        "medium": "media/medium/1513659736-backpack-tts1-laptop-backpack-tt-bags-original-imaetmd45kccngtd.jpeg",
+                        "large": "http://localhost:8000/media/large/1513659736-backpack-tts1-laptop-backpack-tt-bags-original-imaetmd45kccngtd.jpeg",
+                        "caption": null,
+                        "default": 0,
+                        "check": "pending"
+                    },
+                    {
+                        "id": 163,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513659744-backpack-tts1-laptop-backpack-tt-bags-original-imaetmd4edkeextz.jpeg",
+                        "small": "media/small/1513659744-backpack-tts1-laptop-backpack-tt-bags-original-imaetmd4edkeextz.jpeg",
+                        "medium": "media/medium/1513659744-backpack-tts1-laptop-backpack-tt-bags-original-imaetmd4edkeextz.jpeg",
+                        "large": "http://localhost:8000/media/large/1513659744-backpack-tts1-laptop-backpack-tt-bags-original-imaetmd4edkeextz.jpeg",
+                        "caption": null,
+                        "default": 0,
+                        "check": "pending"
+                    },
+                    {
+                        "id": 164,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513659766-backpack-tts1-laptop-backpack-tt-bags-original-imaetmd4fzbcacn5.jpeg",
+                        "small": "media/small/1513659766-backpack-tts1-laptop-backpack-tt-bags-original-imaetmd4fzbcacn5.jpeg",
+                        "medium": "media/medium/1513659766-backpack-tts1-laptop-backpack-tt-bags-original-imaetmd4fzbcacn5.jpeg",
+                        "large": "http://localhost:8000/media/large/1513659766-backpack-tts1-laptop-backpack-tt-bags-original-imaetmd4fzbcacn5.jpeg",
+                        "caption": null,
+                        "default": 0,
+                        "check": "pending"
+                    },
+                    {
+                        "id": 165,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513659773-backpack-tts1-laptop-backpack-tt-bags-original-imaetmd4wvw6p2gz.jpeg",
+                        "small": "media/small/1513659773-backpack-tts1-laptop-backpack-tt-bags-original-imaetmd4wvw6p2gz.jpeg",
+                        "medium": "media/medium/1513659773-backpack-tts1-laptop-backpack-tt-bags-original-imaetmd4wvw6p2gz.jpeg",
+                        "large": "http://localhost:8000/media/large/1513659773-backpack-tts1-laptop-backpack-tt-bags-original-imaetmd4wvw6p2gz.jpeg",
+                        "caption": null,
+                        "default": 0,
+                        "check": "pending"
+                    },
+                    {
+                        "id": 166,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513659779-backpack-tts1-laptop-backpack-tt-bags-original-imaetmd4xyq6s6j6.jpeg",
+                        "small": "media/small/1513659779-backpack-tts1-laptop-backpack-tt-bags-original-imaetmd4xyq6s6j6.jpeg",
+                        "medium": "media/medium/1513659779-backpack-tts1-laptop-backpack-tt-bags-original-imaetmd4xyq6s6j6.jpeg",
+                        "large": "http://localhost:8000/media/large/1513659779-backpack-tts1-laptop-backpack-tt-bags-original-imaetmd4xyq6s6j6.jpeg",
+                        "caption": null,
+                        "default": 0,
+                        "check": "pending"
+                    }
+                ],
+                "categories": [
+                    {
+                        "id": 100,
+                        "name": "Luggage & Bags - Backpacks",
+                        "description": "",
+                        "meta_title": "",
+                        "meta_des": "",
+                        "meta_keywords": "",
+                        "slug": "",
+                        "parent_id": null,
+                        "status": 1
+                    }
+                ],
+                "user_product": null
+            },
+            {
+                "id": 37,
+                "user_id": 1,
+                "name": "TT BAGS Backpack 2.5 L Laptop Backpack (Red)",
+                "slug": "",
+                "bdpin": "",
+                "brand_id": 1,
+                "model": "TT Bags21",
+                "sku": "BAG21",
+                "description": "Built for fast moving pursuits, the TT Backpack holds all your essential for long day on a trail. It is robust backpack proving protection, It comes equipped with a large padded pocket, internal and external accessory pouches which zip for extra security Comfort was also no sacrifice in the design of this backpack. To ensure that you keep going on your journey throughout the day, the TT bags has two padded adjustable shoulder straps and a padded back panel. You will hardly know you are wearing it! And when you finally stop to take a rest, this backpack will securely stand upright to ensure none of your products are damaged when you set it down.",
+                "specification": "\r\n\r\nFor Men &amp; Women WaterproofLaptop Backpack\r\n\r\n\r\n",
+                "weight": "390.00",
+                "length": "15.00",
+                "width": "5.00",
+                "height": "20.00",
+                "amount": "249.00",
+                "quantity": 10,
+                "status": 1,
+                "source": "bigly",
+                "source_id": null,
+                "created_at": "2017-12-16 15:57:50",
+                "updated_at": "2018-02-23 12:24:06",
+                "min_price": "249.00",
+                "max_price": "999.00",
+                "shipping_charge": "75.00",
+                "attributes": [],
+                "isWishlist": false,
+                "brand_name": "TT BAGS",
+                "organization": {
+                    "id": 1,
+                    "user_id": 1,
+                    "type_id": 0,
+                    "name": "Triple Three Enterprises",
+                    "logo": "",
+                    "gst": "07AIYPB1269J1ZV",
+                    "incorporation_number": "07AIYPB1269J1ZV",
+                    "address": "House no.163, No.2 Floor Ground Block - WZ VILLAGE, DASGHARA, NEW DELHI, DELHI, IN, 110012\r\n9810795886",
+                    "introduction": "TT Bags is the manufacturer and supplier of wide range of bags such as Backpack, Travelling bags and Duffle bags.",
+                    "created_at": "2017-11-18 18:46:56",
+                    "updated_at": "2018-03-29 14:44:24",
+                    "city": "Delhi",
+                    "state": "Delhi",
+                    "pincode": "110012",
+                    "country": "India"
+                },
+                "media": [
+                    {
+                        "id": 167,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513659982-backpack-tt7-laptop-backpack-tt-bags-original-imaetmd4fakgqfq4.jpeg",
+                        "small": "media/small/1513659982-backpack-tt7-laptop-backpack-tt-bags-original-imaetmd4fakgqfq4.jpeg",
+                        "medium": "media/medium/1513659982-backpack-tt7-laptop-backpack-tt-bags-original-imaetmd4fakgqfq4.jpeg",
+                        "large": "http://localhost:8000/media/large/1513659982-backpack-tt7-laptop-backpack-tt-bags-original-imaetmd4fakgqfq4.jpeg",
+                        "caption": null,
+                        "default": 0,
+                        "check": "pending"
+                    },
+                    {
+                        "id": 168,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513659988-backpack-tt7-laptop-backpack-tt-bags-original-imaetmd4gnh6aqsy.jpeg",
+                        "small": "media/small/1513659988-backpack-tt7-laptop-backpack-tt-bags-original-imaetmd4gnh6aqsy.jpeg",
+                        "medium": "media/medium/1513659988-backpack-tt7-laptop-backpack-tt-bags-original-imaetmd4gnh6aqsy.jpeg",
+                        "large": "http://localhost:8000/media/large/1513659988-backpack-tt7-laptop-backpack-tt-bags-original-imaetmd4gnh6aqsy.jpeg",
+                        "caption": null,
+                        "default": 0,
+                        "check": "pending"
+                    },
+                    {
+                        "id": 169,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513659994-backpack-tt7-laptop-backpack-tt-bags-original-imaetmd4hmnzzjmb.jpeg",
+                        "small": "media/small/1513659994-backpack-tt7-laptop-backpack-tt-bags-original-imaetmd4hmnzzjmb.jpeg",
+                        "medium": "media/medium/1513659994-backpack-tt7-laptop-backpack-tt-bags-original-imaetmd4hmnzzjmb.jpeg",
+                        "large": "http://localhost:8000/media/large/1513659994-backpack-tt7-laptop-backpack-tt-bags-original-imaetmd4hmnzzjmb.jpeg",
+                        "caption": null,
+                        "default": 0,
+                        "check": "pending"
+                    },
+                    {
+                        "id": 170,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513660000-backpack-tt7-laptop-backpack-tt-bags-original-imaetmd4vkbtzxez.jpeg",
+                        "small": "media/small/1513660000-backpack-tt7-laptop-backpack-tt-bags-original-imaetmd4vkbtzxez.jpeg",
+                        "medium": "media/medium/1513660000-backpack-tt7-laptop-backpack-tt-bags-original-imaetmd4vkbtzxez.jpeg",
+                        "large": "http://localhost:8000/media/large/1513660000-backpack-tt7-laptop-backpack-tt-bags-original-imaetmd4vkbtzxez.jpeg",
+                        "caption": null,
+                        "default": 0,
+                        "check": "pending"
+                    },
+                    {
+                        "id": 171,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513660007-backpack-tt7-laptop-backpack-tt-bags-original-imaetmd4qwpdnfxg.jpeg",
+                        "small": "media/small/1513660007-backpack-tt7-laptop-backpack-tt-bags-original-imaetmd4qwpdnfxg.jpeg",
+                        "medium": "media/medium/1513660007-backpack-tt7-laptop-backpack-tt-bags-original-imaetmd4qwpdnfxg.jpeg",
+                        "large": "http://localhost:8000/media/large/1513660007-backpack-tt7-laptop-backpack-tt-bags-original-imaetmd4qwpdnfxg.jpeg",
+                        "caption": null,
+                        "default": 0,
+                        "check": "pending"
+                    }
+                ],
+                "categories": [
+                    {
+                        "id": 100,
+                        "name": "Luggage & Bags - Backpacks",
+                        "description": "",
+                        "meta_title": "",
+                        "meta_des": "",
+                        "meta_keywords": "",
+                        "slug": "",
+                        "parent_id": null,
+                        "status": 1
+                    }
+                ],
+                "user_product": null
+            },
+            {
+                "id": 38,
+                "user_id": 1,
+                "name": "TT BAGS Duffle Bags Travel Duffel Bag (Black)",
+                "slug": "",
+                "bdpin": "",
+                "brand_id": 1,
+                "model": "TT Bags22",
+                "sku": "BAG31",
+                "description": "Built for fast moving pursuits, the TT Backpack holds all your essential for long day on a trail. It is robust backpack proving protection, It comes equipped with a large padded pocket, internal and external accessory pouches which zip for extra security Comfort was also no sacrifice in the design of this backpack. To ensure that you keep going on your journey throughout the day, the TT bags has two padded adjustable shoulder straps and a padded back panel. You will hardly know you are wearing it! And when you finally stop to take a rest, this backpack will securely stand upright to ensure none of your products are damaged when you set it down.",
+                "specification": "\r\n\r\nFor Men &amp; Women Waterproof\r\n\r\n",
+                "weight": "390.00",
+                "length": "15.00",
+                "width": "5.00",
+                "height": "20.00",
+                "amount": "349.00",
+                "quantity": 10,
+                "status": 1,
+                "source": "bigly",
+                "source_id": null,
+                "created_at": "2017-12-16 15:57:50",
+                "updated_at": "2018-03-06 13:16:18",
+                "min_price": "349.00",
+                "max_price": "999.00",
+                "shipping_charge": "75.00",
+                "attributes": [],
+                "isWishlist": false,
+                "brand_name": "TT BAGS",
+                "organization": {
+                    "id": 1,
+                    "user_id": 1,
+                    "type_id": 0,
+                    "name": "Triple Three Enterprises",
+                    "logo": "",
+                    "gst": "07AIYPB1269J1ZV",
+                    "incorporation_number": "07AIYPB1269J1ZV",
+                    "address": "House no.163, No.2 Floor Ground Block - WZ VILLAGE, DASGHARA, NEW DELHI, DELHI, IN, 110012\r\n9810795886",
+                    "introduction": "TT Bags is the manufacturer and supplier of wide range of bags such as Backpack, Travelling bags and Duffle bags.",
+                    "created_at": "2017-11-18 18:46:56",
+                    "updated_at": "2018-03-29 14:44:24",
+                    "city": "Delhi",
+                    "state": "Delhi",
+                    "pincode": "110012",
+                    "country": "India"
+                },
+                "media": [
+                    {
+                        "id": 172,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513660125-duffle-bags-bag3-travel-duffel-bag-tt-bags-original-imaevhp6pehh6hfr.jpeg",
+                        "small": "media/small/1513660125-duffle-bags-bag3-travel-duffel-bag-tt-bags-original-imaevhp6pehh6hfr.jpeg",
+                        "medium": "media/medium/1513660125-duffle-bags-bag3-travel-duffel-bag-tt-bags-original-imaevhp6pehh6hfr.jpeg",
+                        "large": "http://localhost:8000/media/large/1513660125-duffle-bags-bag3-travel-duffel-bag-tt-bags-original-imaevhp6pehh6hfr.jpeg",
+                        "caption": null,
+                        "default": 0,
+                        "check": "pending"
+                    },
+                    {
+                        "id": 173,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513660132-duffle-bags-bag3-travel-duffel-bag-tt-bags-original-imaevhp6q8dmkhv3.jpeg",
+                        "small": "media/small/1513660132-duffle-bags-bag3-travel-duffel-bag-tt-bags-original-imaevhp6q8dmkhv3.jpeg",
+                        "medium": "media/medium/1513660132-duffle-bags-bag3-travel-duffel-bag-tt-bags-original-imaevhp6q8dmkhv3.jpeg",
+                        "large": "http://localhost:8000/media/large/1513660132-duffle-bags-bag3-travel-duffel-bag-tt-bags-original-imaevhp6q8dmkhv3.jpeg",
+                        "caption": null,
+                        "default": 0,
+                        "check": "pending"
+                    },
+                    {
+                        "id": 174,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513660138-duffle-bags-bag3-travel-duffel-bag-tt-bags-original-imaevhp66rychvux.jpeg",
+                        "small": "media/small/1513660138-duffle-bags-bag3-travel-duffel-bag-tt-bags-original-imaevhp66rychvux.jpeg",
+                        "medium": "media/medium/1513660138-duffle-bags-bag3-travel-duffel-bag-tt-bags-original-imaevhp66rychvux.jpeg",
+                        "large": "http://localhost:8000/media/large/1513660138-duffle-bags-bag3-travel-duffel-bag-tt-bags-original-imaevhp66rychvux.jpeg",
+                        "caption": null,
+                        "default": 0,
+                        "check": "pending"
+                    },
+                    {
+                        "id": 175,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513660149-duffle-bags-bag3-travel-duffel-bag-tt-bags-original-imaevhp6bruakmxq.jpeg",
+                        "small": "media/small/1513660149-duffle-bags-bag3-travel-duffel-bag-tt-bags-original-imaevhp6bruakmxq.jpeg",
+                        "medium": "media/medium/1513660149-duffle-bags-bag3-travel-duffel-bag-tt-bags-original-imaevhp6bruakmxq.jpeg",
+                        "large": "http://localhost:8000/media/large/1513660149-duffle-bags-bag3-travel-duffel-bag-tt-bags-original-imaevhp6bruakmxq.jpeg",
+                        "caption": null,
+                        "default": 0,
+                        "check": "pending"
+                    }
+                ],
+                "categories": [
+                    {
+                        "id": 104,
+                        "name": "Luggage & Bags - Luggage & Travel Bags",
+                        "description": "",
+                        "meta_title": "",
+                        "meta_des": "",
+                        "meta_keywords": "",
+                        "slug": "",
+                        "parent_id": null,
+                        "status": 1
+                    }
+                ],
+                "user_product": null
+            },
+            {
+                "id": 39,
+                "user_id": 1,
+                "name": "TT BAGS Mesh Bag Waterproof Backpack (Black, Grey, 20 L)",
+                "slug": "",
+                "bdpin": "",
+                "brand_id": 1,
+                "model": "TT Bags23",
+                "sku": "Bkpk-14",
+                "description": "Built for fast moving pursuits, the TT Backpack holds all your essential for long day on a trail. It is robust backpack proving protection, It comes equipped with a large padded pocket, internal and external accessory pouches which zip for extra security Comfort was also no sacrifice in the design of this backpack. To ensure that you keep going on your journey throughout the day, the TT bags has two padded adjustable shoulder straps and a padded back panel. You will hardly know you are wearing it! And when you finally stop to take a rest, this backpack will securely stand upright to ensure none of your products are damaged when you set it down.",
+                "specification": "\r\n\r\nFor Men &amp; Women WaterproofLaptop Backpack\r\n\r\n\r\n",
+                "weight": "390.00",
+                "length": "15.00",
+                "width": "5.00",
+                "height": "20.00",
+                "amount": "549.00",
+                "quantity": 10,
+                "status": 1,
+                "source": "bigly",
+                "source_id": null,
+                "created_at": "2017-12-16 15:57:50",
+                "updated_at": "2018-02-23 12:29:04",
+                "min_price": "549.00",
+                "max_price": "1299.00",
+                "shipping_charge": "75.00",
+                "attributes": [],
+                "isWishlist": false,
+                "brand_name": "TT BAGS",
+                "organization": {
+                    "id": 1,
+                    "user_id": 1,
+                    "type_id": 0,
+                    "name": "Triple Three Enterprises",
+                    "logo": "",
+                    "gst": "07AIYPB1269J1ZV",
+                    "incorporation_number": "07AIYPB1269J1ZV",
+                    "address": "House no.163, No.2 Floor Ground Block - WZ VILLAGE, DASGHARA, NEW DELHI, DELHI, IN, 110012\r\n9810795886",
+                    "introduction": "TT Bags is the manufacturer and supplier of wide range of bags such as Backpack, Travelling bags and Duffle bags.",
+                    "created_at": "2017-11-18 18:46:56",
+                    "updated_at": "2018-03-29 14:44:24",
+                    "city": "Delhi",
+                    "state": "Delhi",
+                    "pincode": "110012",
+                    "country": "India"
+                },
+                "media": [
+                    {
+                        "id": 176,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513660236-bkpk-14-tt-bags-20-original-imaetcggxrg3me6r.jpeg",
+                        "small": "media/small/1513660236-bkpk-14-tt-bags-20-original-imaetcggxrg3me6r.jpeg",
+                        "medium": "media/medium/1513660236-bkpk-14-tt-bags-20-original-imaetcggxrg3me6r.jpeg",
+                        "large": "http://localhost:8000/media/large/1513660236-bkpk-14-tt-bags-20-original-imaetcggxrg3me6r.jpeg",
+                        "caption": null,
+                        "default": 0,
+                        "check": "pending"
+                    },
+                    {
+                        "id": 177,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513660241-bkpk-14-tt-bags-20-original-imaetcggjnh9rx6v.jpeg",
+                        "small": "media/small/1513660241-bkpk-14-tt-bags-20-original-imaetcggjnh9rx6v.jpeg",
+                        "medium": "media/medium/1513660241-bkpk-14-tt-bags-20-original-imaetcggjnh9rx6v.jpeg",
+                        "large": "http://localhost:8000/media/large/1513660241-bkpk-14-tt-bags-20-original-imaetcggjnh9rx6v.jpeg",
+                        "caption": null,
+                        "default": 0,
+                        "check": "pending"
+                    },
+                    {
+                        "id": 178,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513660247-bkpk-14-tt-bags-20-original-imaetcggqvrjyfas.jpeg",
+                        "small": "media/small/1513660247-bkpk-14-tt-bags-20-original-imaetcggqvrjyfas.jpeg",
+                        "medium": "media/medium/1513660247-bkpk-14-tt-bags-20-original-imaetcggqvrjyfas.jpeg",
+                        "large": "http://localhost:8000/media/large/1513660247-bkpk-14-tt-bags-20-original-imaetcggqvrjyfas.jpeg",
+                        "caption": null,
+                        "default": 0,
+                        "check": "pending"
+                    },
+                    {
+                        "id": 179,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513660253-bkpk-14-tt-bags-20-original-imaetcgghncaj2d9.jpeg",
+                        "small": "media/small/1513660253-bkpk-14-tt-bags-20-original-imaetcgghncaj2d9.jpeg",
+                        "medium": "media/medium/1513660253-bkpk-14-tt-bags-20-original-imaetcgghncaj2d9.jpeg",
+                        "large": "http://localhost:8000/media/large/1513660253-bkpk-14-tt-bags-20-original-imaetcgghncaj2d9.jpeg",
+                        "caption": null,
+                        "default": 0,
+                        "check": "pending"
+                    },
+                    {
+                        "id": 180,
+                        "mime": "image/jpeg",
+                        "thumb": "media/thumb/1513660260-bkpk-14-tt-bags-20-original-imaetcggbpy9athx.jpeg",
+                        "small": "media/small/1513660260-bkpk-14-tt-bags-20-original-imaetcggbpy9athx.jpeg",
+                        "medium": "media/medium/1513660260-bkpk-14-tt-bags-20-original-imaetcggbpy9athx.jpeg",
+                        "large": "http://localhost:8000/media/large/1513660260-bkpk-14-tt-bags-20-original-imaetcggbpy9athx.jpeg",
+                        "caption": null,
+                        "default": 0,
+                        "check": "pending"
+                    }
+                ],
+                "categories": [
+                    {
+                        "id": 100,
+                        "name": "Luggage & Bags - Backpacks",
+                        "description": "",
+                        "meta_title": "",
+                        "meta_des": "",
+                        "meta_keywords": "",
+                        "slug": "",
+                        "parent_id": null,
+                        "status": 1
+                    }
+                ],
+                "user_product": null
             }
         ],
         "from": 1,
-        "last_page": 67,
+        "last_page": 623,
         "next_page_url": "http://localhost:8000/api/products?page=2",
         "path": "http://localhost:8000/api/products",
         "per_page": 15,
         "prev_page_url": null,
         "to": 15,
-        "total": 1003
+        "total": 9332
     },
     "filter": {
         "categories": [
             {
-                "id": 26,
-                "name": "Auer-Doyle"
+                "id": 179,
+                "name": "Bike & Car-Accessories"
             },
             {
-                "id": 51,
-                "name": "bag"
-            },
-            {
-                "id": 20,
-                "name": "Carroll-Runolfsdottir"
-            },
-            {
-                "id": 19,
-                "name": "Carroll-Swaniawski"
-            },
-            {
-                "id": 25,
-                "name": "Deckow Ltd"
-            },
-            {
-                "id": 32,
-                "name": "Denesik Group"
-            },
-            {
-                "id": 17,
-                "name": "Denesik-Ondricka"
-            },
-            {
-                "id": 24,
-                "name": "Dicki-Wilkinson"
-            },
-            {
-                "id": 27,
-                "name": "Emmerich-Schultz"
-            },
-            {
-                "id": 37,
-                "name": "Fahey Group"
-            },
-            {
-                "id": 47,
-                "name": "Ferry-Larkin"
-            },
-            {
-                "id": 21,
-                "name": "Gerlach, Ward and Grimes"
-            },
-            {
-                "id": 33,
-                "name": "Glover Group"
-            },
-            {
-                "id": 39,
-                "name": "Gutmann-McCullough"
-            },
-            {
-                "id": 35,
-                "name": "Hackett PLC"
-            },
-            {
-                "id": 36,
-                "name": "Hegmann Ltd"
-            },
-            {
-                "id": 31,
-                "name": "Hyatt, Maggio and Russel"
-            },
-            {
-                "id": 5,
-                "name": "Jacobi-Jakubowski"
-            },
-            {
-                "id": 12,
-                "name": "Johnston-Kuhn"
-            },
-            {
-                "id": 3,
-                "name": "Kautzer-Goyette"
-            },
-            {
-                "id": 38,
-                "name": "Keebler-Huels"
-            },
-            {
-                "id": 14,
-                "name": "Koepp and Sons"
-            },
-            {
-                "id": 7,
-                "name": "Langosh, Jast and Ferry"
-            },
-            {
-                "id": 23,
-                "name": "Ledner-Harber"
-            },
-            {
-                "id": 28,
-                "name": "Lubowitz Group"
-            },
-            {
-                "id": 15,
-                "name": "Lubowitz, Borer and Harvey"
-            },
-            {
-                "id": 34,
-                "name": "Lynch, Jast and Osinski"
-            },
-            {
-                "id": 16,
-                "name": "Macejkovic-Bradtke"
-            },
-            {
-                "id": 6,
-                "name": "Maggio Ltd"
-            },
-            {
-                "id": 4,
-                "name": "Marquardt-Gleichner"
-            },
-            {
-                "id": 49,
-                "name": "Mills-Kihn"
-            },
-            {
-                "id": 13,
-                "name": "Nienow, McClure and Kris"
-            },
-            {
-                "id": 10,
-                "name": "Ondricka, Sanford and Frami"
-            },
-            {
-                "id": 43,
-                "name": "Reichert PLC"
-            },
-            {
-                "id": 8,
-                "name": "Rice PLC"
-            },
-            {
-                "id": 2,
-                "name": "Rodriguez, Moore and Balistreri"
-            },
-            {
-                "id": 46,
-                "name": "Schowalter, Yost and Fisher"
-            },
-            {
-                "id": 29,
-                "name": "Senger and Sons"
+                "id": 167,
+                "name": "Books"
             },
             {
                 "id": 50,
-                "name": "Simonis PLC"
-            },
-            {
-                "id": 42,
-                "name": "Spencer Group"
-            },
-            {
-                "id": 11,
-                "name": "Stracke PLC"
-            },
-            {
-                "id": 40,
-                "name": "Stracke, Fadel and Rau"
-            },
-            {
-                "id": 22,
-                "name": "Thiel Group"
-            },
-            {
-                "id": 1,
-                "name": "Torphy-Schimmel"
-            },
-            {
-                "id": 48,
-                "name": "Tremblay-Pollich"
+                "name": "Camera & Photo"
             },
             {
                 "id": 41,
-                "name": "West Inc"
+                "name": "Computer Accessories"
             },
             {
-                "id": 9,
-                "name": "White, Boyer and Kuhlman"
+                "id": 49,
+                "name": "Electronic Accessories"
             },
             {
-                "id": 18,
-                "name": "Wiza-Doyle"
+                "id": 58,
+                "name": "Electronic appliances"
+            },
+            {
+                "id": 6,
+                "name": "Health & Personal Care"
+            },
+            {
+                "id": 19,
+                "name": "Herbs & Seasonings"
+            },
+            {
+                "id": 43,
+                "name": "Holi Colour"
+            },
+            {
+                "id": 171,
+                "name": "Home & Décor - Curtains"
+            },
+            {
+                "id": 42,
+                "name": "Home & Decor- Accessories"
+            },
+            {
+                "id": 170,
+                "name": "Home & Decor-Cushion Cover & Bedsheet"
+            },
+            {
+                "id": 157,
+                "name": "Jewellery"
+            },
+            {
+                "id": 72,
+                "name": "Jewelry Packaging & Display"
             },
             {
                 "id": 44,
-                "name": "Wunsch Inc"
+                "name": "Kitchen Masala"
             },
             {
-                "id": 45,
-                "name": "Wunsch-Waters"
+                "id": 100,
+                "name": "Luggage & Bags - Backpacks"
             },
             {
-                "id": 30,
-                "name": "Zieme, McClure and Kling"
+                "id": 103,
+                "name": "Luggage & Bags - Handbags"
+            },
+            {
+                "id": 104,
+                "name": "Luggage & Bags - Luggage & Travel Bags"
+            },
+            {
+                "id": 155,
+                "name": "Luggage & Bags - Office Bags"
+            },
+            {
+                "id": 156,
+                "name": "Luggage & Bags - Sling Bags"
+            },
+            {
+                "id": 105,
+                "name": "Luggage & Bags - Special Purpose Bags"
+            },
+            {
+                "id": 107,
+                "name": "Luggage & Bags - Waist Packs"
+            },
+            {
+                "id": 108,
+                "name": "Luggage & Bags - Wallets & Holders"
+            },
+            {
+                "id": 55,
+                "name": "Men's Clothing"
+            },
+            {
+                "id": 33,
+                "name": "Mobile Accessories"
+            },
+            {
+                "id": 151,
+                "name": "Office and Stationary"
+            },
+            {
+                "id": 172,
+                "name": "Organic Products - Cleaners"
+            },
+            {
+                "id": 173,
+                "name": "Others"
+            },
+            {
+                "id": 35,
+                "name": "Pot Plant"
+            },
+            {
+                "id": 97,
+                "name": "Shoes - Men's Shoes"
+            },
+            {
+                "id": 60,
+                "name": "Smart Electronics"
+            },
+            {
+                "id": 150,
+                "name": "Sunglasses"
+            },
+            {
+                "id": 32,
+                "name": "Watch"
+            },
+            {
+                "id": 62,
+                "name": "Women's Clothing"
+            },
+            {
+                "id": 183,
+                "name": "Womens Ethnic Wear"
             }
         ],
         "suppliers": [
             {
-                "id": 2,
-                "name": "vendor"
+                "id": 1,
+                "name": "TT Bags"
             },
             {
-                "id": 22,
-                "name": "Miss Shaina Casper"
+                "id": 15,
+                "name": "MAKO INTERNATIONAL PVT.LTD"
             },
             {
-                "id": 514,
-                "name": "test"
+                "id": 17,
+                "name": "Importikah"
+            },
+            {
+                "id": 19,
+                "name": "Right Choice Bags"
+            },
+            {
+                "id": 24,
+                "name": "fatima purse"
+            },
+            {
+                "id": 27,
+                "name": "Aradhya retail corporation"
+            },
+            {
+                "id": 28,
+                "name": "Green Clean"
+            },
+            {
+                "id": 31,
+                "name": "Indiana Fabrics"
+            },
+            {
+                "id": 32,
+                "name": "Being Adam"
+            },
+            {
+                "id": 37,
+                "name": "SAHNI ENTERPRISES"
+            },
+            {
+                "id": 72,
+                "name": "Maruti Febtech"
+            },
+            {
+                "id": 80,
+                "name": "Lewis"
+            },
+            {
+                "id": 86,
+                "name": "SG Retails Hub Interior"
+            },
+            {
+                "id": 94,
+                "name": "TOTA"
+            },
+            {
+                "id": 113,
+                "name": "AKAY JEWELS"
+            },
+            {
+                "id": 131,
+                "name": "Nasa Care Life"
+            },
+            {
+                "id": 132,
+                "name": "ANAISHA ELECTRONICS"
+            },
+            {
+                "id": 140,
+                "name": "Akshay Worldwide Incorporation"
+            },
+            {
+                "id": 145,
+                "name": "Ankit Jain"
+            },
+            {
+                "id": 146,
+                "name": "sbc exports limited"
+            },
+            {
+                "id": 170,
+                "name": "Umesh Dhingra"
+            },
+            {
+                "id": 197,
+                "name": "Syed arshur rehmam"
+            },
+            {
+                "id": 203,
+                "name": "Navkar Creation"
+            },
+            {
+                "id": 212,
+                "name": "SVP Apparels Private Limited"
+            },
+            {
+                "id": 240,
+                "name": "Suman mihsra"
+            },
+            {
+                "id": 243,
+                "name": "Saurabh nim"
+            },
+            {
+                "id": 245,
+                "name": "Blueday Sales"
+            },
+            {
+                "id": 254,
+                "name": "Forbidden Retail"
+            },
+            {
+                "id": 292,
+                "name": "Aaditri Clothing"
+            },
+            {
+                "id": 299,
+                "name": "Dyas Fashions"
+            },
+            {
+                "id": 323,
+                "name": "Shibly"
+            },
+            {
+                "id": 326,
+                "name": "Anil Kumar visht"
+            },
+            {
+                "id": 333,
+                "name": "Rabia nishath"
+            },
+            {
+                "id": 365,
+                "name": "keshav sethia"
+            },
+            {
+                "id": 409,
+                "name": "As Traders"
+            },
+            {
+                "id": 460,
+                "name": "Exit9"
+            },
+            {
+                "id": 481,
+                "name": "Varsha"
+            },
+            {
+                "id": 603,
+                "name": "Shivani Agrawal"
+            },
+            {
+                "id": 650,
+                "name": "karan sonkar"
+            },
+            {
+                "id": 707,
+                "name": "MARCO"
+            },
+            {
+                "id": 738,
+                "name": "Gaurav rathor"
+            },
+            {
+                "id": 826,
+                "name": "Liya Fashion"
+            },
+            {
+                "id": 828,
+                "name": "Suhas"
+            },
+            {
+                "id": 830,
+                "name": "HIMANSHU GARG"
+            },
+            {
+                "id": 845,
+                "name": "ArbanChic"
+            },
+            {
+                "id": 852,
+                "name": "Gauri Agarwal"
+            },
+            {
+                "id": 858,
+                "name": "Bs shopping"
+            },
+            {
+                "id": 876,
+                "name": "JJ IMPEX"
+            },
+            {
+                "id": 905,
+                "name": "Deepak Jagwani"
+            },
+            {
+                "id": 910,
+                "name": "NIPUN MAHAJAN"
+            },
+            {
+                "id": 947,
+                "name": "Rajni Singh"
+            },
+            {
+                "id": 957,
+                "name": "Chinmey Rastogi"
             }
         ]
     },
@@ -1903,180 +2225,129 @@ _Example_
 ```
 {
     "product": {
-        "id": 22936,
-        "user_id": "830",
-        "name": "Desigrace Double Miyani Legging- Red",
+        "id": 15,
+        "user_id": 1,
+        "name": "TT Bags Unisex Backpacks Blue Color With laptop Compartment",
         "slug": "",
         "bdpin": "",
-        "brand_id": "197",
-        "model": " DG11005028",
-        "sku": " DG11005028",
-        "description": "Desigrace Presents the design High Quality Multi color jegging/ Casual Tousers/Plazzo/Legging/Salwar/Tuning Top For Beautiful Girls. It Comes In jegging Pattern Which Makes It More Beautiful. It'S Made Of Lycra Stuff And Superior In Quality, Marvellous And Style In Design. It'S a Multi Coloured Apparel. It Is Revealing Attire Which Looks Gorgeous On The Body To Enjoy Beautiful Moments With Beloved Ones. You Can Club These jegging With Any Stylish Trouser. Print Sequence Might Slightly Differ, You Will Get Almost Similar Product.",
-        "specification": "Specialty : (No color fade), Production place : Made in India",
-        "weight": "350.00",
-        "length": "20.00",
-        "width": "0.20",
-        "height": "25.00",
-        "amount": "180.00",
-        "quantity": "25",
-        "status": "1",
+        "brand_id": 1,
+        "model": "BAG17s",
+        "sku": "BAG17s",
+        "description": "Built for fast moving pursuits, the TT Backpack holds all your essential for long day on a trail. It is robust backpack proving protection, It comes equipped with a large padded pocket, internal and external accessory pouches which zip for extra security Comfort was also no sacrifice in the design of this backpack. To ensure that you keep going on your journey throughout the day, the TT bags has two padded adjustable shoulder straps and a padded back panel. You will hardly know you are wearing it! And when you finally stop to take a rest, this backpack will securely stand upright to ensure none of your products are damaged when you set it down.",
+        "specification": "Model Number\tBAG17s\r\nItem Height\t15 Centimeters\r\nItem Length\t20 Centimeters\r\nItem Width\t5 Centimeters\r\nVolume Capacity\t20 Liters\r\nItem Weight\t430 Grams\r\nMaterial\tPolyester\r\nSpecial Features\tZip Closure, Shoulder Strap, Laptop Compartment\r\nClosure\tZipper\r\nInner Material\tSatin\r\nStrap\tAdjustable\r\nWarranty Type\tManufacturer",
+        "weight": "500.00",
+        "length": "40.00",
+        "width": "20.00",
+        "height": "30.00",
+        "amount": "399.00",
+        "quantity": 20,
+        "status": 1,
         "source": "bigly",
         "source_id": null,
-        "created_at": "2018-04-26 15:35:45",
-        "updated_at": "2018-04-26 15:35:45",
-        "min_price": "180.00",
-        "max_price": "499.00",
+        "created_at": "2017-11-18 19:20:27",
+        "updated_at": "2018-05-08 23:02:20",
+        "min_price": "399.00",
+        "max_price": "1299.00",
         "shipping_charge": "75.00",
-        "brand_name": "Desigrace",
+        "brand_name": "TT BAGS",
         "brand": {
-            "id": 197,
-            "name": "Desigrace"
+            "id": 1,
+            "name": "TT BAGS"
         },
-        "organization": {
-            "id": 794,
-            "user_id": "830",
-            "type_id": "3",
-            "name": "Desigrace",
-            "logo": "http://s.bigly.io/logo/1524569504-UbCDXlsCWHeWANF.png",
-            "gst": "",
-            "incorporation_number": "",
-            "address": "G-12B, Street no-5 Arjun Nagar, Delhi-51",
-            "introduction": "we are Manufacturer and dealer in unisex T-shirts and girls leggings",
-            "created_at": "2018-04-24 11:29:45",
-            "updated_at": "2018-04-24 11:31:44",
-            "city": "Delhi",
-            "state": "Delhi",
-            "pincode": "110051",
-            "country": "India"
-        },
+        "organization": null,
         "categories": [
             {
-                "id": 62,
-                "name": "Women's Clothing",
+                "id": 100,
+                "name": "Luggage & Bags - Backpacks",
                 "description": "",
                 "meta_title": "",
                 "meta_des": "",
                 "meta_keywords": "",
                 "slug": "",
                 "parent_id": null,
-                "status": "1"
+                "status": 1
             }
         ],
-        "attributes": [
-            {
-                "id": 5214,
-                "value": "Red",
-                "quantity": null,
-                "price": null,
-                "name": "Color",
-                "attr_id": "1",
-                "children": [
-                    {
-                        "id": 5215,
-                        "value": "28",
-                        "quantity": "485",
-                        "price": null,
-                        "attr_id": "2"
-                    },
-                    {
-                        "id": 5216,
-                        "value": "30",
-                        "quantity": "486",
-                        "price": null,
-                        "attr_id": "2"
-                    },
-                    {
-                        "id": 5217,
-                        "value": "32",
-                        "quantity": "487",
-                        "price": null,
-                        "attr_id": "2"
-                    },
-                    {
-                        "id": 5218,
-                        "value": "34",
-                        "quantity": "488",
-                        "price": null,
-                        "attr_id": "2"
-                    },
-                    {
-                        "id": 5219,
-                        "value": "36",
-                        "quantity": "489",
-                        "price": null,
-                        "attr_id": "2"
-                    },
-                    {
-                        "id": 5220,
-                        "value": "38",
-                        "quantity": "490",
-                        "price": null,
-                        "attr_id": "2"
-                    }
-                ]
-            }
-        ],
+        "attributes": [],
         "user": {
-            "id": 830,
-            "name": "HIMANSHU GARG",
+            "id": 1,
+            "name": "TT Bags",
             "username": null,
-            "email": "desigrace.gfh@gmail.com",
-            "status": "1",
-            "phone": "9654716652",
-            "created_at": "Apr 24, 2018",
-            "updated_at": "2018-04-24 11:29:45",
+            "email": "ttbags5@gmail.com",
+            "status": 1,
+            "phone": "9810795886",
+            "created_at": "Nov 18, 2017",
+            "updated_at": "2018-02-12 16:17:36",
             "type": "vendor"
         },
-        "rating": {
-            "rating": "3.00000",
-            "entity_id": "22936"
-        },
+        "rating": null,
         "media": [
             {
-                "id": 66764,
+                "id": 21,
                 "mime": "image/jpeg",
-                "thumb": "http://s.bigly.io/products/thumb/1524740750-71.jpg",
-                "small": "http://s.bigly.io/products/small/1524740750-71.jpg",
-                "medium": "http://s.bigly.io/products/medium/1524740750-71.jpg",
-                "large": "http://s.bigly.io/products/large/1524740750-71.jpg",
+                "thumb": "media/thumb/1511013060-17-1.jpg",
+                "small": "media/small/1511013060-17-1.jpg",
+                "medium": "media/medium/1511013060-17-1.jpg",
+                "large": "http://localhost:8000/media/large/1511013060-17-1.jpg",
                 "caption": null,
-                "default": "0",
+                "default": 0,
                 "check": "pending"
             },
             {
-                "id": 66765,
+                "id": 22,
                 "mime": "image/jpeg",
-                "thumb": "http://s.bigly.io/products/thumb/1524740751-72.jpg",
-                "small": "http://s.bigly.io/products/small/1524740751-72.jpg",
-                "medium": "http://s.bigly.io/products/medium/1524740751-72.jpg",
-                "large": "http://s.bigly.io/products/large/1524740751-72.jpg",
+                "thumb": "media/thumb/1511013061-17-2.jpg",
+                "small": "media/small/1511013061-17-2.jpg",
+                "medium": "media/medium/1511013061-17-2.jpg",
+                "large": "http://localhost:8000/media/large/1511013061-17-2.jpg",
                 "caption": null,
-                "default": "1",
+                "default": 0,
                 "check": "pending"
             },
             {
-                "id": 66766,
+                "id": 23,
                 "mime": "image/jpeg",
-                "thumb": "http://s.bigly.io/products/thumb/1524740752-74.jpg",
-                "small": "http://s.bigly.io/products/small/1524740752-74.jpg",
-                "medium": "http://s.bigly.io/products/medium/1524740752-74.jpg",
-                "large": "http://s.bigly.io/products/large/1524740752-74.jpg",
+                "thumb": "media/thumb/1511013062-17-3.jpg",
+                "small": "media/small/1511013062-17-3.jpg",
+                "medium": "media/medium/1511013062-17-3.jpg",
+                "large": "http://localhost:8000/media/large/1511013062-17-3.jpg",
                 "caption": null,
-                "default": "0",
+                "default": 0,
                 "check": "pending"
             },
             {
-                "id": 66767,
+                "id": 24,
                 "mime": "image/jpeg",
-                "thumb": "http://s.bigly.io/products/thumb/1524740752-75.jpg",
-                "small": "http://s.bigly.io/products/small/1524740752-75.jpg",
-                "medium": "http://s.bigly.io/products/medium/1524740752-75.jpg",
-                "large": "http://s.bigly.io/products/large/1524740752-75.jpg",
+                "thumb": "media/thumb/1511013063-17-4.jpg",
+                "small": "media/small/1511013063-17-4.jpg",
+                "medium": "media/medium/1511013063-17-4.jpg",
+                "large": "http://localhost:8000/media/large/1511013063-17-4.jpg",
                 "caption": null,
-                "default": "0",
+                "default": 0,
+                "check": "pending"
+            },
+            {
+                "id": 25,
+                "mime": "image/jpeg",
+                "thumb": "media/thumb/1511013064-17-5.jpg",
+                "small": "media/small/1511013064-17-5.jpg",
+                "medium": "media/medium/1511013064-17-5.jpg",
+                "large": "http://localhost:8000/media/large/1511013064-17-5.jpg",
+                "caption": null,
+                "default": 0,
                 "check": "pending"
             }
         ]
+    },
+    "user_product": {
+        "id": 35849,
+        "user_id": 759,
+        "product_id": 15,
+        "name": "yo",
+        "amount": "222.00",
+        "created_at": null,
+        "updated_at": null,
+        "description": ""
     },
     "isWishlist": false
 }
