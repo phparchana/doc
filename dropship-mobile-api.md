@@ -3106,19 +3106,135 @@ _Example_
 _Example_
 
 ```
-
 {
     "cart": {
-        "user_id": 510,
+        "id": 52,
+        "user_id": 759,
         "product_id": 1011,
+        "attribute_id": 0,
         "quantity": 10,
-        "payment_mode": "COD",
-        "attribute_id": 17,
         "amount": 50,
+        "payment_mode": "COD",
+        "status": 1,
         "type": "cart",
-        "updated_at": "2018-05-07 15:20:47",
-        "created_at": "2018-05-07 15:20:47",
-        "id": 3
+        "created_at": "2018-05-22 15:43:22",
+        "updated_at": "2018-05-22 15:43:22",
+        "product": {
+            "id": 1011,
+            "user_id": 19,
+            "name": "Right Choice,women's-Girls-Ladies-Laptop Sholder Handbags Online in India Black (RCH15 103)",
+            "slug": "",
+            "bdpin": "",
+            "brand_id": 12,
+            "model": "RCH15 103",
+            "sku": "RCH15 103",
+            "description": "Right Choice Girls-Ladies-Laptop Sholder Handbags Material : P.U - Colour :Black - Type : Casual Dimensions L X H X W (cm) : 47 x 29 x 12 (cm) Strap Type &amp; Closure Type : Belt-Zip Capacity &amp; Pockets : 2 kg-6+1 mobile pocket Warranty : 12 month On Manufacturing Defect With Replacement.",
+            "specification": "\r\n\r\nWomen handbag laptop slot with velcro fastener\r\n\r\n",
+            "weight": "450.00",
+            "length": "47.00",
+            "width": "29.00",
+            "height": "12.00",
+            "amount": "456.00",
+            "quantity": 10,
+            "status": 1,
+            "source": "bigly",
+            "source_id": null,
+            "created_at": "2017-12-28 14:46:27",
+            "updated_at": "2018-02-23 11:17:46",
+            "min_price": "456.00",
+            "max_price": "1299.00",
+            "shipping_charge": "75.00",
+            "brand_name": "Right Choice Bags",
+            "brand": {
+                "id": 12,
+                "name": "Right Choice Bags"
+            },
+            "organization": {
+                "id": 13,
+                "user_id": 19,
+                "type_id": 0,
+                "name": "Right Choice Bags",
+                "logo": "http://s.bigly.io/logo/1523474088-yTmwG6zmSXM6yAA.jpg",
+                "gst": "36AJPPA8431P1ZO",
+                "incorporation_number": "",
+                "address": "12-1-487/b/11/51/9 huda colony\r\nasifnagar\r\nhyderabad TELANGANA\r\nIndia 500028",
+                "introduction": "ECommerce",
+                "created_at": "2017-12-28 14:25:05",
+                "updated_at": "2018-04-12 00:44:48",
+                "city": "hyderabad",
+                "state": "TELANGANA",
+                "pincode": "500028",
+                "country": "India"
+            },
+            "media": [
+                {
+                    "id": 4883,
+                    "mime": "image/jpeg",
+                    "thumb": "media/thumb/1514625166-1.jpg",
+                    "small": "media/small/1514625166-1.jpg",
+                    "medium": "media/medium/1514625166-1.jpg",
+                    "large": "http://localhost:8000/media/large/1514625166-1.jpg",
+                    "caption": null,
+                    "default": 0,
+                    "check": "pending"
+                },
+                {
+                    "id": 4884,
+                    "mime": "image/jpeg",
+                    "thumb": "media/thumb/1514625172-2.jpg",
+                    "small": "media/small/1514625172-2.jpg",
+                    "medium": "media/medium/1514625172-2.jpg",
+                    "large": "http://localhost:8000/media/large/1514625172-2.jpg",
+                    "caption": null,
+                    "default": 0,
+                    "check": "pending"
+                },
+                {
+                    "id": 4885,
+                    "mime": "image/jpeg",
+                    "thumb": "media/thumb/1514625173-3.jpg",
+                    "small": "media/small/1514625173-3.jpg",
+                    "medium": "media/medium/1514625173-3.jpg",
+                    "large": "http://localhost:8000/media/large/1514625173-3.jpg",
+                    "caption": null,
+                    "default": 0,
+                    "check": "pending"
+                },
+                {
+                    "id": 4886,
+                    "mime": "image/jpeg",
+                    "thumb": "media/thumb/1514625174-4.jpg",
+                    "small": "media/small/1514625174-4.jpg",
+                    "medium": "media/medium/1514625174-4.jpg",
+                    "large": "http://localhost:8000/media/large/1514625174-4.jpg",
+                    "caption": null,
+                    "default": 0,
+                    "check": "pending"
+                },
+                {
+                    "id": 4887,
+                    "mime": "image/jpeg",
+                    "thumb": "media/thumb/1514625175-5.jpg",
+                    "small": "media/small/1514625175-5.jpg",
+                    "medium": "media/medium/1514625175-5.jpg",
+                    "large": "http://localhost:8000/media/large/1514625175-5.jpg",
+                    "caption": null,
+                    "default": 0,
+                    "check": "pending"
+                },
+                {
+                    "id": 4888,
+                    "mime": "image/jpeg",
+                    "thumb": "media/thumb/1514625175-6.jpg",
+                    "small": "media/small/1514625175-6.jpg",
+                    "medium": "media/medium/1514625175-6.jpg",
+                    "large": "http://localhost:8000/media/large/1514625175-6.jpg",
+                    "caption": null,
+                    "default": 0,
+                    "check": "pending"
+                }
+            ]
+        }
     },
     "responseMessage": "Product has been successfully Added",
     "responseCode": 200
