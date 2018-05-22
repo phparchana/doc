@@ -2337,17 +2337,17 @@ _Example_
                 "default": 0,
                 "check": "pending"
             }
-        ]
-    },
-    "user_product": {
-        "id": 35849,
-        "user_id": 759,
-        "product_id": 15,
-        "name": "yo",
-        "amount": "222.00",
-        "created_at": null,
-        "updated_at": null,
-        "description": ""
+        ],
+        "user_product": {
+            "id": 35849,
+            "user_id": 759,
+            "product_id": 15,
+            "name": "yo",
+            "amount": "222.00",
+            "created_at": null,
+            "updated_at": null,
+            "description": ""
+        }
     },
     "isWishlist": false
 }
