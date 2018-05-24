@@ -69,13 +69,19 @@ _Example_
 _Example_
 
 ```
-
 {
-   "name": "user name",
-   "email": "name@email.com",
-   "updated_at": "2018-04-04 12:29:36",
-   "created_at": "2018-04-04 12:29:36",
-   "id": 532
+    "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6Ijg2NjAxNmU2NzE0MzdiNGM2MTgyZTA5NThjZmQ0MjQ0ODcxMDIzYWJmODQ1NDc1MTYyMjFlNzc3MDMyNTRhZGQzNTViMjQ2MzM4YzEyYjI5In0.eyJhdWQiOiIyNDYiLCJqdGkiOiI4NjYwMTZlNjcxNDM3YjRjNjE4MmUwOTU4Y2ZkNDI0NDg3MTAyM2FiZjg0NTQ3NTE2MjIxZTc3NzAzMjU0YWRkMzU1YjI0NjMzOGMxMmIyOSIsImlhdCI6MTUyNzE1NjQ3OCwibmJmIjoxNTI3MTU2NDc4LCJleHAiOjE1NTg2OTI0NzgsInN1YiI6Ijk4OSIsInNjb3BlcyI6W119.i1TYC6r33x0W-cRAt2bYoFWAAn8oRCft9OiriTnDbTQjHB8y4YRzdhX9ERXvKs8su3aOr-YGLKca8_uSJTbt1WfU4IC45l9DImEh2lexgocjQTXku1MWXE6JHDNaWpqL1FaFBAwkG0uFuRwWopqEuSesT28-EjCHN2PPoLZMhNYOQggziucZG_VJCQkMRFzPvFE9HBRwht9rH1Cftnx9ziwl2d1uRZo_6CdJ4HWBba6jyv6NQK9ycHgtUV_Votq5BBe8hYqVYv38f9OKP-FeTasaqkgQU1Jlwz6f48dRYpa3BqUSL1QLcZWRyaiTBr7UhAg1EzHWXopLGnHtlWlaCLZiU-EJZKKjJgjTZbOjJ5K-E-LLwFvIc_lcH79-nAtgxXTocmr9im3EUp8_bDKFSR5PIUcUW94-ThY309Q2pkQXS-_FgCLcdyj8tIECkOZk0PBSQmnDYD39UHbKjgVqqa25Fjfc6p7GLJQEPxDXviy_L-Ncw_3nN2HG8QepHrYZw1PIZleBKn1OoAEAcHxHfwdB5LJJ_xwiG5nc-SAxdkBggyfDQHxsDMnPMm8fupg_c2WmZfx6p6VsFi9krX5CwguL3skznTc5Hi3f3sztMjOrDI2_nZ8Cd-JnYCJhCClNkky5VWKZ6UU4uRtflJwei8l_OM-g5op9BVdYoLbUyyI",
+    "token": {
+        "id": "866016e671437b4c6182e0958cfd4244871023abf84547516221e77703254add355b246338c12b29",
+        "user_id": 989,
+        "client_id": 246,
+        "name": "facebook",
+        "scopes": [],
+        "revoked": false,
+        "created_at": "2018-05-24 15:37:58",
+        "updated_at": "2018-05-24 15:37:58",
+        "expires_at": "2019-05-24 15:37:58"
+    }
 }
 
 ```
