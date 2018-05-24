@@ -5412,14 +5412,14 @@ _Example_
 
 ```
 {
-    "faqs": [
+    "data": [
         {
-            "que": "{\"What is Bigly\"",
-            "ans": "\"BigLy is Ecommerce platform tool\""
+            "que": "What is Bigly",
+            "ans": "BigLy is Ecommerce platform tool"
         },
         {
-            "que": "\"What is pricing\"",
-            "ans": "\"Goto app.bigly.io\\/pricing to check pricing\"}"
+            "que": "What is pricing",
+            "ans": "Goto app.bigly.io/pricing to check pricing"
         }
     ]
 }
