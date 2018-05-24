@@ -70,17 +70,30 @@ _Example_
 
 ```
 {
-    "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6Ijg2NjAxNmU2NzE0MzdiNGM2MTgyZTA5NThjZmQ0MjQ0ODcxMDIzYWJmODQ1NDc1MTYyMjFlNzc3MDMyNTRhZGQzNTViMjQ2MzM4YzEyYjI5In0.eyJhdWQiOiIyNDYiLCJqdGkiOiI4NjYwMTZlNjcxNDM3YjRjNjE4MmUwOTU4Y2ZkNDI0NDg3MTAyM2FiZjg0NTQ3NTE2MjIxZTc3NzAzMjU0YWRkMzU1YjI0NjMzOGMxMmIyOSIsImlhdCI6MTUyNzE1NjQ3OCwibmJmIjoxNTI3MTU2NDc4LCJleHAiOjE1NTg2OTI0NzgsInN1YiI6Ijk4OSIsInNjb3BlcyI6W119.i1TYC6r33x0W-cRAt2bYoFWAAn8oRCft9OiriTnDbTQjHB8y4YRzdhX9ERXvKs8su3aOr-YGLKca8_uSJTbt1WfU4IC45l9DImEh2lexgocjQTXku1MWXE6JHDNaWpqL1FaFBAwkG0uFuRwWopqEuSesT28-EjCHN2PPoLZMhNYOQggziucZG_VJCQkMRFzPvFE9HBRwht9rH1Cftnx9ziwl2d1uRZo_6CdJ4HWBba6jyv6NQK9ycHgtUV_Votq5BBe8hYqVYv38f9OKP-FeTasaqkgQU1Jlwz6f48dRYpa3BqUSL1QLcZWRyaiTBr7UhAg1EzHWXopLGnHtlWlaCLZiU-EJZKKjJgjTZbOjJ5K-E-LLwFvIc_lcH79-nAtgxXTocmr9im3EUp8_bDKFSR5PIUcUW94-ThY309Q2pkQXS-_FgCLcdyj8tIECkOZk0PBSQmnDYD39UHbKjgVqqa25Fjfc6p7GLJQEPxDXviy_L-Ncw_3nN2HG8QepHrYZw1PIZleBKn1OoAEAcHxHfwdB5LJJ_xwiG5nc-SAxdkBggyfDQHxsDMnPMm8fupg_c2WmZfx6p6VsFi9krX5CwguL3skznTc5Hi3f3sztMjOrDI2_nZ8Cd-JnYCJhCClNkky5VWKZ6UU4uRtflJwei8l_OM-g5op9BVdYoLbUyyI",
-    "token": {
-        "id": "866016e671437b4c6182e0958cfd4244871023abf84547516221e77703254add355b246338c12b29",
-        "user_id": 989,
-        "client_id": 246,
-        "name": "facebook",
-        "scopes": [],
-        "revoked": false,
-        "created_at": "2018-05-24 15:37:58",
-        "updated_at": "2018-05-24 15:37:58",
-        "expires_at": "2019-05-24 15:37:58"
+    "data": {
+        "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjM5ZjdkYzk0YTQzZDMyOWI3ZWM4N2YxNmIzOTFiNTFhZjcwNTdiYzYxMjRkNWYzMTIzNTk1M2NiOWVhNzdmMzRjNmUzYmU0NjZhMjljOWM4In0.eyJhdWQiOiIyNDYiLCJqdGkiOiIzOWY3ZGM5NGE0M2QzMjliN2VjODdmMTZiMzkxYjUxYWY3MDU3YmM2MTI0ZDVmMzEyMzU5NTNjYjllYTc3ZjM0YzZlM2JlNDY2YTI5YzljOCIsImlhdCI6MTUyNzE1OTI4NiwibmJmIjoxNTI3MTU5Mjg2LCJleHAiOjE1NTg2OTUyODYsInN1YiI6Ijk4OSIsInNjb3BlcyI6W119.4M776nCJhMwn8Mr4q6UB-AAkVhr8kD_PDGG7ASXRkcnvrpAEwwwiBJTzb8Ruro6ydN937tnzBkJr4TDRigrXhx50qj3zhsXs1bBXc-a2_u3QajRJC_e73GjSQ-IE5T0k25M9Agplkba_6zruqeCSQqI4OkpBsaylickOfjWyDhI6k8I1AvAkp3zG3Oq85vmNvvXvcJIV0Pmn2TLapZBbDrK9BRK4s_3HJSUipt9lqjEZwyh45UHembBFeD61WRf1ip4UJ-_oKd47FdrYDAx9uWg8R4KGiVVpTaJ9FZVdS1Mxpt0X0Vgis3Ks6R_17YYnnZDlX3J8ilDI63B48dIAvRsgRI4EgE3wjwqDOmXVF6iOpG1DJ7eTiLtB-S0WR3pv4o4GkN4ZtIvDJLpn9YVdShesluPBZ2yBidgme_uxSckE89IwfTfi_owadvOmlzFHzvtCKcQx5dzBkC2HA8-7ehdJagzB9TwMXbG6a71V_OcxXDGB_l-LkIvRvOi-fzgz_NJKgKgvoXHGs374PHUkHYcssqvAgWfRPvw5MYZsvVWAmcsRG3NZi7F-PEBt1cKRn2rDP9-7mUmHIxhFC8a9YPIgV0CxM1zjsengiGB_UCNpIuzIrLdeVUMVQW0vyFnsTUmWn9EV7EO3bGQaIK-g-EZXbHCKR6YQgTf0-3Z_GBY",
+        "token": {
+            "id": "39f7dc94a43d329b7ec87f16b391b51af7057bc6124d5f31235953cb9ea77f34c6e3be466a29c9c8",
+            "user_id": 989,
+            "client_id": 246,
+            "name": "facebook",
+            "scopes": [],
+            "revoked": false,
+            "created_at": "2018-05-24 16:24:46",
+            "updated_at": "2018-05-24 16:24:46",
+            "expires_at": "2019-05-24 16:24:46"
+        }
+    },
+    "user": {
+        "id": 989,
+        "name": "Gunjan Kumar",
+        "username": null,
+        "email": "1618242761564460@facebook.com",
+        "status": 1,
+        "phone": null,
+        "created_at": "May 24, 2018",
+        "updated_at": "2018-05-24 15:37:30",
+        "type": "admin"
     }
 }
 
