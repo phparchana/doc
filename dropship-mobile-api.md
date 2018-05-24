@@ -54,10 +54,10 @@ _Example_
 ```
 
 
-  {
-    "name": "user name",
-    "email" : "name@email.com",
-    "fb_id" : 231
+{
+   "access_token" : "svdch",
+   "device_token" : "dbhjdsbdvfj",
+   "device_type" : "mobsdfs"
 }
 
 ```
