@@ -33,6 +33,7 @@
     29. My WishLists
     30. Get Faqs
     31. Update Faqs
+    32. Get all Notifications
 
 
 
@@ -5431,6 +5432,892 @@ _Example_
     ]
 }
 ```
+
+<!-- 31 -->
+
+
+
+##  All Notifications
+
+**API** `http://localhost:8000/api/notifications`
+
+**Method** : Get
+
+### Response :
+
+_Example_
+
+```
+{
+    "notifications": [
+        {
+            "id": 4880,
+            "user_id": 989,
+            "message_id": 3020,
+            "status": "unseen",
+            "created_at": "2018-05-30 16:12:27",
+            "updated_at": "2018-05-30 16:12:27",
+            "type": null,
+            "message": {
+                "id": 3020,
+                "subject": "Change in Product Quantity",
+                "message": "Dear BiglyShipper,<br>There is a major Information for you. Just Now, Supplier has changed Quantity of General Knowledge 2019 . Now the Quantity of <b>'General Knowledge 2019 '</b> is changed from       70 to 72 .<br>Thankyou",
+                "created_at": "2018-05-30 16:12:27",
+                "updated_at": "2018-05-30 16:12:27",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 4930,
+            "user_id": 989,
+            "message_id": 3070,
+            "status": "unseen",
+            "created_at": "2018-05-30 16:16:38",
+            "updated_at": "2018-05-30 16:16:38",
+            "type": null,
+            "message": {
+                "id": 3070,
+                "subject": "Change in Product Quantity",
+                "message": "Dear BiglyShipper,<br>There is a major Information for you. Just Now, Supplier has changed Quantity of General Knowledge 2019 . Now the Quantity of <b>'General Knowledge 2019 '</b> is changed from       75 to 78 .<br>Thankyou",
+                "created_at": "2018-05-30 16:16:38",
+                "updated_at": "2018-05-30 16:16:38",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 4961,
+            "user_id": 989,
+            "message_id": 3101,
+            "status": "unseen",
+            "created_at": "2018-05-30 16:18:47",
+            "updated_at": "2018-05-30 16:18:47",
+            "type": null,
+            "message": {
+                "id": 3101,
+                "subject": "Change in Product Quantity",
+                "message": "Dear BiglyShipper,<br>There is a major Information for you. Just Now, Supplier has changed Quantity of General Knowledge 2019 . Now the Quantity of <b>'General Knowledge 2019 '</b> is changed from       78 to 80 .<br>Thankyou",
+                "created_at": "2018-05-30 16:18:47",
+                "updated_at": "2018-05-30 16:18:47",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 4992,
+            "user_id": 989,
+            "message_id": 3132,
+            "status": "unseen",
+            "created_at": "2018-05-30 17:07:44",
+            "updated_at": "2018-05-30 17:07:44",
+            "type": null,
+            "message": {
+                "id": 3132,
+                "subject": "Change in Product Quantity",
+                "message": "Dear BiglyShipper,<br>There is a major Information for you. Just Now, Supplier has changed Quantity of General Knowledge 2019 . Now the Quantity of <b>'General Knowledge 2019 '</b> is changed from       80 to 82 .<br>Thankyou",
+                "created_at": "2018-05-30 17:07:44",
+                "updated_at": "2018-05-30 17:07:44",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5023,
+            "user_id": 989,
+            "message_id": 3163,
+            "status": "unseen",
+            "created_at": "2018-05-30 17:08:36",
+            "updated_at": "2018-05-30 17:08:36",
+            "type": null,
+            "message": {
+                "id": 3163,
+                "subject": "Change in Product Quantity",
+                "message": "Dear BiglyShipper,<br>There is a major Information for you. Just Now, Supplier has changed Quantity of General Knowledge 2019 . Now the Quantity of <b>'General Knowledge 2019 '</b> is changed from       82 to 85 .<br>Thankyou",
+                "created_at": "2018-05-30 17:08:36",
+                "updated_at": "2018-05-30 17:08:36",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5054,
+            "user_id": 989,
+            "message_id": 3194,
+            "status": "unseen",
+            "created_at": "2018-05-30 17:10:32",
+            "updated_at": "2018-05-30 17:10:32",
+            "type": null,
+            "message": {
+                "id": 3194,
+                "subject": "Change in Product Quantity",
+                "message": "Dear BiglyShipper,<br>There is a major Information for you. Just Now, Supplier has changed Quantity of General Knowledge 2019 . Now the Quantity of <b>'General Knowledge 2019 '</b> is changed from       85 to 88 .<br>Thankyou",
+                "created_at": "2018-05-30 17:10:32",
+                "updated_at": "2018-05-30 17:10:32",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5085,
+            "user_id": 989,
+            "message_id": 3225,
+            "status": "unseen",
+            "created_at": "2018-05-30 17:11:29",
+            "updated_at": "2018-05-30 17:11:29",
+            "type": null,
+            "message": {
+                "id": 3225,
+                "subject": "Change in Product Quantity",
+                "message": "Dear BiglyShipper,<br>There is a major Information for you. Just Now, Supplier has changed Quantity of General Knowledge 2019 . Now the Quantity of <b>'General Knowledge 2019 '</b> is changed from       88 to 91 .<br>Thankyou",
+                "created_at": "2018-05-30 17:11:29",
+                "updated_at": "2018-05-30 17:11:29",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5116,
+            "user_id": 989,
+            "message_id": 3256,
+            "status": "unseen",
+            "created_at": "2018-05-30 17:12:23",
+            "updated_at": "2018-05-30 17:12:23",
+            "type": null,
+            "message": {
+                "id": 3256,
+                "subject": "Change in Product Quantity",
+                "message": "Dear BiglyShipper,<br>There is a major Information for you. Just Now, Supplier has changed Quantity of General Knowledge 2019 . Now the Quantity of <b>'General Knowledge 2019 '</b> is changed from       91 to 94 .<br>Thankyou",
+                "created_at": "2018-05-30 17:12:23",
+                "updated_at": "2018-05-30 17:12:23",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5147,
+            "user_id": 989,
+            "message_id": 3287,
+            "status": "unseen",
+            "created_at": "2018-05-30 17:12:45",
+            "updated_at": "2018-05-30 17:12:45",
+            "type": null,
+            "message": {
+                "id": 3287,
+                "subject": "Change in Product Quantity",
+                "message": "Dear BiglyShipper,<br>There is a major Information for you. Just Now, Supplier has changed Quantity of General Knowledge 2019 . Now the Quantity of <b>'General Knowledge 2019 '</b> is changed from       94 to 97 .<br>Thankyou",
+                "created_at": "2018-05-30 17:12:45",
+                "updated_at": "2018-05-30 17:12:45",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5178,
+            "user_id": 989,
+            "message_id": 3318,
+            "status": "unseen",
+            "created_at": "2018-05-30 17:13:06",
+            "updated_at": "2018-05-30 17:13:06",
+            "type": null,
+            "message": {
+                "id": 3318,
+                "subject": "Change in Product Quantity",
+                "message": "Dear BiglyShipper,<br>There is a major Information for you. Just Now, Supplier has changed Quantity of General Knowledge 2019 . Now the Quantity of <b>'General Knowledge 2019 '</b> is changed from       97 to 100 .<br>Thankyou",
+                "created_at": "2018-05-30 17:13:06",
+                "updated_at": "2018-05-30 17:13:06",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5209,
+            "user_id": 989,
+            "message_id": 3349,
+            "status": "unseen",
+            "created_at": "2018-05-30 17:13:55",
+            "updated_at": "2018-05-30 17:13:55",
+            "type": null,
+            "message": {
+                "id": 3349,
+                "subject": "Change in Product Quantity",
+                "message": "Dear BiglyShipper,<br>There is a major Information for you. Just Now, Supplier has changed Quantity of General Knowledge 2019 . Now the Quantity of <b>'General Knowledge 2019 '</b> is changed from       100 to 103 .<br>Thankyou",
+                "created_at": "2018-05-30 17:13:55",
+                "updated_at": "2018-05-30 17:13:55",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5240,
+            "user_id": 989,
+            "message_id": 3380,
+            "status": "unseen",
+            "created_at": "2018-05-30 17:14:13",
+            "updated_at": "2018-05-30 17:14:13",
+            "type": null,
+            "message": {
+                "id": 3380,
+                "subject": "Change in Product Quantity",
+                "message": "Dear BiglyShipper,<br>There is a major Information for you. Just Now, Supplier has changed Quantity of General Knowledge 2019 . Now the Quantity of <b>'General Knowledge 2019 '</b> is changed from       103 to 106 .<br>Thankyou",
+                "created_at": "2018-05-30 17:14:13",
+                "updated_at": "2018-05-30 17:14:13",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5271,
+            "user_id": 989,
+            "message_id": 3411,
+            "status": "unseen",
+            "created_at": "2018-05-30 17:14:15",
+            "updated_at": "2018-05-30 17:14:15",
+            "type": null,
+            "message": {
+                "id": 3411,
+                "subject": "Change in Product Quantity",
+                "message": "Dear BiglyShipper,<br>There is a major Information for you. Just Now, Supplier has changed Quantity of General Knowledge 2019 . Now the Quantity of <b>'General Knowledge 2019 '</b> is changed from       106 to 109 .<br>Thankyou",
+                "created_at": "2018-05-30 17:14:15",
+                "updated_at": "2018-05-30 17:14:15",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5302,
+            "user_id": 989,
+            "message_id": 3442,
+            "status": "unseen",
+            "created_at": "2018-05-30 17:14:17",
+            "updated_at": "2018-05-30 17:14:17",
+            "type": null,
+            "message": {
+                "id": 3442,
+                "subject": "Change in Product Quantity",
+                "message": "Dear BiglyShipper,<br>There is a major Information for you. Just Now, Supplier has changed Quantity of General Knowledge 2019 . Now the Quantity of <b>'General Knowledge 2019 '</b> is changed from       109 to 112 .<br>Thankyou",
+                "created_at": "2018-05-30 17:14:17",
+                "updated_at": "2018-05-30 17:14:17",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5333,
+            "user_id": 989,
+            "message_id": 3473,
+            "status": "unseen",
+            "created_at": "2018-05-30 17:14:53",
+            "updated_at": "2018-05-30 17:14:53",
+            "type": null,
+            "message": {
+                "id": 3473,
+                "subject": "Change in Product Quantity",
+                "message": "Dear BiglyShipper,<br>There is a major Information for you. Just Now, Supplier has changed Quantity of General Knowledge 2019 . Now the Quantity of <b>'General Knowledge 2019 '</b> is changed from       112 to 114 .<br>Thankyou",
+                "created_at": "2018-05-30 17:14:53",
+                "updated_at": "2018-05-30 17:14:53",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5364,
+            "user_id": 989,
+            "message_id": 3504,
+            "status": "unseen",
+            "created_at": "2018-05-30 17:15:11",
+            "updated_at": "2018-05-30 17:15:11",
+            "type": null,
+            "message": {
+                "id": 3504,
+                "subject": "Change in Product Quantity",
+                "message": "Dear BiglyShipper,<br>There is a major Information for you. Just Now, Supplier has changed Quantity of General Knowledge 2019 . Now the Quantity of <b>'General Knowledge 2019 '</b> is changed from       114 to 116 .<br>Thankyou",
+                "created_at": "2018-05-30 17:15:11",
+                "updated_at": "2018-05-30 17:15:11",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5395,
+            "user_id": 989,
+            "message_id": 3535,
+            "status": "unseen",
+            "created_at": "2018-05-30 17:16:11",
+            "updated_at": "2018-05-30 17:16:11",
+            "type": null,
+            "message": {
+                "id": 3535,
+                "subject": "Change in Product Quantity",
+                "message": "Dear BiglyShipper,<br>There is a major Information for you. Just Now, Supplier has changed Quantity of General Knowledge 2019 . Now the Quantity of <b>'General Knowledge 2019 '</b> is changed from       116 to 118 .<br>Thankyou",
+                "created_at": "2018-05-30 17:16:11",
+                "updated_at": "2018-05-30 17:16:11",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5426,
+            "user_id": 989,
+            "message_id": 3566,
+            "status": "unseen",
+            "created_at": "2018-05-30 17:16:25",
+            "updated_at": "2018-05-30 17:16:25",
+            "type": null,
+            "message": {
+                "id": 3566,
+                "subject": "Change in Product Quantity",
+                "message": "Dear BiglyShipper,<br>There is a major Information for you. Just Now, Supplier has changed Quantity of General Knowledge 2019 . Now the Quantity of <b>'General Knowledge 2019 '</b> is changed from       118 to 120 .<br>Thankyou",
+                "created_at": "2018-05-30 17:16:25",
+                "updated_at": "2018-05-30 17:16:25",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5457,
+            "user_id": 989,
+            "message_id": 3597,
+            "status": "unseen",
+            "created_at": "2018-05-30 17:17:22",
+            "updated_at": "2018-05-30 17:17:22",
+            "type": null,
+            "message": {
+                "id": 3597,
+                "subject": "Change in Product Quantity",
+                "message": "Dear BiglyShipper,<br>There is a major Information for you. Just Now, Supplier has changed Quantity of General Knowledge 2019 . Now the Quantity of <b>'General Knowledge 2019 '</b> is changed from       120 to 122 .<br>Thankyou",
+                "created_at": "2018-05-30 17:17:22",
+                "updated_at": "2018-05-30 17:17:22",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5488,
+            "user_id": 989,
+            "message_id": 3628,
+            "status": "unseen",
+            "created_at": "2018-05-30 17:27:29",
+            "updated_at": "2018-05-30 17:27:29",
+            "type": null,
+            "message": {
+                "id": 3628,
+                "subject": "Change in Product Quantity",
+                "message": "Dear BiglyShipper,<br>There is a major Information for you. Just Now, Supplier has changed Quantity of General Knowledge 2019 . Now the Quantity of <b>'General Knowledge 2019 '</b> is changed from       122 to 124 .<br>Thankyou",
+                "created_at": "2018-05-30 17:27:29",
+                "updated_at": "2018-05-30 17:27:29",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5489,
+            "user_id": 989,
+            "message_id": 3629,
+            "status": "unseen",
+            "created_at": "2018-05-31 10:54:24",
+            "updated_at": "2018-05-31 10:54:24",
+            "type": null,
+            "message": {
+                "id": 3629,
+                "subject": "Congratulations !! Notification Done",
+                "message": "",
+                "created_at": "2018-05-31 10:54:24",
+                "updated_at": "2018-05-31 10:54:24",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5490,
+            "user_id": 989,
+            "message_id": 3630,
+            "status": "unseen",
+            "created_at": "2018-05-31 10:55:24",
+            "updated_at": "2018-05-31 10:55:24",
+            "type": null,
+            "message": {
+                "id": 3630,
+                "subject": "Congratulations !! Notification Done",
+                "message": "",
+                "created_at": "2018-05-31 10:55:24",
+                "updated_at": "2018-05-31 10:55:24",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5491,
+            "user_id": 989,
+            "message_id": 3631,
+            "status": "unseen",
+            "created_at": "2018-05-31 11:15:25",
+            "updated_at": "2018-05-31 11:15:25",
+            "type": null,
+            "message": {
+                "id": 3631,
+                "subject": "Your Order has been' . shipped ",
+                "message": "",
+                "created_at": "2018-05-31 11:15:25",
+                "updated_at": "2018-05-31 11:15:25",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5492,
+            "user_id": 989,
+            "message_id": 3632,
+            "status": "unseen",
+            "created_at": "2018-05-31 11:15:33",
+            "updated_at": "2018-05-31 11:15:33",
+            "type": null,
+            "message": {
+                "id": 3632,
+                "subject": "Your Order has been' . delivered ",
+                "message": "",
+                "created_at": "2018-05-31 11:15:33",
+                "updated_at": "2018-05-31 11:15:33",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5493,
+            "user_id": 989,
+            "message_id": 3633,
+            "status": "unseen",
+            "created_at": "2018-05-31 11:16:46",
+            "updated_at": "2018-05-31 11:16:46",
+            "type": null,
+            "message": {
+                "id": 3633,
+                "subject": "Your Order has beenshipped",
+                "message": "",
+                "created_at": "2018-05-31 11:16:46",
+                "updated_at": "2018-05-31 11:16:46",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5494,
+            "user_id": 989,
+            "message_id": 3634,
+            "status": "unseen",
+            "created_at": "2018-05-31 11:17:14",
+            "updated_at": "2018-05-31 11:17:14",
+            "type": null,
+            "message": {
+                "id": 3634,
+                "subject": "Your Order has been delivered",
+                "message": "",
+                "created_at": "2018-05-31 11:17:14",
+                "updated_at": "2018-05-31 11:17:14",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5495,
+            "user_id": 989,
+            "message_id": 3635,
+            "status": "unseen",
+            "created_at": "2018-05-31 13:00:33",
+            "updated_at": "2018-05-31 13:00:33",
+            "type": null,
+            "message": {
+                "id": 3635,
+                "subject": "Your Order has been shipped",
+                "message": "",
+                "created_at": "2018-05-31 13:00:33",
+                "updated_at": "2018-05-31 13:00:33",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5496,
+            "user_id": 989,
+            "message_id": 3636,
+            "status": "unseen",
+            "created_at": "2018-05-31 13:00:51",
+            "updated_at": "2018-05-31 13:00:51",
+            "type": null,
+            "message": {
+                "id": 3636,
+                "subject": "Your Order has been delivered",
+                "message": "",
+                "created_at": "2018-05-31 13:00:51",
+                "updated_at": "2018-05-31 13:00:51",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5497,
+            "user_id": 989,
+            "message_id": 3637,
+            "status": "unseen",
+            "created_at": "2018-05-31 13:01:21",
+            "updated_at": "2018-05-31 13:01:21",
+            "type": null,
+            "message": {
+                "id": 3637,
+                "subject": "Congratulations !! Notification Done",
+                "message": "",
+                "created_at": "2018-05-31 13:01:21",
+                "updated_at": "2018-05-31 13:01:21",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5498,
+            "user_id": 989,
+            "message_id": 3638,
+            "status": "unseen",
+            "created_at": "2018-05-31 13:05:14",
+            "updated_at": "2018-05-31 13:05:14",
+            "type": null,
+            "message": {
+                "id": 3638,
+                "subject": "Congratulations !! Notification Done",
+                "message": "",
+                "created_at": "2018-05-31 13:05:14",
+                "updated_at": "2018-05-31 13:05:14",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5499,
+            "user_id": 989,
+            "message_id": 3639,
+            "status": "unseen",
+            "created_at": "2018-05-31 13:05:30",
+            "updated_at": "2018-05-31 13:05:30",
+            "type": null,
+            "message": {
+                "id": 3639,
+                "subject": "Congratulations !! Notification Done",
+                "message": "",
+                "created_at": "2018-05-31 13:05:30",
+                "updated_at": "2018-05-31 13:05:30",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5500,
+            "user_id": 989,
+            "message_id": 3640,
+            "status": "unseen",
+            "created_at": "2018-05-31 13:05:46",
+            "updated_at": "2018-05-31 13:05:46",
+            "type": null,
+            "message": {
+                "id": 3640,
+                "subject": "Congratulations !! Notification Done",
+                "message": "",
+                "created_at": "2018-05-31 13:05:46",
+                "updated_at": "2018-05-31 13:05:46",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5501,
+            "user_id": 989,
+            "message_id": 3641,
+            "status": "unseen",
+            "created_at": "2018-05-31 13:05:56",
+            "updated_at": "2018-05-31 13:05:56",
+            "type": null,
+            "message": {
+                "id": 3641,
+                "subject": "Congratulations !! Notification Done",
+                "message": "",
+                "created_at": "2018-05-31 13:05:56",
+                "updated_at": "2018-05-31 13:05:56",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5502,
+            "user_id": 989,
+            "message_id": 3642,
+            "status": "unseen",
+            "created_at": "2018-05-31 13:06:04",
+            "updated_at": "2018-05-31 13:06:04",
+            "type": null,
+            "message": {
+                "id": 3642,
+                "subject": "Congratulations !! Notification Done",
+                "message": "",
+                "created_at": "2018-05-31 13:06:04",
+                "updated_at": "2018-05-31 13:06:04",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5503,
+            "user_id": 989,
+            "message_id": 3643,
+            "status": "unseen",
+            "created_at": "2018-05-31 13:06:25",
+            "updated_at": "2018-05-31 13:06:25",
+            "type": null,
+            "message": {
+                "id": 3643,
+                "subject": "Congratulations !! Notification Done",
+                "message": "",
+                "created_at": "2018-05-31 13:06:25",
+                "updated_at": "2018-05-31 13:06:25",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5504,
+            "user_id": 989,
+            "message_id": 3644,
+            "status": "unseen",
+            "created_at": "2018-05-31 13:06:41",
+            "updated_at": "2018-05-31 13:06:41",
+            "type": null,
+            "message": {
+                "id": 3644,
+                "subject": "Congratulations !! Notification Done",
+                "message": "",
+                "created_at": "2018-05-31 13:06:41",
+                "updated_at": "2018-05-31 13:06:41",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5505,
+            "user_id": 989,
+            "message_id": 3645,
+            "status": "unseen",
+            "created_at": "2018-05-31 13:06:57",
+            "updated_at": "2018-05-31 13:06:57",
+            "type": null,
+            "message": {
+                "id": 3645,
+                "subject": "Congratulations !! Notification Done",
+                "message": "",
+                "created_at": "2018-05-31 13:06:57",
+                "updated_at": "2018-05-31 13:06:57",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5506,
+            "user_id": 989,
+            "message_id": 3646,
+            "status": "unseen",
+            "created_at": "2018-05-31 13:07:41",
+            "updated_at": "2018-05-31 13:07:41",
+            "type": null,
+            "message": {
+                "id": 3646,
+                "subject": "Congratulations !! Notification Done",
+                "message": "",
+                "created_at": "2018-05-31 13:07:41",
+                "updated_at": "2018-05-31 13:07:41",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5507,
+            "user_id": 989,
+            "message_id": 3647,
+            "status": "unseen",
+            "created_at": "2018-05-31 13:07:48",
+            "updated_at": "2018-05-31 13:07:48",
+            "type": null,
+            "message": {
+                "id": 3647,
+                "subject": "Congratulations !! Notification Done",
+                "message": "",
+                "created_at": "2018-05-31 13:07:48",
+                "updated_at": "2018-05-31 13:07:48",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5508,
+            "user_id": 989,
+            "message_id": 3648,
+            "status": "unseen",
+            "created_at": "2018-05-31 13:08:15",
+            "updated_at": "2018-05-31 13:08:15",
+            "type": null,
+            "message": {
+                "id": 3648,
+                "subject": "Congratulations !! Notification Done",
+                "message": "",
+                "created_at": "2018-05-31 13:08:15",
+                "updated_at": "2018-05-31 13:08:15",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5509,
+            "user_id": 989,
+            "message_id": 3649,
+            "status": "unseen",
+            "created_at": "2018-05-31 13:10:04",
+            "updated_at": "2018-05-31 13:10:04",
+            "type": null,
+            "message": {
+                "id": 3649,
+                "subject": "Congratulations !! Notification Done",
+                "message": "",
+                "created_at": "2018-05-31 13:10:04",
+                "updated_at": "2018-05-31 13:10:04",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5510,
+            "user_id": 989,
+            "message_id": 3650,
+            "status": "unseen",
+            "created_at": "2018-05-31 13:10:24",
+            "updated_at": "2018-05-31 13:10:24",
+            "type": null,
+            "message": {
+                "id": 3650,
+                "subject": "Congratulations !! Notification Done",
+                "message": "",
+                "created_at": "2018-05-31 13:10:24",
+                "updated_at": "2018-05-31 13:10:24",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5511,
+            "user_id": 989,
+            "message_id": 3651,
+            "status": "unseen",
+            "created_at": "2018-05-31 13:12:14",
+            "updated_at": "2018-05-31 13:12:14",
+            "type": null,
+            "message": {
+                "id": 3651,
+                "subject": "Congratulations !! Notification Done",
+                "message": "",
+                "created_at": "2018-05-31 13:12:14",
+                "updated_at": "2018-05-31 13:12:14",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5512,
+            "user_id": 989,
+            "message_id": 3652,
+            "status": "unseen",
+            "created_at": "2018-05-31 14:10:25",
+            "updated_at": "2018-05-31 14:10:25",
+            "type": null,
+            "message": {
+                "id": 3652,
+                "subject": "Congratulations !! Notification Done",
+                "message": "",
+                "created_at": "2018-05-31 14:10:25",
+                "updated_at": "2018-05-31 14:10:25",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5513,
+            "user_id": 989,
+            "message_id": 3653,
+            "status": "unseen",
+            "created_at": "2018-05-31 14:11:07",
+            "updated_at": "2018-05-31 14:11:07",
+            "type": null,
+            "message": {
+                "id": 3653,
+                "subject": "Congratulations !! Notification Done",
+                "message": "",
+                "created_at": "2018-05-31 14:11:07",
+                "updated_at": "2018-05-31 14:11:07",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5514,
+            "user_id": 989,
+            "message_id": 3654,
+            "status": "unseen",
+            "created_at": "2018-05-31 15:05:34",
+            "updated_at": "2018-05-31 15:05:34",
+            "type": null,
+            "message": {
+                "id": 3654,
+                "subject": "Congratulations !! Notification Done",
+                "message": "",
+                "created_at": "2018-05-31 15:05:34",
+                "updated_at": "2018-05-31 15:05:34",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5515,
+            "user_id": 989,
+            "message_id": 3655,
+            "status": "unseen",
+            "created_at": "2018-05-31 15:07:56",
+            "updated_at": "2018-05-31 15:07:56",
+            "type": null,
+            "message": {
+                "id": 3655,
+                "subject": "Congratulations !! Notification Done",
+                "message": "",
+                "created_at": "2018-05-31 15:07:56",
+                "updated_at": "2018-05-31 15:07:56",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        },
+        {
+            "id": 5516,
+            "user_id": 989,
+            "message_id": 3656,
+            "status": "unseen",
+            "created_at": "2018-05-31 15:08:21",
+            "updated_at": "2018-05-31 15:08:21",
+            "type": null,
+            "message": {
+                "id": 3656,
+                "subject": "Congratulations !! Notification Done",
+                "message": "",
+                "created_at": "2018-05-31 15:08:21",
+                "updated_at": "2018-05-31 15:08:21",
+                "expires_at": "0000-00-00 00:00:00",
+                "type": ""
+            }
+        }
+    ]
+}
+```
+
 
 
 
