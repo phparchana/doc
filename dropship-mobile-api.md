@@ -34,6 +34,7 @@
     30. Get Faqs
     31. Update Faqs
     32. Get all Notifications
+    33. Check Profile Api
 
 
 
@@ -265,7 +266,7 @@ _Example_
                         "medium": "media/medium/1511012129-15-4.jpg",
                         "large": "http://localhost:8000/media/large/1511012129-15-4.jpg",
                         "caption": null,
-                        "default": 0,
+                        "default": 1,
                         "check": "pending"
                     },
                     {
@@ -6318,6 +6319,26 @@ _Example_
 }
 ```
 
+<!-- 33 -->
+
+##  Check Profile Api (Get)
+
+**API** `http://localhost:8000/api/user/check`
+
+**Method** : GET
+
+### Response :
+
+_Example_
+
+```
+{
+    "user_detail": 0,
+    "billing_address": 1,
+    "shipping_address": 0
+}
+
+```
 
 
 
