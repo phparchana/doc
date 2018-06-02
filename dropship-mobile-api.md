@@ -35,6 +35,8 @@
     31. Update Faqs
     32. Get all Notifications
     33. Check Profile Api
+    34. View Bank Details of user
+    35. Insert or Update Bank Details
 
 
 
@@ -6339,6 +6341,78 @@ _Example_
 }
 
 ```
+
+<!-- 34 -->
+
+
+##  View Bank Details of user
+
+**API** `http://localhost:8000/api/bank/details`
+
+**Method** : GET
+
+### Response :
+
+_Example_
+
+```
+{
+    "bank": {
+        "id": 121,
+        "user_id": 989,
+        "organization_id": 951,
+        "bank_name": "nkanikefwa",
+        "account_number": "27974374979479",
+        "account_holder_name": "sakshi",
+        "IFSC_code": "UZXNDJD"
+    },
+    "responseCode": 200,
+    "responseMessage": "Bank Details Found"
+}
+```
+
+
+
+<!-- 35 -->
+
+
+##  Insert or Update Bank Details
+
+**API** `http://localhost:8000/api/bank/details`
+
+**Method** : Post
+
+### Request :
+
+_Example_
+
+```
+{
+    "bank_name" : "nkanikefwa",
+    "account_number" : 27974374979479,
+    "account_holder_name" : "sakshi",
+    "IFSC_code" : "UZXNDJD" 
+}
+```
+
+
+### Response
+```
+{
+    "bank": {
+        "id": 121,
+        "user_id": 989,
+        "organization_id": 951,
+        "bank_name": "nkanikefwa",
+        "account_number": "27974374979479",
+        "account_holder_name": "sakshi",
+        "IFSC_code": "UZXNDJD"
+    },
+    "responseCode": 200,
+    "responseMessage": "Bank Details Found"
+}
+```
+
 
 
 
