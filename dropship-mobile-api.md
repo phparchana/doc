@@ -6335,9 +6335,10 @@ _Example_
 
 ```
 {
-    "user_detail": 0,
+    "user_detail": 1,
     "billing_address": 1,
-    "shipping_address": 0
+    "shipping_address": 0,
+    "bank_details": 1
 }
 
 ```
