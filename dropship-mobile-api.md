@@ -45,9 +45,9 @@
 
 
 
-##  Register (POST)
+##  Register through facebook (POST)
 
-**API** `http://localhost:8000/api/register`
+**API** `http://localhost:8000/api/login/fb`
 
 **Method** : POST
 
@@ -59,9 +59,9 @@ _Example_
 
 
 {
-   "access_token" : "svdch",
-   "device_token" : "dbhjdsbdvfj",
-   "device_type" : "mobsdfs"
+    "access_token" : "EAAF6lwZAdOz8BAGf633RL6ZBEzBwJIaTm75mFQGZAyKM4uCN9BzVjnVrYtYLZB2J71YpJBjTqVN21xZBwddCHCAJgIfPq7qbePEE3CoW11K7k1oE6RIqLzoYYtKZAbzFCQx6291xqYzckQDWMSSAZAGO0mlUfsDgZCkP1SB8PqgQH1UeMSzIp9tPjoMbZBPZAQdHWP3sLsJEqLOK1zT3lP6wm2e7ysyZCYy6WsZD",
+    "device_token" : "f5L9LXL2aOg:APA91bHfQaTRgzVjMWKUwQMdgNOiy96DA-C-4RXiFqT3DvWgsdPG6sIE_ZQccuJ04yz_9rFMZf4yAkX2lEX2n3FE7A0QPyTMbcwgwiGto4C5Qyj6GLBF3uuEJiEW86yWHl51YMMxLrkq",
+    "device_type" : "ANDROID"
 }
 
 ```
@@ -74,20 +74,205 @@ _Example_
 
 ```
 {
-    "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjkzYjJkMGNkYzQ3ZmU3NGVlODkxYzllMzEzYjQ3OTViMTMwNWE5MWFkZjUwYzQ2YWJjODg0NjE1MmQ2MGU2OWM0NTAxOGZlYmNhNTQwMmRiIn0.eyJhdWQiOiIyNDYiLCJqdGkiOiI5M2IyZDBjZGM0N2ZlNzRlZTg5MWM5ZTMxM2I0Nzk1YjEzMDVhOTFhZGY1MGM0NmFiYzg4NDYxNTJkNjBlNjljNDUwMThmZWJjYTU0MDJkYiIsImlhdCI6MTUyNzE2MTg0NSwibmJmIjoxNTI3MTYxODQ1LCJleHAiOjE1NTg2OTc4NDUsInN1YiI6Ijk4OSIsInNjb3BlcyI6W119.xg52tCMPdnwm2C21GuiT0gqhQoMyBPUAU7rH9rRYTmXe7-es9gy5HWbQIEDP4c4Be3C9NLC2sDi4DgPf9iqSggHveFof0fzmX9KfhhH0SCUl8p0N7iyKvk0xlpMwCBMvS7LBBz6UzIrRpYDiuYIzaaVoYwl5sA_6wZilRfR59pcK7pD3SXBbaQRBtNvUJNMdzvl-WUEO37YyfhNHsEhMXygubHFLth-tdmFyUF_wiPBOKlUDC2w0UjPjgP7fm_f2SKANbF6E9fhJtT3ZJspQb8BdIgQKHjpjguDZzPmxQfYhnsts8DtCKPdPAJnudFUhwLfOOShB1ruq_pIBJORKwIyv4MVB9WgOrOI0o5BF1MtAgv9C3A1kKhkXW48HZ4pxRg6lMbERzY2Kmu-hqPNpEirsDeKanbq_DX4-tKCtX3E6DcJIW631sGbyIhVPPSXJAD88TnmxFZCWFIZ3pweZVA7GpdpdHliLeYC_kK1piyvYN6C4MJCPMZ0jCk5G-aj4W7meEY_6mGPFYYeOzsNF6aRqAtafy_SZaZE8Ob_kQKCu1ST5oAsk427eLILKGVE3J7y96sijDSOlcARd0iet46bp3nwl1L9ir1HC0tzbKsm_SM8fKfXgNbdGnBL2OHh7GP3TDR1zZuLFgvwJWKB2I7QTdt4KsfqL7mvQzk-_JRM",
+    "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjI3ODI5MDk4NDg4YzYxODIyZTM2ZTUzOGExMjBlMWI1OWJhNjVhMGIxMTBjODVlMmQ5OGNmNTY0NDUxNDJjNTJmNWNhZjkzMzk2OTA5MjIxIn0.eyJhdWQiOiIyNDYiLCJqdGkiOiIyNzgyOTA5ODQ4OGM2MTgyMmUzNmU1MzhhMTIwZTFiNTliYTY1YTBiMTEwYzg1ZTJkOThjZjU2NDQ1MTQyYzUyZjVjYWY5MzM5NjkwOTIyMSIsImlhdCI6MTUyODU0OTA0NiwibmJmIjoxNTI4NTQ5MDQ2LCJleHAiOjE1NjAwODUwNDYsInN1YiI6Ijk4OSIsInNjb3BlcyI6W119.Juftuv0kvw662XsR-8LEgx4ixlRmovy837YIg61i2vLHxumjb0JZ7lYNdMl_ktXHhzZBQB3wITDzDcBC8Awjv_MxkfcJ79UULX7FSRRBuKo5K0_pVFdjQmWPK9VSRA24TBc3upTnbzL_9Gj6lhxtrFma7DscBh_HGBFRYUskJl4H-3MJJ9JvCWFNjdjrHBiGNDXmSixzUlGZsO652PtpgY81TBXqOJ3yb1LrLZYyl5jDMXWWI3KfPKsCZSJWiyxowqNpYBYMa48-jCcqYPhbzaMORllWmgK5v2FLvLiJuQpXoZaUJ25k-MTljTuA0zt2cuAWot0a0PNIusDc6MoY8yBK16wRIA_mz5i4ZgkuPWdYtGC3oquSwwbTQ7gjeD0s2KMW5uGh-4P9HcDDMrNTdSgSj-CvwxNsfmXrbmQaEJCQieCr6gXHVfyo3oXVSjcnxhNbNUwj9-FEpLpPPfxfOw8Qj1woDNV-FRD89OQtH6sdbcXM0-akfyQT_sEJzjjHHZsd4_55pAk2nonLLFLJ8xxY0IPwPt0j0m5l3kDbBZvca2OEBPWUGs3GrIciDLltmTkcbg46_OHUrULBZ5spyK8IQZCGtwKb2f4HoG33PeU3yOZnYr0pJ2eDi8c3TMtQghGN_v-tjSj2zYo0nRF0hZvMxY16pA53S36iC3pbObg",
     "user": {
         "id": 989,
         "name": "Gunjan Kumar",
         "username": null,
         "email": "1618242761564460@facebook.com",
         "status": 1,
-        "phone": null,
+        "phone": "9039541384",
         "created_at": "May 24, 2018",
-        "updated_at": "2018-05-24 15:37:30",
-        "type": "admin"
-    }
+        "updated_at": "2018-06-09 18:26:50",
+        "type": "client",
+        "data": [
+            {
+                "user_id": 989,
+                "name": "facebook.id",
+                "value": "1618242761564460"
+            },
+            {
+                "user_id": 989,
+                "name": "tokens.fcm",
+                "value": "f5L9LXL2aOg:APA91bHfQaTRgzVjMWKUwQMdgNOiy96DA-C-4RXiFqT3DvWgsdPG6sIE_ZQccuJ04yz_9rFMZf4yAkX2lEX2n3FE7A0QPyTMbcwgwiGto4C5Qyj6GLBF3uuEJiEW86yWHl51YMMxLrkq"
+            },
+            {
+                "user_id": 989,
+                "name": "tokens.fcm",
+                "value": "f5L9LXL2aOg:APA91bHfQaTRgzVjMWKUwQMdgNOiy96DA-C-4RXiFqT3DvWgsdPG6sIE_ZQccuJ04yz_9rFMZf4yAkX2lEX2n3FE7A0QPyTMbcwgwiGto4C5Qyj6GLBF3uuEJiEW86yWHl51YMMxLrkq"
+            },
+            {
+                "user_id": 989,
+                "name": "tour",
+                "value": "/dashboard,/orders,/products/import,/products/_,/products/_,/profile/company-information,/profile/bank-information,/orders/create,/products/_,/products,/products/_,/products/_,/products/_,/,/,/notification,/products/_,/products/_,/,/products/_"
+            },
+            {
+                "user_id": 989,
+                "name": "app_user",
+                "value": "1"
+            },
+            {
+                "user_id": 989,
+                "name": "otp",
+                "value": "4359"
+            }
+        ]
+    },
+    "mobile": 1
 }
 
+```
+## Verify facebook mobile if mobile value is 0(POST)
+**API** `http://localhost:8000/login/fb/mobile`
+
+**Method** : POST
+
+### Request :
+
+_Example_
+```
+{
+    "phone" : 9039541384
+}
+```
+###Response : 
+
+```
+{
+    "user": {
+        "id": 989,
+        "name": "Gunjan Kumar",
+        "username": null,
+        "email": "1618242761564460@facebook.com",
+        "status": 1,
+        "phone": "9039541384",
+        "created_at": "May 24, 2018",
+        "updated_at": "2018-06-09 18:26:50",
+        "type": "client",
+        "data": [
+            {
+                "user_id": 989,
+                "name": "facebook.id",
+                "value": "1618242761564460"
+            },
+            {
+                "user_id": 989,
+                "name": "tokens.fcm",
+                "value": "f5L9LXL2aOg:APA91bHfQaTRgzVjMWKUwQMdgNOiy96DA-C-4RXiFqT3DvWgsdPG6sIE_ZQccuJ04yz_9rFMZf4yAkX2lEX2n3FE7A0QPyTMbcwgwiGto4C5Qyj6GLBF3uuEJiEW86yWHl51YMMxLrkq"
+            },
+            {
+                "user_id": 989,
+                "name": "tokens.fcm",
+                "value": "f5L9LXL2aOg:APA91bHfQaTRgzVjMWKUwQMdgNOiy96DA-C-4RXiFqT3DvWgsdPG6sIE_ZQccuJ04yz_9rFMZf4yAkX2lEX2n3FE7A0QPyTMbcwgwiGto4C5Qyj6GLBF3uuEJiEW86yWHl51YMMxLrkq"
+            },
+            {
+                "user_id": 989,
+                "name": "tour",
+                "value": "/dashboard,/orders,/products/import,/products/_,/products/_,/profile/company-information,/profile/bank-information,/orders/create,/products/_,/products,/products/_,/products/_,/products/_,/,/,/notification,/products/_,/products/_,/,/products/_"
+            },
+            {
+                "user_id": 989,
+                "name": "app_user",
+                "value": "1"
+            },
+            {
+                "user_id": 989,
+                "name": "otp",
+                "value": "4359"
+            }
+        ]
+    },
+    "otp": 2266
+}
+```
+
+## Verify Otp (POST)
+
+**API** `http://localhost:8000/api/verify`
+
+**Method** : POST
+
+### Request :
+
+_Example_
+```
+{
+    "otp" : 4359
+}
+```
+
+###Response
+
+```
+{
+    "status": "success"
+}
+```
+
+
+
+## Register through Mobile Phone (Post)
+
+**API** `http://localhost:8000/api/login/phone`
+
+**Method** : POST
+
+### Request :
+
+_Example_
+```
+{
+    "phone" : 9039541384
+}
+```
+
+###Response
+
+```
+{
+    "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImVhYjg1NDNhMzcwMTFjZTQzOTRhNzhkZjU2MmUxNGJjYTk3YTg4MDQ3ZThhZTgzMjcxMjA2MzgyZTAwNDg0ZGJiYWMxM2IzZGY0NmQxMGJmIn0.eyJhdWQiOiIyNDYiLCJqdGkiOiJlYWI4NTQzYTM3MDExY2U0Mzk0YTc4ZGY1NjJlMTRiY2E5N2E4ODA0N2U4YWU4MzI3MTIwNjM4MmUwMDQ4NGRiYmFjMTNiM2RmNDZkMTBiZiIsImlhdCI6MTUyODU1MTAyNywibmJmIjoxNTI4NTUxMDI3LCJleHAiOjE1NjAwODcwMjcsInN1YiI6IjEwMTgiLCJzY29wZXMiOltdfQ.aIN6qkNWnhNWv0Kf4aO-Wl_lwJpQD5EuaWYYnx4iAc5cAPquQvuOqIfUQz1GCgsJ4F1r2WkCtCWzpF7PYLdkVvhoHLxWmruwaFU-2AtbBPD7pHQU7vqyuClmiQhwPT9V-Eza60JNMdGLd0KEuItezXEq-sA9uLAA-0sJZHyHfM7aQ4iL_JpzZPn-NF_R_uZnqgYsEWtO84MWv5nCV-vYiqo0GYmtwr67AVkVi_xORKEyxsMyAQRVTCWbVFOx9mRT-a7K97EZ64d8tJvtx-ikaD3tLTddXW0qGWh9ggsh3dJc5zQeYbstQdpOyIOW5PCx_39NZ8EApUNDp_7uc1Nd85c_ugqpfubU8TVdujRbEMzrzrh6fjLa4bLttIip_k-QkqbBb5JFTsBlG_wVWU9tncV5AxSu3ERjdhlIJ5xphJ_-eAhmddTqxtBhS0A6Pg_I5FZd1ljyZiyk9WEZi27OQNVYFyVKo_W9aIEwPmxjT1zGZvaMgO2wYy4y0zhmQIznvtIDbQVv9O6ozeTn3s5SIQxREf-GZx-W0WrOj9XklVLESQ7kdO4tFVdYkJKwHcdaMrQWCA8i5XAuUEfgaL9pxzYVGD2_ciFqrYEDCl1lR89MzVW5Sm3H4wvskQrCt2RxwNDsJAQ8TJYdEDzKwOhABjqiciSRZodsBIcCRkCb34k",
+    "user": {
+        "name": "",
+        "email": "9039541384@app.com",
+        "type": "client",
+        "updated_at": "2018-06-09 19:00:21",
+        "created_at": "Jun 09, 2018",
+        "id": 1018,
+        "data": [
+            {
+                "user_id": 1018,
+                "name": "app_user",
+                "value": "1"
+            },
+            {
+                "user_id": 1018,
+                "name": "app_user",
+                "value": "1"
+            },
+            {
+                "user_id": 1018,
+                "name": "tokens.fcm",
+                "value": ""
+            },
+            {
+                "user_id": 1018,
+                "name": "app_user",
+                "value": "1"
+            },
+            {
+                "user_id": 1018,
+                "name": "tokens.fcm",
+                "value": ""
+            },
+            {
+                "user_id": 1018,
+                "name": "otp",
+                "value": "4513"
+            }
+        ]
+    },
+    "otp": 5997
+}
 ```
 
 
