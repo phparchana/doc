@@ -130,6 +130,9 @@ _Example_
 ### Request :
 
 _Example_
+
+####Pass bearer access  token as header input(mandatory)
+
 ```
 {
     "phone" : 9039541384
