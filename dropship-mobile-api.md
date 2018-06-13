@@ -123,7 +123,7 @@ _Example_
 
 ```
 ## Verify facebook mobile if mobile value is 0(POST)
-**API** `http://localhost:8000/login/fb/mobile`
+**API** `http://localhost:8000/api/login/fb/mobile`
 
 **Method** : POST
 
