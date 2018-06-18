@@ -6601,7 +6601,7 @@ _Example_
 
 ##  All Queries of user
 
-**API** `http://localhost:8000/api/contact`
+**API** `http://localhost:8000/api/queries`
 
 **Method** : GET
 
