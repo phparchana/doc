@@ -225,7 +225,9 @@ _Example_
 _Example_
 ```
 {
-    "phone" : 9039541384
+    "phone" : 7898888758,
+    "device_token" : "f5L9LXL2aOg:APA91bHfQaTRgzVjMWKUwQMdgNOiy96DA-C-4RXiFqT3DvWgsdPG6sIE_ZQccuJ04yz_9rFMZf4yAkX2lEX2n3FE7A0QPyTMbcwgwiGto4C5Qyj6GLBF3uuEJiEW86yWHl51YMMxLrkq",
+    "device_type" : "ANDROID"
 }
 ```
 
