@@ -38,6 +38,7 @@
     34. View Bank Details of user
     35. Insert or Update Bank Details
     36. View Particular Query and its replies
+    37. Reply on a query
 
 
 
@@ -6779,7 +6780,37 @@ _Example_
 }
 ```
 
+<!-- 38 -->
 
+##  Reply on a Query
+
+**API** `http://localhost:8000/api/reply/{contactus_id}`
+        `http://localhost:8000/api/reply/110`
+
+**Method** : Post
+
+### Request :
+
+_Example_
+
+```
+{
+    "message": "tototot"
+}
+```
+
+### Response
+
+```
+{
+    "message": "tototot",
+    "user_id": 1019,
+    "contactus_id": "110",
+    "updated_at": "2018-06-18 15:13:07",
+    "created_at": "2018-06-18 15:13:07",
+    "id": 60
+}
+```
 
 
 
