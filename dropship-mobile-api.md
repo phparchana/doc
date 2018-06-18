@@ -37,6 +37,7 @@
     33. Check Profile Api
     34. View Bank Details of user
     35. Insert or Update Bank Details
+    36. View Particular Query and its replies
 
 
 
@@ -6508,6 +6509,276 @@ _Example_
     "responseMessage": "Bank Details Found"
 }
 ```
+
+
+<!-- 36 -->
+
+##  View Particular Query
+
+**API** `http://localhost:8000/api/contact/110`
+
+**Method** : GET
+
+### Response :
+
+_Example_
+
+```
+{
+    "query": {
+        "id": 110,
+        "subject": "gunjan test",
+        "email": "7898888758@app.com",
+        "message": "testing",
+        "created_at": "2018-06-18 13:01:57",
+        "updated_at": "2018-06-18 13:01:57",
+        "status": "open",
+        "replies": [
+            {
+                "id": 58,
+                "user_id": 6,
+                "contactus_id": 110,
+                "subject": "",
+                "message": "<p>sakshi repliing</p>",
+                "created_at": "2018-06-18 13:02:32",
+                "updated_at": "2018-06-18 13:02:32",
+                "user": {
+                    "id": 6,
+                    "name": "Md Adil",
+                    "username": "adil",
+                    "email": "md-adil@live.com",
+                    "status": 1,
+                    "phone": null,
+                    "created_at": "Jun 18, 2018",
+                    "updated_at": null,
+                    "type": "super_user"
+                },
+                "media": [
+                    {
+                        "id": 71004,
+                        "mime": "",
+                        "thumb": "http://s.bigly.io/reply/1529307152-C83MM2RjAZeVNZj.jpeg",
+                        "small": null,
+                        "medium": null,
+                        "large": null,
+                        "caption": null,
+                        "default": 0,
+                        "check": "pending"
+                    }
+                ]
+            },
+            {
+                "id": 59,
+                "user_id": 6,
+                "contactus_id": 110,
+                "subject": "",
+                "message": "<p>sakshi again replying</p>",
+                "created_at": "2018-06-18 13:03:03",
+                "updated_at": "2018-06-18 13:03:03",
+                "user": {
+                    "id": 6,
+                    "name": "Md Adil",
+                    "username": "adil",
+                    "email": "md-adil@live.com",
+                    "status": 1,
+                    "phone": null,
+                    "created_at": "Jun 18, 2018",
+                    "updated_at": null,
+                    "type": "super_user"
+                },
+                "media": []
+            }
+        ]
+    },
+    "response_code": 200,
+    "response_message": "Query"
+}
+```
+
+
+<!-- 37 -->
+
+##  All Queries of user
+
+**API** `http://localhost:8000/api/contact`
+
+**Method** : GET
+
+### Response :
+
+_Example_
+
+```
+{
+    "queries": [
+        {
+            "id": 108,
+            "subject": "sfgsgras",
+            "email": "7898888758@app.com",
+            "message": "ayhdgef",
+            "created_at": "2018-06-18 12:20:30",
+            "updated_at": "2018-06-18 12:20:30",
+            "status": "open",
+            "replies": [
+                {
+                    "id": 55,
+                    "user_id": 6,
+                    "contactus_id": 108,
+                    "subject": "",
+                    "message": "<p>yo</p>",
+                    "created_at": "2018-06-18 12:53:01",
+                    "updated_at": "2018-06-18 12:53:01",
+                    "user": {
+                        "id": 6,
+                        "name": "Md Adil",
+                        "username": "adil",
+                        "email": "md-adil@live.com",
+                        "status": 1,
+                        "phone": null,
+                        "created_at": "Jun 18, 2018",
+                        "updated_at": null,
+                        "type": "super_user"
+                    },
+                    "media": []
+                }
+            ]
+        },
+        {
+            "id": 109,
+            "subject": "testing",
+            "email": "7898888758@app.com",
+            "message": "tototot",
+            "created_at": "2018-06-18 12:55:07",
+            "updated_at": "2018-06-18 12:55:07",
+            "status": "open",
+            "replies": [
+                {
+                    "id": 56,
+                    "user_id": 6,
+                    "contactus_id": 109,
+                    "subject": "",
+                    "message": "<p>ssfvseng</p>",
+                    "created_at": "2018-06-18 12:55:32",
+                    "updated_at": "2018-06-18 12:55:32",
+                    "user": {
+                        "id": 6,
+                        "name": "Md Adil",
+                        "username": "adil",
+                        "email": "md-adil@live.com",
+                        "status": 1,
+                        "phone": null,
+                        "created_at": "Jun 18, 2018",
+                        "updated_at": null,
+                        "type": "super_user"
+                    },
+                    "media": [
+                        {
+                            "id": 71003,
+                            "mime": "",
+                            "thumb": "http://s.bigly.io/reply/1529306732-i6nai6pVYfmkfXk.jpeg",
+                            "small": null,
+                            "medium": null,
+                            "large": null,
+                            "caption": null,
+                            "default": 0,
+                            "check": "pending"
+                        }
+                    ]
+                },
+                {
+                    "id": 57,
+                    "user_id": 6,
+                    "contactus_id": 109,
+                    "subject": "",
+                    "message": "<p>sdnkefpkem</p><p><br></p>",
+                    "created_at": "2018-06-18 12:57:23",
+                    "updated_at": "2018-06-18 12:57:23",
+                    "user": {
+                        "id": 6,
+                        "name": "Md Adil",
+                        "username": "adil",
+                        "email": "md-adil@live.com",
+                        "status": 1,
+                        "phone": null,
+                        "created_at": "Jun 18, 2018",
+                        "updated_at": null,
+                        "type": "super_user"
+                    },
+                    "media": []
+                }
+            ]
+        },
+        {
+            "id": 110,
+            "subject": "gunjan test",
+            "email": "7898888758@app.com",
+            "message": "testing",
+            "created_at": "2018-06-18 13:01:57",
+            "updated_at": "2018-06-18 13:01:57",
+            "status": "open",
+            "replies": [
+                {
+                    "id": 58,
+                    "user_id": 6,
+                    "contactus_id": 110,
+                    "subject": "",
+                    "message": "<p>sakshi repliing</p>",
+                    "created_at": "2018-06-18 13:02:32",
+                    "updated_at": "2018-06-18 13:02:32",
+                    "user": {
+                        "id": 6,
+                        "name": "Md Adil",
+                        "username": "adil",
+                        "email": "md-adil@live.com",
+                        "status": 1,
+                        "phone": null,
+                        "created_at": "Jun 18, 2018",
+                        "updated_at": null,
+                        "type": "super_user"
+                    },
+                    "media": [
+                        {
+                            "id": 71004,
+                            "mime": "",
+                            "thumb": "http://s.bigly.io/reply/1529307152-C83MM2RjAZeVNZj.jpeg",
+                            "small": null,
+                            "medium": null,
+                            "large": null,
+                            "caption": null,
+                            "default": 0,
+                            "check": "pending"
+                        }
+                    ]
+                },
+                {
+                    "id": 59,
+                    "user_id": 6,
+                    "contactus_id": 110,
+                    "subject": "",
+                    "message": "<p>sakshi again replying</p>",
+                    "created_at": "2018-06-18 13:03:03",
+                    "updated_at": "2018-06-18 13:03:03",
+                    "user": {
+                        "id": 6,
+                        "name": "Md Adil",
+                        "username": "adil",
+                        "email": "md-adil@live.com",
+                        "status": 1,
+                        "phone": null,
+                        "created_at": "Jun 18, 2018",
+                        "updated_at": null,
+                        "type": "super_user"
+                    },
+                    "media": []
+                }
+            ]
+        }
+    ],
+    "response_code": 200,
+    "response_message": "All Queries"
+}
+```
+
 
 
 
