@@ -9498,27 +9498,25 @@ _Example_
 
 ```
 {
-    "reply": {
-        "id": 61,
-        "user_id": 1019,
-        "contactus_id": 110,
-        "subject": "",
-        "message": "tototot",
-        "created_at": "2018-06-19 16:09:49",
-        "updated_at": "2018-06-19 16:09:49",
-        "user": {
-            "id": 1019,
-            "name": "",
-            "username": null,
-            "email": "7898888758@app.com",
-            "status": 1,
-            "phone": "7898888758",
-            "created_at": "Jun 18, 2018",
-            "updated_at": "2018-06-18 11:41:46",
-            "type": "client"
-        },
-        "media": []
-    }
+    "id": 104,
+    "user_id": "1033",
+    "contactus_id": "133",
+    "subject": "",
+    "message": "testing",
+    "created_at": "2018-06-19 16:56:25",
+    "updated_at": "2018-06-19 16:56:25",
+    "user": {
+        "id": 1033,
+        "name": "Gunjan Kumar",
+        "username": null,
+        "email": "gunjan@gmail.com",
+        "status": "1",
+        "phone": "449606792",
+        "created_at": "May 24, 2018",
+        "updated_at": "2018-06-18 18:48:18",
+        "type": "admin"
+    },
+    "media": []
 }
 ```
 
