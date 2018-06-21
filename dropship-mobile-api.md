@@ -39,6 +39,8 @@
     35. Insert or Update Bank Details
     36. View Particular Query and its replies
     37. Reply on a query
+    38. Get Setting Notification
+    39. Update Notification Setting
 
 
 
@@ -9517,6 +9519,44 @@ _Example_
         "type": "admin"
     },
     "media": []
+}
+```
+
+
+<!-- 38 -->
+
+##  Get Setting Notification
+
+**API** `http://localhost:8000/api/settings/notification`
+
+**Method** : GET
+
+### Response :
+
+_Example_
+
+```
+{
+    "status": "1"
+}
+```
+
+
+<!-- 38 -->
+
+##  Update Notification Setting
+
+**API** `http://localhost:8000/api/settings/notification`
+
+**Method** : POST
+
+### Response :
+
+_Example_
+
+```
+{
+    "status": "1"
 }
 ```
 
